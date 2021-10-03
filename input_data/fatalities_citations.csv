@@ -1,0 +1,52 @@
+fatalities_citation_id,description,sourcetype,citation
+a-201,"Mumbai deaths by ward (p.22) for August 4, 2020",official reports,https://web.archive.org/web/20200806065617/http://stopcoronavirus.mcgm.gov.in/assets/docs/Dashboard.pdf
+a-202,Mexico total deaths as of 10/27/2020,official reports,https://covid-19.conacyt.mx/jspui/bitstream/1000/6939/1/Comunicado_Tecnico_Diario_COVID-19_2020.10.27.pdf
+a-301,Argentina cases & fatalities database (downloaded 04 July 2021),individual case data,http://datos.salud.gob.ar/dataset/covid-19-casos-registrados-en-la-republica-argentina/archivo/fd657d02-a33a-498b-a91b-2ef1a68b8d16
+a-302,Colombia cases & fatalities database (downloaded 04 July 2021),individual case data,https://www.datos.gov.co/Salud-y-Protecci-n-Social/Casos-positivos-de-COVID-19-en-Colombia/gt2j-8ykr/data
+a-304,"Sao Paolo city deaths by age (downloaded July 12, 2021)",official reports,http://tabnet.saude.prefeitura.sp.gov.br/cgi/tabcgi.exe?secretarias/saude/TABNET/SIM_PROV/obitop.def
+a-305,Jordan age-specific deaths (downloaded 13 July 2021),Coverage-DB,https://osf.io/9dsfk/
+a-306,Tabulation of deaths by district in Tamil Nadu,individual case data,Tamil Nadu fatalities by district.docx
+a-307,"COVID-19 deaths for Katowice, Poland",official reports,"https://mojekatowice.pl/i,koronawirus-sytuacja-w-katowicach-sprawdz-najnowsze-statystyki,1407468,884616.html"
+a-308,COVID-19 deaths by Poland district,official reports,https://arcgis.com/sharing/rest/content/items/e16df1fa98c2452783ec10b0aea4b341/data
+a-309,Peru case database (downloaded 02june2021),individual case data,https://www.datosabiertos.gob.pe/dataset/informaci%C3%B3n-de-fallecidos-del-sistema-inform%C3%A1tico-nacional-de-defunciones-sinadef-ministerio
+a-310,"Várzea Grande (in Mato Grosso) total deaths for October 28, 2020",official reports,http://www.varzeagrande.mt.gov.br/storage/Arquivos/742e6b802bc0b87f5615a54ddfe34a32.jpg
+a-311,Várzea Grande (in Mato Grosso) age distribution of fatalities,official reports,http://www.varzeagrande.mt.gov.br/storage/Arquivos/7cdc649b58f5e520870ef4b90a12acfb.pdf
+a-313,"Karnataka case reports on individual deaths by district, age & date of death",individual case data ,https://covid19.karnataka.gov.in/pdfs
+g-1000,India Sub-National Deaths,official reports,https://stopcorona.tn.gov.in/wp-content/uploads/2020/08/Media-Bulletin-19.08.2020-27-Pages-English-467-KB.pdf
+n-1000,deaths in Iran (national),official reports,https://covid19.who.int/region/emro/country/ir
+n-1001,deaths in Nepal (national),official reports,https://covid19.who.int/region/searo/country/np
+n-1006,"deaths in Kashmir, India; November 15, 2020",official reports,https://twitter.com/diprjk/status/1327952417271410688
+n-1014,"deaths in Odisha (Bhubaneswar); August 3, 2020",official reports,https://twitter.com/bmcbbsr/status/1290261700252295173
+n-1023,"deaths in Odisha (Berhampur); September 3, 2020",official reports,https://twitter.com/BrahmapurCorp/status/1301543950235262976
+n-1041,"deaths for South Africa (Mitchells Plain, part of Western Cape)",official reports,https://coronavirus.westerncape.gov.za/covid-19-dashboard
+n-1042,"tabulation of deaths for South Africa (Mitchells Plain, part of Western Cape)",official reports,https://docs.google.com/spreadsheets/d/1-qLzhidKae7kPCoUVzYMuVmB7Nhao3Ju/edit#gid=1170085356
+n-1044,"deaths in Hungary, national (WHO)",official reports,https://covid19.who.int/region/euro/country/hu
+n-1045,"age- specific deaths in Hungary, national (WHO)",official reports,https://www.medrxiv.org/content/medrxiv/suppl/2020/08/28/2020.07.23.20160895.DC4/2020.07.23.20160895-1.pdf
+n-1051,"district-level Pakistan deaths (August 19, 2020)",official reports,https://www.sindhhealth.gov.pk/upload/daily_status_report/Daily_Situation_Report_for_19th_August_2020.pdf
+n-1058,"COVID-19 deaths for Gliwice city, Poland",official reports,https://www.gov.pl/web/psse-gliwice/aktualna-sytuacja-epidemiologiczna
+n-1061,"Santa Cruz, Bolivia deaths on September 30, 2020",official reports,https://twitter.com/GobSantaCruz/status/1311472042613657603
+n-1065,"COVID-19 deaths for Sosnowiec, Poland",official reports,http://www.psse.sosnowiec.pl/index.php?print=1
+n-1070,Maranhao age-specific deaths,official reports,https://www.saude.ma.gov.br/boletins-covid-19/
+n-1075,"deaths in Hubei + Wuhan; May 12, 2020",official reports,http://wjw.hubei.gov.cn/bmdt/ztzl/fkxxgzbdgrfyyq/xxfb/202005/t20200512_2267455.shtml
+n-1076,Wuhan age-specific deaths (pages 24 and 25),official reports,https://static-content.springer.com/esm/art%3A10.1038%2Fs41467-020-19238-2/MediaObjects/41467_2020_19238_MOESM1_ESM.pdf
+n-1077,Jordan national deaths,official reports,https://covid19.who.int/region/emro/country/jo
+n-1078,deaths for Malegaon,official reports,http://web.archive.org/web/20200601000000*/https://arogya.maharashtra.gov.in/1175/Novel--Corona-Virus
+n-1079,Paraguay case database,individual case data,https://public.tableau.com/app/profile/mspbs/viz/COVID19PY-Registros/FALLECIDOS
+n-1081,"Rondonópolis age-specific deaths (in Mato Grosso, Brazil)",official reports,http://www.rondonopolis.mt.gov.br/covid-19/boletins/boletim-epidemiologico-28-10-20/
+n-1082,Cuiabá age-specfic demographics for deaths,official reports,https://www.cuiaba.mt.gov.br/coronavirus//veja-os-dados-epidemiologicos-da-capital/21795
+n-1085,"Barra do Garças (in Mato Grosso) deaths for October 28, 2020",official reports,https://www.barradogarcas.mt.gov.br/fotos_downloads/1162.pdf
+n-1089,"Água Boa (in Mato Grosso) deaths for October 28, 2020",official reports,https://www.facebook.com/prefeituradeaguaboamt/photos/a.819263428562906/985659961923251/?type=3
+n-1092,"Alta Floresta (in Mato Grosso) deaths for October 27, 2020",official reports,https://www.facebook.com/PrefeituraAltaFloresta/photos/a.581913951899786/3462157443875408/?type=3
+n-1093,"Alta Floresta (in Mato Grosso) deaths for October 29, 2020",official reports,https://www.facebook.com/PrefeituraAltaFloresta/photos/a.581913951899786/3467831239974695/?type=3
+n-1097,"Dr. Kobak tabulation of Rosstat death totals for St. Petersburg, Russia",official reports,https://github.com/dkobak/excess-mortality/tree/main/russian-data
+n-1098,"Rosstat death totals for St. Petersburg, Russia",official reports,https://rosstat.gov.ru/storage/mediabank/D4uPozCj/edn05-2021.htm
+n-16,"Brazil regional, deaths by date of registry",official reports,https://transparencia.registrocivil.org.br/especial-covid
+n-21,Delhi deaths,official reports,https://delhifightscorona.in/news/
+n-23,Pimpri-Chinchwad tweets for deaths,official reports,https://docs.google.com/document/d/1-iGm6o3fTZ8Bg0wzQk24bSuFp4Dqq3nl4vJLpXxsGPs/edit?ts=603abe1a
+n-30,Puducherry deaths,official reports,https://covid19dashboard.py.gov.in/Reporting/District
+n-33,Kenya regional deaths,official reports,https://khro.health.go.ke/#/covid_19_tracker
+n-41,West Bengal (Paschim Medinipur) deaths,official reports,https://www.wbhealth.gov.in/pages/corona/bulletin
+s-1,deaths in ethiopia,official reports,http://web.archive.org/web/2020*/https://www.covid19.et/covid-19/
+s-2,"Lichinga, Mozambique deaths",official reports,https://www.misau.gov.mz/index.php/covid-19-boletins-diarios#
+ss-1037,deaths by districts in Zambia,official reports,https://nsdi-mlnr.maps.arcgis.com/apps/dashboards/c08c4cce115244f7ba472a458e1483f7
+ss-32,deaths by age in Tamil Nadu,official reports,https://stopcorona.tn.gov.in/

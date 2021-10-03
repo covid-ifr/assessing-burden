@@ -1,0 +1,56 @@
+location_id,global_region,country,location_label,population
+5,Latin America,Brazil,Maranhao,6851000
+11,South Asia ,India,Delhi,18710900
+12,South Asia ,India,Karnataka,43145807
+13,South Asia ,India,Pimpri-Chinchwad,2497085
+16,South Asia ,India,Puducherry,1250000
+18,South Asia ,India,West Bengal (only Paschim Medinipur),6445668.130000001
+19,South Asia ,India,Chennai,11235018
+24,Africa,Mozambique,Maputo city,1080277
+36,Africa,Kenya,Nairobi County,4397073
+38,Latin America,Argentina,Buenos Aires City,3072029
+40,Latin America,Argentina,Municipality of Hurlingham,192554
+42,Latin America,Bolivia,Santa Cruz,1722480
+44,Latin America,Colombia,Leticia,49737
+45,Latin America,Colombia,Barranquilla,1274250
+46,Latin America,Colombia,Medellin,2533424
+48,Latin America,Colombia,Bucaramanga,607428
+49,Latin America,Colombia,Cucuta,748900
+50,Latin America,Colombia,Villavicencio,502000
+51,Latin America,Colombia,Bogota,7715800
+52,Latin America,Colombia,Cali,2205700
+54,Latin America,Colombia,Ipiales,77000
+59,Latin America,Peru,Cusco Province,511019
+60,Latin America,Peru,Lambayeque,1310800
+63,Latin America,Peru,Lima (Metropolitana) + Callao,11934463
+64,Latin America,Peru,"Iquitos, Loreto",163502
+73,Latin America,Brazil,Sao Paulo City,12325232
+74,Latin America,Brazil,Foz do Iguacu,258248
+77,South Asia,India,Kashmir: Srinagar district,1248000
+78,South Asia,Nepal,National Study,29136807
+80,Africa,Ethiopia,Addis Ababa #2,3570000
+81,Middle East,Iran,National Study,83992953
+82,Latin America,Mexico,National Study,126014024
+83,South Asia,India,Odisha: Bhubaneswar,977793
+84,South Asia,India,Odisha: Berhampur,392258
+90,Africa,South Africa,Mitchells Plain,615422
+98,Africa,Ethiopia,Diredawa,493000
+102,Africa,Zambia,Ndola + 5 other districts,4306230
+120,Europe,Russia,St. Petersburg,5468000
+121,East Asia,China,Wuhan #1,11081000
+123,East  Asia,China,Hubei province (excluding Wuhan #1),47452339
+125,Middle East,Pakistan,Karachi,14910352
+126,Middle East,Pakistan,Lahore,11126285
+140,South Asia ,India,Mumbai (3 wards),1509200
+144,Europe,Poland,Katowice region (Gliwice + Katowice + Sosnowiec),665188
+148,Latin America,Colombia,Cordoba: 8 cities,1120310
+156,Middle East,Jordan,National Study,10203140
+192,Europe,Hungary,National Study,9772756
+201,South Asia,India,Tamil Nadu (iFlash districts),36771606
+202,South Asia,India,Tamil Nadu (Vitros districts),31375421
+203,South Asia ,India,Malegaon (city population),435362
+209,Latin America,Brazil,Cuiaba,618124
+216,Latin America,Brazil,Varzea Grande,287526
+218,Latin America,Brazil,Pitangueiras,40080
+220,Latin America,Brazil,Mato Grosso (8 cities),763018
+221,Latin America,Paraguay,Asuncion + Central Dept.,2722668

@@ -1,0 +1,442 @@
+location_id,global_region,country,location_label,lower_age,upper_age,sample_size,num_positive
+5,Latin America,Brazil,Maranhao,0,100,3156,1167
+5,Latin America,Brazil,Maranhao,1,9,124,49
+5,Latin America,Brazil,Maranhao,10,19,330,125
+5,Latin America,Brazil,Maranhao,20,29,427,184
+5,Latin America,Brazil,Maranhao,30,39,475,170
+5,Latin America,Brazil,Maranhao,40,49,502,191
+5,Latin America,Brazil,Maranhao,50,59,501,168
+5,Latin America,Brazil,Maranhao,60,69,409,144
+5,Latin America,Brazil,Maranhao,70,100,386,136
+11,South Asia ,India,Delhi,0,100,14666,4233
+11,South Asia ,India,Delhi,0,17,2443,779
+11,South Asia ,India,Delhi,18,49,9189,2494
+11,South Asia ,India,Delhi,50,100,3034,960
+12,South Asia ,India,Karnataka,0,100,1196,488
+12,South Asia ,India,Karnataka,10,19,58,23
+12,South Asia ,India,Karnataka,20,29,170,62
+12,South Asia ,India,Karnataka,30,39,221,83
+12,South Asia ,India,Karnataka,40,49,353,155
+12,South Asia ,India,Karnataka,50,59,256,108
+12,South Asia ,India,Karnataka,60,69,100,40
+12,South Asia ,India,Karnataka,70,79,29,12
+12,South Asia ,India,Karnataka,80,100,9,5
+13,South Asia ,India,Pimpri-Chinchwad,12,100,5000,1580
+13,South Asia ,India,Pimpri-Chinchwad,12,17,618,216
+13,South Asia ,India,Pimpri-Chinchwad,18,30,1687,501
+13,South Asia ,India,Pimpri-Chinchwad,31,50,1681,528
+13,South Asia ,India,Pimpri-Chinchwad,51,65,653,232
+13,South Asia ,India,Pimpri-Chinchwad,66,100,361,103
+16,South Asia ,India,Puducherry,0,100,898,186
+16,South Asia ,India,Puducherry,18,29,165,33
+16,South Asia ,India,Puducherry,30,44,277,58
+16,South Asia ,India,Puducherry,45,59,271,64
+16,South Asia ,India,Puducherry,60,100,185,31
+17,South Asia ,India,Pune (five prabhags/subwards),0,100,1659,875
+17,South Asia ,India,Pune (five prabhags/subwards),18,30,394,202.91
+17,South Asia ,India,Pune (five prabhags/subwards),31,50,677,354.071
+17,South Asia ,India,Pune (five prabhags/subwards),51,65,417,227.682
+17,South Asia ,India,Pune (five prabhags/subwards),66,100,171,65.664
+18,South Asia ,India,West Bengal (only Paschim Medinipur),0,100,458,19
+18,South Asia ,India,West Bengal (only Paschim Medinipur),11,19,28,3
+18,South Asia ,India,West Bengal (only Paschim Medinipur),20,45,290,11
+18,South Asia ,India,West Bengal (only Paschim Medinipur),46,59,101,4
+18,South Asia ,India,West Bengal (only Paschim Medinipur),60,100,38,1
+19,South Asia ,India,Chennai,0,100,12405,2673
+19,South Asia ,India,Chennai,10,19,1473,351
+19,South Asia ,India,Chennai,20,29,2105,478
+19,South Asia ,India,Chennai,30,39,2353,535
+19,South Asia ,India,Chennai,40,49,2353,551
+19,South Asia ,India,Chennai,50,59,1927,408
+19,South Asia ,India,Chennai,60,100,2108,335
+22,Africa,Mozambique,Beira,0,100,4940,219
+22,Africa,Mozambique,Beira,0,14,1404,46
+22,Africa,Mozambique,Beira,15,34,1679,114
+22,Africa,Mozambique,Beira,35,59,793,51
+22,Africa,Mozambique,Beira,60,100,236,8
+24,Africa,Mozambique,Maputo city,0,100,4717,177
+24,Africa,Mozambique,Maputo city,0,14,1168,39
+24,Africa,Mozambique,Maputo city,15,34,1537,68
+24,Africa,Mozambique,Maputo city,35,59,1253,38
+24,Africa,Mozambique,Maputo city,60,100,714,32
+25,Africa,Mozambique,Matola district (subset of Maputo province),0,100,5394,192
+25,Africa,Mozambique,Matola district (subset of Maputo province),0,14,1661,39
+25,Africa,Mozambique,Matola district (subset of Maputo province),15,34,1946,76
+25,Africa,Mozambique,Matola district (subset of Maputo province),35,59,1268,57
+25,Africa,Mozambique,Matola district (subset of Maputo province),60,100,519,20
+26,Africa,Mozambique,Nampula,0,100,1769,79
+26,Africa,Mozambique,Nampula,0,14,461,14
+26,Africa,Mozambique,Nampula,15,34,719,43
+26,Africa,Mozambique,Nampula,35,59,385,19
+26,Africa,Mozambique,Nampula,60,100,95,3
+27,Africa,Mozambique,Pemba,0,100,1360,31
+27,Africa,Mozambique,Pemba,0,14,404,7
+27,Africa,Mozambique,Pemba,15,34,455,15
+27,Africa,Mozambique,Pemba,35,59,232,7
+27,Africa,Mozambique,Pemba,60,100,62,2
+28,Africa,Mozambique,Quelimane,0,100,5069,128
+28,Africa,Mozambique,Quelimane,0,14,1318,34
+28,Africa,Mozambique,Quelimane,15,34,1928,81
+28,Africa,Mozambique,Quelimane,35,59,863,12
+28,Africa,Mozambique,Quelimane,60,100,226,1
+29,Africa,Mozambique,Tete,0,100,1942,16
+29,Africa,Mozambique,Tete,0,14,623,2
+29,Africa,Mozambique,Tete,15,34,695,10
+29,Africa,Mozambique,Tete,35,59,336,3
+29,Africa,Mozambique,Tete,60,100,87,1
+30,Africa,Mozambique,Chimoio,0,100,9756,135
+30,Africa,Mozambique,Chimoio,0,14,3341,37
+30,Africa,Mozambique,Chimoio,15,34,4211,59
+30,Africa,Mozambique,Chimoio,35,59,1679,29
+30,Africa,Mozambique,Chimoio,60,100,508,10
+31,Africa,Mozambique,Chakwe,0,100,2451,128.56
+31,Africa,Mozambique,Chakwe,0,14,1010,56.56
+31,Africa,Mozambique,Chakwe,15,34,825,46
+31,Africa,Mozambique,Chakwe,35,59,432,20
+31,Africa,Mozambique,Chakwe,60,100,184,6
+32,Africa,Mozambique,Maxixe,0,100,3974,219
+32,Africa,Mozambique,Maxixe,0,14,1657,89
+32,Africa,Mozambique,Maxixe,15,34,1204,72
+32,Africa,Mozambique,Maxixe,35,59,771,43
+32,Africa,Mozambique,Maxixe,60,100,342,15
+33,Africa,Mozambique,Massinga,0,100,1577,117
+33,Africa,Mozambique,Massinga,0,14,630,31
+33,Africa,Mozambique,Massinga,15,34,551,58
+33,Africa,Mozambique,Massinga,35,59,285,21
+33,Africa,Mozambique,Massinga,60,100,111,7
+34,Africa,Mozambique,Xai-Xai,0,100,4932,181
+34,Africa,Mozambique,Xai-Xai,0,14,1772,44
+34,Africa,Mozambique,Xai-Xai,15,34,1834,73
+34,Africa,Mozambique,Xai-Xai,35,59,923,45
+34,Africa,Mozambique,Xai-Xai,60,100,403,19
+36,Africa,Kenya,Nairobi County,0,100,1164,384
+36,Africa,Kenya,Nairobi County,0,9,179,34
+36,Africa,Kenya,Nairobi County,10,19,244,74
+36,Africa,Kenya,Nairobi County,20,29,265,100
+36,Africa,Kenya,Nairobi County,30,39,241,95
+36,Africa,Kenya,Nairobi County,40,49,134,51
+36,Africa,Kenya,Nairobi County,50,59,61,21
+36,Africa,Kenya,Nairobi County,60,100,40,9
+37,Africa,Nigeria,Niger State,0,100,185,47
+37,Africa,Nigeria,Niger State,0,5,15,1
+37,Africa,Nigeria,Niger State,6,17,26,5
+37,Africa,Nigeria,Niger State,18,29,34,6
+37,Africa,Nigeria,Niger State,30,41,45,15
+37,Africa,Nigeria,Niger State,42,53,37,12
+37,Africa,Nigeria,Niger State,54,65,20,6
+37,Africa,Nigeria,Niger State,66,100,8,2
+38,Latin America,Argentina,Buenos Aires City,0,100,2024,203
+38,Latin America,Argentina,Buenos Aires City,0,17,403,50
+38,Latin America,Argentina,Buenos Aires City,18,39,702,73
+38,Latin America,Argentina,Buenos Aires City,40,59,480,40
+38,Latin America,Argentina,Buenos Aires City,60,100,439,40
+40,Latin America,Argentina,Municipality of Hurlingham,0,100,1182,143
+40,Latin America,Argentina,Municipality of Hurlingham,18,30,169,26
+40,Latin America,Argentina,Municipality of Hurlingham,31,40,183,26
+40,Latin America,Argentina,Municipality of Hurlingham,41,50,203,22
+40,Latin America,Argentina,Municipality of Hurlingham,51,60,164,22
+40,Latin America,Argentina,Municipality of Hurlingham,61,70,240,28
+40,Latin America,Argentina,Municipality of Hurlingham,71,80,139,11
+40,Latin America,Argentina,Municipality of Hurlingham,81,100,31,1
+42,Latin America,Bolivia,Santa Cruz,0,100,2956,681
+44,Latin America,Colombia,Leticia,0,100,1417,726
+44,Latin America,Colombia,Leticia,5,10,157,79
+44,Latin America,Colombia,Leticia,11,18,245,129
+44,Latin America,Colombia,Leticia,19,40,518,282
+44,Latin America,Colombia,Leticia,41,60,339,166
+44,Latin America,Colombia,Leticia,61,100,158,70
+45,Latin America,Colombia,Barranquilla,0,100,1426,697
+45,Latin America,Colombia,Barranquilla,5,10,113,62
+45,Latin America,Colombia,Barranquilla,11,18,230,139
+45,Latin America,Colombia,Barranquilla,19,40,433,211
+45,Latin America,Colombia,Barranquilla,41,60,375,171
+45,Latin America,Colombia,Barranquilla,61,100,242,102
+46,Latin America,Colombia,Medellin,0,100,1987,464
+46,Latin America,Colombia,Medellin,5,10,129,33
+46,Latin America,Colombia,Medellin,11,18,247,61
+46,Latin America,Colombia,Medellin,19,40,650,171
+46,Latin America,Colombia,Medellin,41,60,509,128
+46,Latin America,Colombia,Medellin,61,100,452,71
+48,Latin America,Colombia,Bucaramanga,0,100,1425,398
+48,Latin America,Colombia,Bucaramanga,5,10,55,18
+48,Latin America,Colombia,Bucaramanga,11,18,137,47
+48,Latin America,Colombia,Bucaramanga,19,40,535,160
+48,Latin America,Colombia,Bucaramanga,41,60,432,111
+48,Latin America,Colombia,Bucaramanga,61,100,266,62
+49,Latin America,Colombia,Cucuta,0,100,1454,508
+49,Latin America,Colombia,Cucuta,5,10,104,39
+49,Latin America,Colombia,Cucuta,11,18,190,76
+49,Latin America,Colombia,Cucuta,19,40,481,189
+49,Latin America,Colombia,Cucuta,41,60,437,137
+49,Latin America,Colombia,Cucuta,61,100,242,67
+50,Latin America,Colombia,Villavicencio,0,100,1470,440
+50,Latin America,Colombia,Villavicencio,5,10,103,22
+50,Latin America,Colombia,Villavicencio,11,18,194,70
+50,Latin America,Colombia,Villavicencio,19,40,537,182
+50,Latin America,Colombia,Villavicencio,41,60,412,114
+50,Latin America,Colombia,Villavicencio,61,100,224,52
+51,Latin America,Colombia,Bogota,0,100,4515,1186
+51,Latin America,Colombia,Bogota,5,10,226,69
+51,Latin America,Colombia,Bogota,11,18,491,130
+51,Latin America,Colombia,Bogota,19,40,1738,500
+51,Latin America,Colombia,Bogota,41,60,1279,341
+51,Latin America,Colombia,Bogota,61,100,683,115
+52,Latin America,Colombia,Cali,0,100,1983,524
+52,Latin America,Colombia,Cali,5,10,122,35
+52,Latin America,Colombia,Cali,11,18,222,64
+52,Latin America,Colombia,Cali,19,40,685,193
+52,Latin America,Colombia,Cali,41,60,577,159
+52,Latin America,Colombia,Cali,61,100,377,73
+54,Latin America,Colombia,Ipiales,0,100,1465,445
+54,Latin America,Colombia,Ipiales,5,10,77,25
+54,Latin America,Colombia,Ipiales,11,18,174,57
+54,Latin America,Colombia,Ipiales,19,40,556,180
+54,Latin America,Colombia,Ipiales,41,60,441,135
+54,Latin America,Colombia,Ipiales,61,100,213,47
+55,Latin America,Dominican Republic,10 Provinces,0,100,12897,704
+58,Latin America,Ecuador,Cuenca,0,100,2457,325
+58,Latin America,Ecuador,Cuenca,0,19,402,45
+58,Latin America,Ecuador,Cuenca,20,34,675,79
+58,Latin America,Ecuador,Cuenca,35,49,624,100
+58,Latin America,Ecuador,Cuenca,50,64,461,63
+58,Latin America,Ecuador,Cuenca,65,100,295,38
+59,Latin America,Peru,Cusco Province,0,100,1516,554
+60,Latin America,Peru,Lambayeque,0,100,2010,595
+60,Latin America,Peru,Lambayeque,9,20,220,59
+60,Latin America,Peru,Lambayeque,21,30,329,102
+60,Latin America,Peru,Lambayeque,31,40,394,139
+60,Latin America,Peru,Lambayeque,41,50,353,109
+60,Latin America,Peru,Lambayeque,51,60,315,94
+60,Latin America,Peru,Lambayeque,61,70,215,54
+60,Latin America,Peru,Lambayeque,71,80,129,26
+60,Latin America,Peru,Lambayeque,81,100,55,12
+63,Latin America,Peru,Lima (Metropolitana) + Callao,0,100,3212,692
+63,Latin America,Peru,Lima (Metropolitana) + Callao,0,11,459,102
+63,Latin America,Peru,Lima (Metropolitana) + Callao,12,17,259,60
+63,Latin America,Peru,Lima (Metropolitana) + Callao,18,29,570,133
+63,Latin America,Peru,Lima (Metropolitana) + Callao,30,59,1303,283
+63,Latin America,Peru,Lima (Metropolitana) + Callao,60,100,621,114
+64,Latin America,Peru,"Iquitos, Loreto",0,100,802,528
+64,Latin America,Peru,"Iquitos, Loreto",0,11,201,141
+64,Latin America,Peru,"Iquitos, Loreto",12,17,97,70
+64,Latin America,Peru,"Iquitos, Loreto",18,29,167,90
+64,Latin America,Peru,"Iquitos, Loreto",30,59,282,186
+64,Latin America,Peru,"Iquitos, Loreto",60,100,55,41
+73,Latin America,Brazil,Sao Paulo,0,100,1129,295
+73,Latin America,Brazil,Sao Paulo,18,34,369,91
+73,Latin America,Brazil,Sao Paulo,35,44,253,76
+73,Latin America,Brazil,Sao Paulo,45,59,278,72
+73,Latin America,Brazil,Sao Paulo,60,100,228,56
+74,Latin America,Brazil,Foz do Iguacu,0,100,1502,203
+77,South Asia,India,Kashmir: Srinagar district,0,100,2418,984
+77,South Asia,India,Kashmir: Srinagar district,0,30,731,291
+77,South Asia,India,Kashmir: Srinagar district,31,50,1047,413
+77,South Asia,India,Kashmir: Srinagar district,51,70,573,245
+77,South Asia,India,Kashmir: Srinagar district,71,100,67,35
+78,South Asia,Nepal,National Study,0,100,3040,444
+78,South Asia,Nepal,National Study,0,4,110,10
+78,South Asia,Nepal,National Study,5,14,345,29
+78,South Asia,Nepal,National Study,15,24,547,78
+78,South Asia,Nepal,National Study,25,34,463,64
+78,South Asia,Nepal,National Study,35,44,487,95
+78,South Asia,Nepal,National Study,45,54,428,68
+78,South Asia,Nepal,National Study,55,64,350,60
+78,South Asia,Nepal,National Study,65,74,208,34
+78,South Asia,Nepal,National Study,75,84,77,5
+78,South Asia,Nepal,National Study,85,100,25,1
+80,Africa,Ethiopia,Addis Ababa #2,0,100,956,31
+81,Middle East,Iran,National Study,0,100,11256,1303
+81,Middle East,Iran,National Study,6,17,2302,237
+81,Middle East,Iran,National Study,18,39,4496,463
+81,Middle East,Iran,National Study,40,59,3100,403
+81,Middle East,Iran,National Study,60,100,1358,200
+82,Latin America,Mexico,National Study,0,100,9464,2206
+82,Latin America,Mexico,National Study,0,19,3309,697
+82,Latin America,Mexico,National Study,20,39,2241,776
+82,Latin America,Mexico,National Study,40,59,2132,552
+82,Latin America,Mexico,National Study,60,100,1036,181
+83,South Asia,India,Odisha: Bhubaneswar,0,100,951,15
+83,South Asia,India,Odisha: Bhubaneswar,18,29,186,3
+83,South Asia,India,Odisha: Bhubaneswar,30,39,179,1
+83,South Asia,India,Odisha: Bhubaneswar,40,49,230,3
+83,South Asia,India,Odisha: Bhubaneswar,50,59,177,5
+83,South Asia,India,Odisha: Bhubaneswar,60,100,179,3
+84,South Asia,India,Odisha: Berhampur,0,100,1375,427
+84,South Asia,India,Odisha: Berhampur,0,19,31,8
+84,South Asia,India,Odisha: Berhampur,20,29,146,49
+84,South Asia,India,Odisha: Berhampur,30,39,251,90
+84,South Asia,India,Odisha: Berhampur,40,49,364,114
+84,South Asia,India,Odisha: Berhampur,50,59,271,77
+84,South Asia,India,Odisha: Berhampur,60,100,312,89
+88,South Asia,India,Odisha: Rourkela,0,100,1452,346
+88,South Asia,India,Odisha: Rourkela,0,19,39,8
+88,South Asia,India,Odisha: Rourkela,20,29,217,50
+88,South Asia,India,Odisha: Rourkela,30,39,344,82
+88,South Asia,India,Odisha: Rourkela,40,49,351,80
+88,South Asia,India,Odisha: Rourkela,50,59,287,65
+88,South Asia,India,Odisha: Rourkela,60,100,214,61
+90,Africa,South Africa,Mitchells Plain,0,100,325,149
+94,Europe,Albania,"Tirana (city, not county)",0,100,815,393
+96,Africa,Cameroon,Cite Verte,0,100,971,302
+96,Africa,Cameroon,Cite Verte,5,14,241,69
+96,Africa,Cameroon,Cite Verte,15,29,325,98
+96,Africa,Cameroon,Cite Verte,30,44,212,69
+96,Africa,Cameroon,Cite Verte,45,64,153,51
+96,Africa,Cameroon,Cite Verte,65,100,40,15
+97,Africa,Ethiopia,"Jimma town, Seka, Manna",0,100,900,5
+98,Africa,Ethiopia,Diredawa,0,100,684,22
+98,Africa,Ethiopia,Diredawa,15,24,180,9
+98,Africa,Ethiopia,Diredawa,25,34,182,4
+98,Africa,Ethiopia,Diredawa,35,44,131,5
+98,Africa,Ethiopia,Diredawa,45,100,191,4
+100,Africa,South Africa,Jouberton,0,100,505,72
+100,Africa,South Africa,Jouberton,0,4,45,2
+100,Africa,South Africa,Jouberton,5,12,116,11
+100,Africa,South Africa,Jouberton,13,18,75,14
+100,Africa,South Africa,Jouberton,19,34,102,10
+100,Africa,South Africa,Jouberton,35,59,110,33
+100,Africa,South Africa,Jouberton,60,100,57,3
+101,Africa,South Sudan,Juba,0,100,1840,411
+101,Africa,South Sudan,Juba,1,4,68,20
+101,Africa,South Sudan,Juba,5,9,224,52
+101,Africa,South Sudan,Juba,10,19,448,124
+101,Africa,South Sudan,Juba,20,29,459,89
+101,Africa,South Sudan,Juba,30,39,307,52
+101,Africa,South Sudan,Juba,40,49,139,26
+101,Africa,South Sudan,Juba,50,64,120,31
+101,Africa,South Sudan,Juba,65,84,75,17
+102,Africa,Zambia,Ndola + 5 other districts,0,100,2614,80
+105,Middle East,Iraq,"Iraq: Duhok (city, not governorate)",0,100,743,465
+107,Middle East,United Arab Emirates,"Abu Dhabi, Al Ain, Al Dhafra",0,100,8831,821
+107,Middle East,United Arab Emirates,"Abu Dhabi, Al Ain, Al Dhafra",0,4,193,8
+107,Middle East,United Arab Emirates,"Abu Dhabi, Al Ain, Al Dhafra",5,9,1142,24
+107,Middle East,United Arab Emirates,"Abu Dhabi, Al Ain, Al Dhafra",10,19,975,37
+107,Middle East,United Arab Emirates,"Abu Dhabi, Al Ain, Al Dhafra",20,29,2227,243
+107,Middle East,United Arab Emirates,"Abu Dhabi, Al Ain, Al Dhafra",30,39,2393,287
+107,Middle East,United Arab Emirates,"Abu Dhabi, Al Ain, Al Dhafra",40,49,1258,122
+107,Middle East,United Arab Emirates,"Abu Dhabi, Al Ain, Al Dhafra",50,59,454,39
+107,Middle East,United Arab Emirates,"Abu Dhabi, Al Ain, Al Dhafra",60,100,191,8
+108,South Asia,India,"Jabalpur (city, not district)",0,100,9279,2695
+108,South Asia,India,"Jabalpur (city, not district)",0,18,1023,282
+108,South Asia,India,"Jabalpur (city, not district)",19,45,5413,1506
+108,South Asia,India,"Jabalpur (city, not district)",46,60,1875,601
+108,South Asia,India,"Jabalpur (city, not district)",61,100,968,276
+120,Europe,Russia,St. Petersburg,0,100,988,91
+120,Europe,Russia,St. Petersburg,18,34,387,43
+120,Europe,Russia,St. Petersburg,35,49,341,25
+120,Europe,Russia,St. Petersburg,50,64,199,21
+120,Europe,Russia,St. Petersburg,65,100,61,2
+121,East Asia,China,Wuhan #1,0,100,11353,377
+121,East Asia,China,Wuhan #1,1,9,978,18
+121,East Asia,China,Wuhan #1,10,19,1023,20
+121,East Asia,China,Wuhan #1,20,39,3348,103
+121,East Asia,China,Wuhan #1,40,59,4017,154
+121,East Asia,China,Wuhan #1,60,100,1987,82
+122,South Asia,India,"Indore (city, not district)",0,100,7103,548
+122,South Asia,India,"Indore (city, not district)",0,17,2435,177
+122,South Asia,India,"Indore (city, not district)",18,44,3098,221
+122,South Asia,India,"Indore (city, not district)",45,60,1106,111
+122,South Asia,India,"Indore (city, not district)",61,100,464,39
+123,East Asia,China,Hubei province (excluding Wuhan #1),0,100,10632,48
+123,East Asia,China,Hubei province (excluding Wuhan #1),1,9,1117,4
+123,East Asia,China,Hubei province (excluding Wuhan #1),10,19,1145,8
+123,East Asia,China,Hubei province (excluding Wuhan #1),20,39,2611,12
+123,East Asia,China,Hubei province (excluding Wuhan #1),40,59,3529,17
+123,East Asia,China,Hubei province (excluding Wuhan #1),60,100,2230,7
+124,East Asia,China,"Provinces: Beijing, Shanghai, Guangdong, Jiangsu, Sichuan, Liaoning",0,100,12872,2
+124,East Asia,China,"Provinces: Beijing, Shanghai, Guangdong, Jiangsu, Sichuan, Liaoning",1,9,1169,0
+124,East Asia,China,"Provinces: Beijing, Shanghai, Guangdong, Jiangsu, Sichuan, Liaoning",10,19,1220,0
+124,East Asia,China,"Provinces: Beijing, Shanghai, Guangdong, Jiangsu, Sichuan, Liaoning",20,39,3742,0
+124,East Asia,China,"Provinces: Beijing, Shanghai, Guangdong, Jiangsu, Sichuan, Liaoning",40,59,4001,2
+124,East Asia,China,"Provinces: Beijing, Shanghai, Guangdong, Jiangsu, Sichuan, Liaoning",60,100,2740,0
+125,Middle East,Pakistan,Karachi,0,100,461,156
+125,Middle East,Pakistan,Karachi,0,20,19,10
+125,Middle East,Pakistan,Karachi,21,40,296,95
+125,Middle East,Pakistan,Karachi,41,60,128,43
+125,Middle East,Pakistan,Karachi,61,100,18,8
+126,Middle East,Pakistan,Lahore,0,100,4738,2258
+126,Middle East,Pakistan,Lahore,0,20,490,216
+126,Middle East,Pakistan,Lahore,21,40,2857,1336
+126,Middle East,Pakistan,Lahore,41,60,1147,592
+126,Middle East,Pakistan,Lahore,61,100,244,114
+128,Africa,Democratic Republic of Congo,Kinshasa,0,100,1080,167
+128,Africa,Democratic Republic of Congo,Kinshasa,0,17,281,39
+128,Africa,Democratic Republic of Congo,Kinshasa,18,39,428,53
+128,Africa,Democratic Republic of Congo,Kinshasa,40,100,371,75
+129,Middle East,Libya,Benghazi,0,100,600,0
+140,South Asia ,India,"Mumbai (3 wards, age-specific)",0,100,6904,2635
+140,South Asia ,India,"Mumbai (3 wards, age-specific)",12,24,878,404
+140,South Asia ,India,"Mumbai (3 wards, age-specific)",25,39,2213,826
+140,South Asia ,India,"Mumbai (3 wards, age-specific)",40,60,3044,1156
+140,South Asia ,India,"Mumbai (3 wards, age-specific)",61,100,769,249
+144,Europe,Poland,Katowice region (Gliwice + Katowice + Sosnowiec),0,100,1154,133
+144,Europe,Poland,Katowice region (Gliwice + Katowice + Sosnowiec),0,6,34,1
+144,Europe,Poland,Katowice region (Gliwice + Katowice + Sosnowiec),7,14,59,7
+144,Europe,Poland,Katowice region (Gliwice + Katowice + Sosnowiec),15,18,33,9
+144,Europe,Poland,Katowice region (Gliwice + Katowice + Sosnowiec),19,25,63,11
+144,Europe,Poland,Katowice region (Gliwice + Katowice + Sosnowiec),26,35,155,23
+144,Europe,Poland,Katowice region (Gliwice + Katowice + Sosnowiec),36,65,603,72
+144,Europe,Poland,Katowice region (Gliwice + Katowice + Sosnowiec),66,75,165,9
+144,Europe,Poland,Katowice region (Gliwice + Katowice + Sosnowiec),76,100,51,1
+148,Latin America,Colombia,Cordoba: 8 cities,0,100,2447,998
+148,Latin America,Colombia,Cordoba: 8 cities,10,14,45,25
+148,Latin America,Colombia,Cordoba: 8 cities,15,19,100,47
+148,Latin America,Colombia,Cordoba: 8 cities,20,29,424,174
+148,Latin America,Colombia,Cordoba: 8 cities,30,39,523,205
+148,Latin America,Colombia,Cordoba: 8 cities,40,49,463,202
+148,Latin America,Colombia,Cordoba: 8 cities,50,59,428,152
+148,Latin America,Colombia,Cordoba: 8 cities,60,69,297,131
+148,Latin America,Colombia,Cordoba: 8 cities,70,100,164,60
+151,Latin America,Argentina,"AMBA (Metropolitan Area of ​​Buenos Aires), 30 barrios",0,100,8527,1117.037
+156,Middle East,Jordan,National Study,0,100,5044,1723
+156,Middle East,Jordan,National Study,0,4,110,32
+156,Middle East,Jordan,National Study,5,9,332,126
+156,Middle East,Jordan,National Study,10,14,493,179
+156,Middle East,Jordan,National Study,15,19,551,201
+156,Middle East,Jordan,National Study,20,29,901,283
+156,Middle East,Jordan,National Study,30,59,2126,740
+156,Middle East,Jordan,National Study,60,64,233,91
+156,Middle East,Jordan,National Study,65,100,237,71
+192,Europe,Hungary,National Study,0,100,10474,70
+192,Europe,Hungary,National Study,14,39,3353,18
+192,Europe,Hungary,National Study,40,64,4735,33
+192,Europe,Hungary,National Study,65,100,2386,19
+201,South Asia,India,Tamil Nadu (iFlash districts),0,100,12419,4268
+202,South Asia,India,Tamil Nadu (Vitros districts),0,100,10103,2586
+203,South Asia ,India,Malegaon (city population),0,100,336,135
+203,South Asia ,India,Malegaon (city population),15,25,64,27
+203,South Asia ,India,Malegaon (city population),26,35,107,35
+203,South Asia ,India,Malegaon (city population),36,45,84,37
+203,South Asia ,India,Malegaon (city population),46,60,69,31
+203,South Asia ,India,Malegaon (city population),61,100,12,5
+206,South Asia ,India,Hyderabad,0,100,9363,5076
+206,South Asia ,India,Hyderabad,10,19,1542,842
+206,South Asia ,India,Hyderabad,20,29,2017,1063
+206,South Asia ,India,Hyderabad,30,39,2012,1141
+206,South Asia ,India,Hyderabad,40,49,1575,847
+206,South Asia ,India,Hyderabad,50,59,1132,642
+206,South Asia ,India,Hyderabad,60,69,736,375
+206,South Asia ,India,Hyderabad,70,100,349,166
+209,Latin America,Brazil,Cuiaba,0,100,782,137
+209,Latin America,Brazil,Cuiaba,18,29,130.594,22
+209,Latin America,Brazil,Cuiaba,30,49,330.786,54
+209,Latin America,Brazil,Cuiaba,50,59,142.324,35
+209,Latin America,Brazil,Cuiaba,60,100,178.296,26
+216,Latin America,Brazil,Varzea Grande,0,100,611.452,150
+216,Latin America,Brazil,Varzea Grande,18,29,76.5,20
+216,Latin America,Brazil,Varzea Grande,30,49,262,81
+216,Latin America,Brazil,Varzea Grande,50,59,121.176,32
+216,Latin America,Brazil,Varzea Grande,60,100,151.776,17
+218,Latin America,Brazil,Pitangueiras,0,100,275,17
+220,Latin America,Brazil,Mato Grosso (8 cities),0,100,2812,299
+220,Latin America,Brazil,Mato Grosso (8 cities),18,29,525,58
+220,Latin America,Brazil,Mato Grosso (8 cities),30,49,1134.97,146
+220,Latin America,Brazil,Mato Grosso (8 cities),50,59,509.696,41
+220,Latin America,Brazil,Mato Grosso (8 cities),60,100,642.922,54
+221,Latin America,Paraguay,Asuncion + Central Dept.,0,100,1699,454
+221,Latin America,Paraguay,Asuncion + Central Dept.,0,19,603,149
+221,Latin America,Paraguay,Asuncion + Central Dept.,20,29,293,87
+221,Latin America,Paraguay,Asuncion + Central Dept.,30,39,267,82
+221,Latin America,Paraguay,Asuncion + Central Dept.,40,49,208,54
+221,Latin America,Paraguay,Asuncion + Central Dept.,50,59,151,38
+221,Latin America,Paraguay,Asuncion + Central Dept.,60,100,177,44

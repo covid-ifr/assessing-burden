@@ -1,0 +1,642 @@
+pop_location_id,global_region,country,location_label,lower_age_bin,upper_age_bin,popshare,agedistribution_citation_id
+105,Latin America,Brazil,Maranhao,55,59,3.3,g-19
+105,Latin America,Brazil,Maranhao,10,14,11,g-19
+105,Latin America,Brazil,Maranhao,50,54,3.9,g-19
+105,Latin America,Brazil,Maranhao,20,24,10,g-19
+105,Latin America,Brazil,Maranhao,70,100,3.9,g-19
+105,Latin America,Brazil,Maranhao,25,29,9.1,g-19
+105,Latin America,Brazil,Maranhao,30,34,7.6,g-19
+105,Latin America,Brazil,Maranhao,0,4,9.699999999999999,g-19
+105,Latin America,Brazil,Maranhao,35,39,6.1,g-19
+105,Latin America,Brazil,Maranhao,40,44,5.4,g-19
+105,Latin America,Brazil,Maranhao,15,19,10.4,g-19
+105,Latin America,Brazil,Maranhao,45,49,4.6,g-19
+105,Latin America,Brazil,Maranhao,65,69,2.1,g-19
+105,Latin America,Brazil,Maranhao,5,9,10.2,g-19
+105,Latin America,Brazil,Maranhao,60,64,2.6,g-19
+111,South Asia ,India,Delhi,15,19,9.93,g-10
+111,South Asia ,India,Delhi,20,24,10.51,g-10
+111,South Asia ,India,Delhi,30,34,8.550000000000001,g-10
+111,South Asia ,India,Delhi,10,14,9.82,g-10
+111,South Asia ,India,Delhi,55,59,3.03,g-10
+111,South Asia ,India,Delhi,70,100,2.5,g-10
+111,South Asia ,India,Delhi,40,44,6.54,g-10
+111,South Asia ,India,Delhi,65,69,1.62,g-10
+111,South Asia ,India,Delhi,35,39,7.86,g-10
+111,South Asia ,India,Delhi,45,49,5.43,g-10
+111,South Asia ,India,Delhi,60,64,2.81,g-10
+111,South Asia ,India,Delhi,5,9,9.15,g-10
+111,South Asia ,India,Delhi,50,54,4.1,g-10
+111,South Asia ,India,Delhi,25,29,9.94,g-10
+111,South Asia ,India,Delhi,0,4,8.23,g-10
+112,South Asia ,India,Karnataka,5,9,8.58,g-11
+112,South Asia ,India,Karnataka,65,69,2.48,g-11
+112,South Asia ,India,Karnataka,35,39,7.69,g-11
+112,South Asia ,India,Karnataka,30,34,7.69,g-11
+112,South Asia ,India,Karnataka,40,44,6.27,g-11
+112,South Asia ,India,Karnataka,55,59,3.51,g-11
+112,South Asia ,India,Karnataka,0,4,8.26,g-11
+112,South Asia ,India,Karnataka,60,64,3.37,g-11
+112,South Asia ,India,Karnataka,15,19,9.539999999999999,g-11
+112,South Asia ,India,Karnataka,20,24,9.91,g-11
+112,South Asia ,India,Karnataka,45,49,5.76,g-11
+112,South Asia ,India,Karnataka,25,29,9.449999999999999,g-11
+112,South Asia ,India,Karnataka,10,14,9.390000000000001,g-11
+112,South Asia ,India,Karnataka,50,54,4.42,g-11
+112,South Asia ,India,Karnataka,70,100,3.7,g-11
+113,South Asia ,India,Pimpri-Chinchwad,15,19,8.73,r-57
+113,South Asia ,India,Pimpri-Chinchwad,75,79,.9,r-57
+113,South Asia ,India,Pimpri-Chinchwad,70,74,1.71,r-57
+113,South Asia ,India,Pimpri-Chinchwad,35,39,7.59,r-57
+113,South Asia ,India,Pimpri-Chinchwad,40,44,6.36,r-57
+113,South Asia ,India,Pimpri-Chinchwad,85,100,.47,r-57
+113,South Asia ,India,Pimpri-Chinchwad,65,69,2.39,r-57
+113,South Asia ,India,Pimpri-Chinchwad,0,4,8.41,r-57
+113,South Asia ,India,Pimpri-Chinchwad,25,29,10.62,r-57
+113,South Asia ,India,Pimpri-Chinchwad,5,9,8.109999999999999,r-57
+113,South Asia ,India,Pimpri-Chinchwad,45,49,5.25,r-57
+113,South Asia ,India,Pimpri-Chinchwad,30,34,8.73,r-57
+113,South Asia ,India,Pimpri-Chinchwad,50,54,4.34,r-57
+113,South Asia ,India,Pimpri-Chinchwad,10,14,8.390000000000001,r-57
+113,South Asia ,India,Pimpri-Chinchwad,20,24,10.94,r-57
+113,South Asia ,India,Pimpri-Chinchwad,60,64,3.08,r-57
+113,South Asia ,India,Pimpri-Chinchwad,55,59,3.43,r-57
+113,South Asia ,India,Pimpri-Chinchwad,80,84,.54,r-57
+116,South Asia ,India,Puducherry,40,44,7.19,g-12
+116,South Asia ,India,Puducherry,70,100,3.98,g-12
+116,South Asia ,India,Puducherry,15,19,8.199999999999999,g-12
+116,South Asia ,India,Puducherry,50,54,4.88,g-12
+116,South Asia ,India,Puducherry,45,49,6.35,g-12
+116,South Asia ,India,Puducherry,65,69,2.24,g-12
+116,South Asia ,India,Puducherry,55,59,4.02,g-12
+116,South Asia ,India,Puducherry,30,34,8.9,g-12
+116,South Asia ,India,Puducherry,0,4,7.53,g-12
+116,South Asia ,India,Puducherry,25,29,9.48,g-12
+116,South Asia ,India,Puducherry,20,24,8.720000000000001,g-12
+116,South Asia ,India,Puducherry,5,9,7.91,g-12
+116,South Asia ,India,Puducherry,60,64,3.51,g-12
+116,South Asia ,India,Puducherry,10,14,8.470000000000001,g-12
+116,South Asia ,India,Puducherry,35,39,8.609999999999999,g-12
+118,South Asia ,India,West Bengal (only Paschim Medinipur),50,59,8.186270853,g-14
+118,South Asia ,India,West Bengal (only Paschim Medinipur),40,49,12.77314187,g-14
+118,South Asia ,India,West Bengal (only Paschim Medinipur),0,17,32.62893327,g-14
+118,South Asia ,India,West Bengal (only Paschim Medinipur),60,69,5.225400109,g-14
+118,South Asia ,India,West Bengal (only Paschim Medinipur),70,100,3.375576428,g-14
+118,South Asia ,India,West Bengal (only Paschim Medinipur),30,39,15.44213685,g-14
+118,South Asia ,India,West Bengal (only Paschim Medinipur),18,29,22.36854062,g-14
+119,South Asia ,India,Chennai,0,17,26.00332167,g-14
+119,South Asia ,India,Chennai,50,59,9.527293841000001,g-14
+119,South Asia ,India,Chennai,70,100,3.957250232,g-14
+119,South Asia ,India,Chennai,60,69,5.897145547,g-14
+119,South Asia ,India,Chennai,30,39,17.71811861,g-14
+119,South Asia ,India,Chennai,40,49,13.9403574,g-14
+119,South Asia ,India,Chennai,18,29,22.95651271,g-14
+126,Africa,Mozambique,Maputo City,70,79,1.433891493,a-15
+126,Africa,Mozambique,Maputo City,50,59,6.679583107,a-15
+126,Africa,Mozambique,Maputo City,80,100,.803682759,a-15
+126,Africa,Mozambique,Maputo City,30,39,14.14498318,a-15
+126,Africa,Mozambique,Maputo City,20,29,21.69434321,a-15
+126,Africa,Mozambique,Maputo City,10,19,21.67888421,a-15
+126,Africa,Mozambique,Maputo City,40,49,8.711932216999999,a-15
+126,Africa,Mozambique,Maputo City,0,9,21.27620971,a-15
+126,Africa,Mozambique,Maputo City,60,69,3.576490104,a-15
+139,Africa,Kenya,Nairobi County,41,50,8.08,r-3
+139,Africa,Kenya,Nairobi County,71,80,.43,r-3
+139,Africa,Kenya,Nairobi County,61,70,1.21,r-3
+139,Africa,Kenya,Nairobi County,11,20,16.49,r-3
+139,Africa,Kenya,Nairobi County,21,30,29.99,r-3
+139,Africa,Kenya,Nairobi County,51,60,3.38,r-3
+139,Africa,Kenya,Nairobi County,31,40,17.66,r-3
+139,Africa,Kenya,Nairobi County,81,100,.27,r-3
+139,Africa,Kenya,Nairobi County,0,10,22.46,r-3
+143,Latin America,Argentina,Buenos Aires City,70,79,6.87,r-37
+143,Latin America,Argentina,Buenos Aires City,30,39,16.03,r-37
+143,Latin America,Argentina,Buenos Aires City,50,59,11.49,r-37
+143,Latin America,Argentina,Buenos Aires City,80,100,5.09,r-37
+143,Latin America,Argentina,Buenos Aires City,0,9,11.14,r-37
+143,Latin America,Argentina,Buenos Aires City,10,19,11.01,r-37
+143,Latin America,Argentina,Buenos Aires City,60,69,9.710000000000001,r-37
+143,Latin America,Argentina,Buenos Aires City,40,49,12.2,r-37
+143,Latin America,Argentina,Buenos Aires City,20,29,16.46,r-37
+147,Latin America,Argentina,Municipality of Hurlingham,0,9,15.16,r-51
+147,Latin America,Argentina,Municipality of Hurlingham,60,69,8.42,r-51
+147,Latin America,Argentina,Municipality of Hurlingham,40,49,11.63,r-51
+147,Latin America,Argentina,Municipality of Hurlingham,80,89,2.73,r-51
+147,Latin America,Argentina,Municipality of Hurlingham,50,59,10.78,r-51
+147,Latin America,Argentina,Municipality of Hurlingham,70,79,5.28,r-51
+147,Latin America,Argentina,Municipality of Hurlingham,90,100,.12,r-51
+147,Latin America,Argentina,Municipality of Hurlingham,30,39,14.46,r-51
+147,Latin America,Argentina,Municipality of Hurlingham,20,29,15.95,r-51
+147,Latin America,Argentina,Municipality of Hurlingham,10,19,15.47,r-51
+150,Latin America,Bolivia,Santa Cruz,70,79,1.67,s-58
+150,Latin America,Bolivia,Santa Cruz,50,59,6.73,s-58
+150,Latin America,Bolivia,Santa Cruz,10,19,21.16,s-58
+150,Latin America,Bolivia,Santa Cruz,60,69,3.79,s-58
+150,Latin America,Bolivia,Santa Cruz,30,39,15.02,s-58
+150,Latin America,Bolivia,Santa Cruz,0,9,19.76,s-58
+150,Latin America,Bolivia,Santa Cruz,20,29,21.01,s-58
+150,Latin America,Bolivia,Santa Cruz,80,100,.8,s-58
+150,Latin America,Bolivia,Santa Cruz,40,49,10.05,s-58
+153,Latin America,Colombia,Leticia,0,9,22.93,r-39
+153,Latin America,Colombia,Leticia,40,49,10.19,r-39
+153,Latin America,Colombia,Leticia,20,29,16.99,r-39
+153,Latin America,Colombia,Leticia,90,100,.27,r-39
+153,Latin America,Colombia,Leticia,50,59,7.33,r-39
+153,Latin America,Colombia,Leticia,60,69,4.35,r-39
+153,Latin America,Colombia,Leticia,70,79,1.83,r-39
+153,Latin America,Colombia,Leticia,30,39,14.23,r-39
+153,Latin America,Colombia,Leticia,80,89,.82,r-39
+153,Latin America,Colombia,Leticia,10,19,21.06,r-39
+154,Latin America,Colombia,Barranquilla,60,69,7.66,r-44
+154,Latin America,Colombia,Barranquilla,10,19,16.04,r-44
+154,Latin America,Colombia,Barranquilla,50,59,11.28,r-44
+154,Latin America,Colombia,Barranquilla,30,39,15.1,r-44
+154,Latin America,Colombia,Barranquilla,90,100,.46,r-44
+154,Latin America,Colombia,Barranquilla,80,89,1.9,r-44
+154,Latin America,Colombia,Barranquilla,0,9,14.41,r-44
+154,Latin America,Colombia,Barranquilla,20,29,17.1,r-44
+154,Latin America,Colombia,Barranquilla,40,49,12.03,r-44
+154,Latin America,Colombia,Barranquilla,70,79,4.02,r-44
+155,Latin America,Colombia,Medellin,20,29,18.97,r-40
+155,Latin America,Colombia,Medellin,30,39,15.85,r-40
+155,Latin America,Colombia,Medellin,10,19,14.22,r-40
+155,Latin America,Colombia,Medellin,40,49,12.28,r-40
+155,Latin America,Colombia,Medellin,80,89,2.01,r-40
+155,Latin America,Colombia,Medellin,50,59,12.63,r-40
+155,Latin America,Colombia,Medellin,90,100,.46,r-40
+155,Latin America,Colombia,Medellin,0,9,10.63,r-40
+155,Latin America,Colombia,Medellin,60,69,8.449999999999999,r-40
+155,Latin America,Colombia,Medellin,70,79,4.49,r-40
+157,Latin America,Colombia,Bucaramanga,10,19,14.13,r-41
+157,Latin America,Colombia,Bucaramanga,20,29,18.27,r-41
+157,Latin America,Colombia,Bucaramanga,70,79,4.49,r-41
+157,Latin America,Colombia,Bucaramanga,60,69,8.06,r-41
+157,Latin America,Colombia,Bucaramanga,50,59,12.13,r-41
+157,Latin America,Colombia,Bucaramanga,90,100,.45,r-41
+157,Latin America,Colombia,Bucaramanga,40,49,12.55,r-41
+157,Latin America,Colombia,Bucaramanga,30,39,15.23,r-41
+157,Latin America,Colombia,Bucaramanga,80,89,2.12,r-41
+157,Latin America,Colombia,Bucaramanga,0,9,12.56,r-41
+158,Latin America,Colombia,Cucuta,0,9,14.49,r-42
+158,Latin America,Colombia,Cucuta,10,19,16.59,r-42
+158,Latin America,Colombia,Cucuta,80,89,1.54,r-42
+158,Latin America,Colombia,Cucuta,50,59,10.98,r-42
+158,Latin America,Colombia,Cucuta,40,49,12.21,r-42
+158,Latin America,Colombia,Cucuta,30,39,15.2,r-42
+158,Latin America,Colombia,Cucuta,90,100,.3,r-42
+158,Latin America,Colombia,Cucuta,70,79,3.64,r-42
+158,Latin America,Colombia,Cucuta,20,29,17.98,r-42
+158,Latin America,Colombia,Cucuta,60,69,7.08,r-42
+159,Latin America,Colombia,Villavicencio,10,19,16.32,r-43
+159,Latin America,Colombia,Villavicencio,0,9,14.93,r-43
+159,Latin America,Colombia,Villavicencio,20,29,17.31,r-43
+159,Latin America,Colombia,Villavicencio,80,89,1.25,r-43
+159,Latin America,Colombia,Villavicencio,40,49,12.74,r-43
+159,Latin America,Colombia,Villavicencio,70,79,3.46,r-43
+159,Latin America,Colombia,Villavicencio,30,39,15.58,r-43
+159,Latin America,Colombia,Villavicencio,90,100,.34,r-43
+159,Latin America,Colombia,Villavicencio,60,69,7.11,r-43
+159,Latin America,Colombia,Villavicencio,50,59,10.96,r-43
+160,Latin America,Colombia,Bogota,20,29,19.17,r-45
+160,Latin America,Colombia,Bogota,40,49,12.99,r-45
+160,Latin America,Colombia,Bogota,0,9,11.97,r-45
+160,Latin America,Colombia,Bogota,50,59,11.87,r-45
+160,Latin America,Colombia,Bogota,80,89,1.61,r-45
+160,Latin America,Colombia,Bogota,70,79,3.77,r-45
+160,Latin America,Colombia,Bogota,60,69,7.49,r-45
+160,Latin America,Colombia,Bogota,30,39,16.48,r-45
+160,Latin America,Colombia,Bogota,90,100,.32,r-45
+160,Latin America,Colombia,Bogota,10,19,14.33,r-45
+161,Latin America,Colombia,Cali,20,29,17.23,r-46
+161,Latin America,Colombia,Cali,60,69,8.779999999999999,r-46
+161,Latin America,Colombia,Cali,0,9,11.26,r-46
+161,Latin America,Colombia,Cali,40,49,13.12,r-46
+161,Latin America,Colombia,Cali,70,79,4.95,r-46
+161,Latin America,Colombia,Cali,30,39,15.15,r-46
+161,Latin America,Colombia,Cali,80,89,2.37,r-46
+161,Latin America,Colombia,Cali,90,100,.49,r-46
+161,Latin America,Colombia,Cali,50,59,12.72,r-46
+161,Latin America,Colombia,Cali,10,19,13.94,r-46
+163,Latin America,Colombia,Ipiales,40,49,13.59,r-48
+163,Latin America,Colombia,Ipiales,10,19,16.88,r-48
+163,Latin America,Colombia,Ipiales,70,79,3.77,r-48
+163,Latin America,Colombia,Ipiales,0,9,13.29,r-48
+163,Latin America,Colombia,Ipiales,30,39,15.63,r-48
+163,Latin America,Colombia,Ipiales,50,59,11.19,r-48
+163,Latin America,Colombia,Ipiales,80,89,1.7,r-48
+163,Latin America,Colombia,Ipiales,20,29,16.91,r-48
+163,Latin America,Colombia,Ipiales,90,100,.31,r-48
+163,Latin America,Colombia,Ipiales,60,69,6.73,r-48
+171,Latin America,Peru,Cusco Province,75,79,1.04,r-49
+171,Latin America,Peru,Cusco Province,45,49,4.96,r-49
+171,Latin America,Peru,Cusco Province,35,39,7.09,r-49
+171,Latin America,Peru,Cusco Province,15,19,10.95,r-49
+171,Latin America,Peru,Cusco Province,70,74,1.3,r-49
+171,Latin America,Peru,Cusco Province,80,84,.6,r-49
+171,Latin America,Peru,Cusco Province,5,9,9.32,r-49
+171,Latin America,Peru,Cusco Province,25,29,9.35,r-49
+171,Latin America,Peru,Cusco Province,50,54,4.1,r-49
+171,Latin America,Peru,Cusco Province,65,69,1.87,r-49
+171,Latin America,Peru,Cusco Province,10,14,10.04,r-49
+171,Latin America,Peru,Cusco Province,85,100,.49,r-49
+171,Latin America,Peru,Cusco Province,30,34,8.06,r-49
+171,Latin America,Peru,Cusco Province,40,44,6.02,r-49
+171,Latin America,Peru,Cusco Province,20,24,10.64,r-49
+171,Latin America,Peru,Cusco Province,60,64,2.38,r-49
+171,Latin America,Peru,Cusco Province,0,4,8.699999999999999,r-49
+171,Latin America,Peru,Cusco Province,55,59,3.1,r-49
+173,Latin America,Peru,Lambayeque,0,9,18.45,r-50
+173,Latin America,Peru,Lambayeque,70,79,3.7,r-50
+173,Latin America,Peru,Lambayeque,30,39,13.74,r-50
+173,Latin America,Peru,Lambayeque,60,69,6.49,r-50
+173,Latin America,Peru,Lambayeque,40,49,12.12,r-50
+173,Latin America,Peru,Lambayeque,10,19,17.35,r-50
+173,Latin America,Peru,Lambayeque,80,89,2.14,r-50
+173,Latin America,Peru,Lambayeque,20,29,16.36,r-50
+173,Latin America,Peru,Lambayeque,90,100,.02,r-50
+173,Latin America,Peru,Lambayeque,50,59,9.630000000000001,r-50
+176,Latin America,Peru,Lima + Callao Provinces,80,100,2,a-06
+176,Latin America,Peru,Lima + Callao Provinces,70,79,3.7,a-06
+176,Latin America,Peru,Lima + Callao Provinces,10,19,15.1,a-06
+176,Latin America,Peru,Lima + Callao Provinces,60,69,6.7,a-06
+176,Latin America,Peru,Lima + Callao Provinces,0,9,15,a-06
+176,Latin America,Peru,Lima + Callao Provinces,20,29,18.2,a-06
+176,Latin America,Peru,Lima + Callao Provinces,30,39,16.1,a-06
+176,Latin America,Peru,Lima + Callao Provinces,40,49,13.3,a-06
+176,Latin America,Peru,Lima + Callao Provinces,50,59,9.9,a-06
+209,Latin America,Peru,Iquitos,60,69,7.6,a-05
+209,Latin America,Peru,Iquitos,20,29,16.8,a-05
+209,Latin America,Peru,Iquitos,40,49,11.8,a-05
+209,Latin America,Peru,Iquitos,0,9,15.6,a-05
+209,Latin America,Peru,Iquitos,70,79,4.1,a-05
+209,Latin America,Peru,Iquitos,10,19,16.5,a-05
+209,Latin America,Peru,Iquitos,50,59,10.2,a-05
+209,Latin America,Peru,Iquitos,30,39,15.3,a-05
+209,Latin America,Peru,Iquitos,80,100,2,a-05
+106,Latin America,Brazil,Sao Paulo,20,24,8.800000000000001,g-20
+106,Latin America,Brazil,Sao Paulo,45,49,6.7,g-20
+106,Latin America,Brazil,Sao Paulo,50,54,5.9,g-20
+106,Latin America,Brazil,Sao Paulo,15,19,8,g-20
+106,Latin America,Brazil,Sao Paulo,60,64,3.7,g-20
+106,Latin America,Brazil,Sao Paulo,25,29,9.199999999999999,g-20
+106,Latin America,Brazil,Sao Paulo,70,100,5.299999999999999,g-20
+106,Latin America,Brazil,Sao Paulo,55,59,4.9,g-20
+106,Latin America,Brazil,Sao Paulo,30,34,8.600000000000001,g-20
+106,Latin America,Brazil,Sao Paulo,5,9,6.9,g-20
+106,Latin America,Brazil,Sao Paulo,0,4,6.5,g-20
+106,Latin America,Brazil,Sao Paulo,10,14,8.1,g-20
+106,Latin America,Brazil,Sao Paulo,35,39,7.8,g-20
+106,Latin America,Brazil,Sao Paulo,40,44,7.2,g-20
+106,Latin America,Brazil,Sao Paulo,65,69,2.7,g-20
+204,Latin America,Brazil,Foz do Iguacu,50,59,9.4,a-01
+204,Latin America,Brazil,Foz do Iguacu,10,19,19.2,a-01
+204,Latin America,Brazil,Foz do Iguacu,0,9,15.9,a-01
+204,Latin America,Brazil,Foz do Iguacu,20,29,17.3,a-01
+204,Latin America,Brazil,Foz do Iguacu,40,49,14,a-01
+204,Latin America,Brazil,Foz do Iguacu,60,69,4.9,a-01
+204,Latin America,Brazil,Foz do Iguacu,30,39,16.3,a-01
+204,Latin America,Brazil,Foz do Iguacu,70,79,2.2,a-01
+204,Latin America,Brazil,Foz do Iguacu,80,100,.8,a-01
+203,South Asia,India,Kasmir (Srinigar region),75,79,.7,r-65
+203,South Asia,India,Kasmir (Srinigar region),20,24,9.800000000000001,r-65
+203,South Asia,India,Kasmir (Srinigar region),5,9,8.699999999999999,r-65
+203,South Asia,India,Kasmir (Srinigar region),80,100,.9,r-65
+203,South Asia,India,Kasmir (Srinigar region),40,44,6.6,r-65
+203,South Asia,India,Kasmir (Srinigar region),45,49,5.6,r-65
+203,South Asia,India,Kasmir (Srinigar region),70,74,1.5,r-65
+203,South Asia,India,Kasmir (Srinigar region),25,29,9.800000000000001,r-65
+203,South Asia,India,Kasmir (Srinigar region),0,4,9.1,r-65
+203,South Asia,India,Kasmir (Srinigar region),65,69,1.9,r-65
+203,South Asia,India,Kasmir (Srinigar region),50,54,4.2,r-65
+203,South Asia,India,Kasmir (Srinigar region),10,14,9.1,r-65
+203,South Asia,India,Kasmir (Srinigar region),35,39,7.9,r-65
+203,South Asia,India,Kasmir (Srinigar region),55,59,3.3,r-65
+203,South Asia,India,Kasmir (Srinigar region),60,64,2.9,r-65
+203,South Asia,India,Kasmir (Srinigar region),30,34,8.199999999999999,r-65
+203,South Asia,India,Kasmir (Srinigar region),15,19,9.5,r-65
+195,South Asia,Nepal,National,60,64,2.79,r-52
+195,South Asia,Nepal,National,5,9,9.699999999999999,r-52
+195,South Asia,Nepal,National,90,94,.05,r-52
+195,South Asia,Nepal,National,75,79,1.15,r-52
+195,South Asia,Nepal,National,30,34,6.8,r-52
+195,South Asia,Nepal,National,45,49,4.89,r-52
+195,South Asia,Nepal,National,100,100,0,r-52
+195,South Asia,Nepal,National,10,14,10.4,r-52
+195,South Asia,Nepal,National,65,69,2.26,r-52
+195,South Asia,Nepal,National,85,89,.19,r-52
+195,South Asia,Nepal,National,25,29,8.77,r-52
+195,South Asia,Nepal,National,80,84,.51,r-52
+195,South Asia,Nepal,National,70,74,1.62,r-52
+195,South Asia,Nepal,National,55,59,3.5,r-52
+195,South Asia,Nepal,National,0,4,9.460000000000001,r-52
+195,South Asia,Nepal,National,50,54,4.26,r-52
+195,South Asia,Nepal,National,95,99,.01,r-52
+195,South Asia,Nepal,National,20,24,11.04,r-52
+195,South Asia,Nepal,National,15,19,11.29,r-52
+195,South Asia,Nepal,National,35,39,5.88,r-52
+195,South Asia,Nepal,National,40,44,5.45,r-52
+122,Africa,Ethiopia,Addis Ababa,10,14,7.06,r-56
+122,Africa,Ethiopia,Addis Ababa,15,19,8.619999999999999,r-56
+122,Africa,Ethiopia,Addis Ababa,0,4,10.49,r-56
+122,Africa,Ethiopia,Addis Ababa,50,54,3.22,r-56
+122,Africa,Ethiopia,Addis Ababa,35,39,7.58,r-56
+122,Africa,Ethiopia,Addis Ababa,5,9,6.5,r-56
+122,Africa,Ethiopia,Addis Ababa,25,29,13.68,r-56
+122,Africa,Ethiopia,Addis Ababa,65,69,1.37,r-56
+122,Africa,Ethiopia,Addis Ababa,20,24,13.26,r-56
+122,Africa,Ethiopia,Addis Ababa,80,100,.36,r-56
+122,Africa,Ethiopia,Addis Ababa,30,34,12.2,r-56
+122,Africa,Ethiopia,Addis Ababa,60,64,1.67,r-56
+122,Africa,Ethiopia,Addis Ababa,45,49,3.83,r-56
+122,Africa,Ethiopia,Addis Ababa,75,79,.63,r-56
+122,Africa,Ethiopia,Addis Ababa,40,44,6.09,r-56
+122,Africa,Ethiopia,Addis Ababa,70,74,.93,r-56
+122,Africa,Ethiopia,Addis Ababa,55,59,2.51,r-56
+196,Middle East,Iran,National,70,74,1.64,r-53
+196,Middle East,Iran,National,5,9,8.19,r-53
+196,Middle East,Iran,National,55,59,4.29,r-53
+196,Middle East,Iran,National,90,94,.07,r-53
+196,Middle East,Iran,National,50,54,5.39,r-53
+196,Middle East,Iran,National,10,14,7.31,r-53
+196,Middle East,Iran,National,100,100,0,r-53
+196,Middle East,Iran,National,80,84,.68,r-53
+196,Middle East,Iran,National,15,19,6.59,r-53
+196,Middle East,Iran,National,25,29,8.630000000000001,r-53
+196,Middle East,Iran,National,45,49,6.06,r-53
+196,Middle East,Iran,National,65,69,2.55,r-53
+196,Middle East,Iran,National,30,34,10.39,r-53
+196,Middle East,Iran,National,35,39,9.66,r-53
+196,Middle East,Iran,National,40,44,7.43,r-53
+196,Middle East,Iran,National,95,99,.01,r-53
+196,Middle East,Iran,National,85,89,.34,r-53
+196,Middle East,Iran,National,20,24,6.91,r-53
+196,Middle East,Iran,National,0,4,9.15,r-53
+196,Middle East,Iran,National,75,79,1.06,r-53
+196,Middle East,Iran,National,60,64,3.63,r-53
+200,Latin America,Mexico,National,10,14,8.75,r-62
+200,Latin America,Mexico,National,65,69,2.69,r-62
+200,Latin America,Mexico,National,80,84,.8100000000000001,r-62
+200,Latin America,Mexico,National,15,19,8.779999999999999,r-62
+200,Latin America,Mexico,National,40,44,6.64,r-62
+200,Latin America,Mexico,National,50,54,5.29,r-62
+200,Latin America,Mexico,National,0,4,8.65,r-62
+200,Latin America,Mexico,National,70,74,1.85,r-62
+200,Latin America,Mexico,National,60,64,3.54,r-62
+200,Latin America,Mexico,National,20,24,8.58,r-62
+200,Latin America,Mexico,National,95,100,.08,r-62
+200,Latin America,Mexico,National,75,79,1.3,r-62
+200,Latin America,Mexico,National,5,9,8.779999999999999,r-62
+200,Latin America,Mexico,National,30,34,7.56,r-62
+200,Latin America,Mexico,National,35,39,7.05,r-62
+200,Latin America,Mexico,National,85,89,.47,r-62
+200,Latin America,Mexico,National,45,49,6.17,r-62
+200,Latin America,Mexico,National,90,94,.21,r-62
+200,Latin America,Mexico,National,55,59,4.43,r-62
+200,Latin America,Mexico,National,25,29,8.369999999999999,r-62
+115,South Asia ,India,Odisha (Bhubaneswar),70,100,3.754620043,g-14
+115,South Asia ,India,Odisha (Bhubaneswar),18,29,23.4405908,g-14
+115,South Asia ,India,Odisha (Bhubaneswar),0,17,30.00047225,g-14
+115,South Asia ,India,Odisha (Bhubaneswar),30,39,16.34114003,g-14
+115,South Asia ,India,Odisha (Bhubaneswar),40,49,12.76673284,g-14
+115,South Asia ,India,Odisha (Bhubaneswar),50,59,8.324809050000001,g-14
+115,South Asia ,India,Odisha (Bhubaneswar),60,69,5.371634987,g-14
+1150,South Asia ,India,Odisha (Berhampur),30,39,14.50101287,g-14
+1150,South Asia ,India,Odisha (Berhampur),40,49,11.78362913,g-14
+1150,South Asia ,India,Odisha (Berhampur),50,59,7.753570894,g-14
+1150,South Asia ,India,Odisha (Berhampur),18,29,21.33597026,g-14
+1150,South Asia ,India,Odisha (Berhampur),70,100,3.839849334,g-14
+1150,South Asia ,India,Odisha (Berhampur),60,69,5.837156508,g-14
+1150,South Asia ,India,Odisha (Berhampur),0,17,34.94881101,g-14
+206,Africa,South Africa,Mitchell's Plain,70,74,1.3,a-02
+206,Africa,South Africa,Mitchell's Plain,85,100,.2,a-02
+206,Africa,South Africa,Mitchell's Plain,50,54,4.6,a-02
+206,Africa,South Africa,Mitchell's Plain,10,14,8.5,a-02
+206,Africa,South Africa,Mitchell's Plain,75,79,.6,a-02
+206,Africa,South Africa,Mitchell's Plain,15,19,7.1,a-02
+206,Africa,South Africa,Mitchell's Plain,35,39,9.300000000000001,a-02
+206,Africa,South Africa,Mitchell's Plain,20,24,7.7,a-02
+206,Africa,South Africa,Mitchell's Plain,55,59,4.8,a-02
+206,Africa,South Africa,Mitchell's Plain,25,29,9.699999999999999,a-02
+206,Africa,South Africa,Mitchell's Plain,5,9,9.4,a-02
+206,Africa,South Africa,Mitchell's Plain,60,64,3.6,a-02
+206,Africa,South Africa,Mitchell's Plain,65,69,2.1,a-02
+206,Africa,South Africa,Mitchell's Plain,40,44,5.9,a-02
+206,Africa,South Africa,Mitchell's Plain,45,49,4.7,a-02
+206,Africa,South Africa,Mitchell's Plain,80,84,.2,a-02
+206,Africa,South Africa,Mitchell's Plain,0,4,9.1,a-02
+206,Africa,South Africa,Mitchell's Plain,30,34,11.3,a-02
+223,Africa,Ethiopia,Dire Dawa,50,54,2.681433984,a-12
+223,Africa,Ethiopia,Dire Dawa,15,19,11.30865637,a-12
+223,Africa,Ethiopia,Dire Dawa,30,34,7.694549694,a-12
+223,Africa,Ethiopia,Dire Dawa,45,49,3.614106674,a-12
+223,Africa,Ethiopia,Dire Dawa,5,9,12.32876712,a-12
+223,Africa,Ethiopia,Dire Dawa,60,64,1.573885165,a-12
+223,Africa,Ethiopia,Dire Dawa,40,44,4.721655494,a-12
+223,Africa,Ethiopia,Dire Dawa,70,74,.845234625,a-12
+223,Africa,Ethiopia,Dire Dawa,75,79,.524628388,a-12
+223,Africa,Ethiopia,Dire Dawa,55,59,2.069367531,a-12
+223,Africa,Ethiopia,Dire Dawa,20,24,10.55085981,a-12
+223,Africa,Ethiopia,Dire Dawa,25,29,9.268434858999999,a-12
+223,Africa,Ethiopia,Dire Dawa,65,69,1.194986884,a-12
+223,Africa,Ethiopia,Dire Dawa,35,39,6.266394637,a-12
+223,Africa,Ethiopia,Dire Dawa,0,4,12.5619353,a-12
+223,Africa,Ethiopia,Dire Dawa,80,100,.786942582,a-12
+223,Africa,Ethiopia,Dire Dawa,10,14,12.00816089,a-12
+224,Africa,Zambia,Ndola + 5 Other Districts,75,79,.3,a-13
+224,Africa,Zambia,Ndola + 5 Other Districts,30,34,7.5,a-13
+224,Africa,Zambia,Ndola + 5 Other Districts,20,24,9.699999999999999,a-13
+224,Africa,Zambia,Ndola + 5 Other Districts,0,4,16.3,a-13
+224,Africa,Zambia,Ndola + 5 Other Districts,60,64,1.1,a-13
+224,Africa,Zambia,Ndola + 5 Other Districts,5,9,13.6,a-13
+224,Africa,Zambia,Ndola + 5 Other Districts,25,29,9,a-13
+224,Africa,Zambia,Ndola + 5 Other Districts,80,100,.4,a-13
+224,Africa,Zambia,Ndola + 5 Other Districts,65,69,.7,a-13
+224,Africa,Zambia,Ndola + 5 Other Districts,50,54,2.2,a-13
+224,Africa,Zambia,Ndola + 5 Other Districts,15,19,10.5,a-13
+224,Africa,Zambia,Ndola + 5 Other Districts,10,14,11.7,a-13
+224,Africa,Zambia,Ndola + 5 Other Districts,45,49,3.6,a-13
+224,Africa,Zambia,Ndola + 5 Other Districts,70,74,.5,a-13
+224,Africa,Zambia,Ndola + 5 Other Districts,35,39,6.4,a-13
+224,Africa,Zambia,Ndola + 5 Other Districts,40,44,4.8,a-13
+224,Africa,Zambia,Ndola + 5 Other Districts,55,59,1.6,a-13
+208,Europe,Russia,St. Petersburg,50,54,8,a-04
+208,Europe,Russia,St. Petersburg,65,69,3.1,a-04
+208,Europe,Russia,St. Petersburg,0,4,4.1,a-04
+208,Europe,Russia,St. Petersburg,25,29,8.699999999999999,a-04
+208,Europe,Russia,St. Petersburg,35,39,7.4,a-04
+208,Europe,Russia,St. Petersburg,55,59,7.1,a-04
+208,Europe,Russia,St. Petersburg,10,14,3.4,a-04
+208,Europe,Russia,St. Petersburg,15,19,5.2,a-04
+208,Europe,Russia,St. Petersburg,60,64,6.6,a-04
+208,Europe,Russia,St. Petersburg,40,44,6.7,a-04
+208,Europe,Russia,St. Petersburg,70,100,11.7,a-04
+208,Europe,Russia,St. Petersburg,45,49,7.6,a-04
+208,Europe,Russia,St. Petersburg,5,9,3.8,a-04
+208,Europe,Russia,St. Petersburg,20,24,8.800000000000001,a-04
+208,Europe,Russia,St. Petersburg,30,34,8,a-04
+199,East Asia,China,Wuhan,70,79,4,r-61
+199,East Asia,China,Wuhan,80,100,1.35,r-61
+199,East Asia,China,Wuhan,30,39,15.19,r-61
+199,East Asia,China,Wuhan,40,49,17.05,r-61
+199,East Asia,China,Wuhan,0,9,6.7,r-61
+199,East Asia,China,Wuhan,10,19,12.19,r-61
+199,East Asia,China,Wuhan,50,59,12.89,r-61
+199,East Asia,China,Wuhan,20,29,23.29,r-61
+199,East Asia,China,Wuhan,60,69,7.34,r-61
+207,East Asia,China,Hubei Province (excluding Wuhan #1),70,79,4.32,a-03
+207,East Asia,China,Hubei Province (excluding Wuhan #1),0,9,9.51,a-03
+207,East Asia,China,Hubei Province (excluding Wuhan #1),50,59,12.91,a-03
+207,East Asia,China,Hubei Province (excluding Wuhan #1),60,69,8.199999999999999,a-03
+207,East Asia,China,Hubei Province (excluding Wuhan #1),40,49,18.74,a-03
+207,East Asia,China,Hubei Province (excluding Wuhan #1),80,100,1.4,a-03
+207,East Asia,China,Hubei Province (excluding Wuhan #1),20,29,16.78,a-03
+207,East Asia,China,Hubei Province (excluding Wuhan #1),30,39,15.33,a-03
+207,East Asia,China,Hubei Province (excluding Wuhan #1),10,19,12.81,a-03
+210,South Asia,Pakistan,Karachi,15,64,58.1,a-07
+210,South Asia,Pakistan,Karachi,65,100,2.6,a-07
+210,South Asia,Pakistan,Karachi,0,14,39.3,a-07
+211,South Asia,Pakistan,Lahore,0,14,40.1,a-08
+211,South Asia,Pakistan,Lahore,15,64,56.6,a-08
+211,South Asia,Pakistan,Lahore,65,100,3.3,a-08
+114,South Asia ,India,Mumbai (3 wards),12,24,19.5,g-54
+114,South Asia ,India,Mumbai (3 wards),61,100,9,g-54
+114,South Asia ,India,Mumbai (3 wards),25,39,23.6,g-54
+114,South Asia ,India,Mumbai (3 wards),40,60,25.4,g-54
+114,South Asia ,India,Mumbai (3 wards),0,11,22.5,g-54
+228,Europe,Poland,Katowice region (Gliwice + Katowice + Sosnowiec),70,79,9.52,a-22
+228,Europe,Poland,Katowice region (Gliwice + Katowice + Sosnowiec),0,9,8.77,a-22
+228,Europe,Poland,Katowice region (Gliwice + Katowice + Sosnowiec),50,59,12.35,a-22
+228,Europe,Poland,Katowice region (Gliwice + Katowice + Sosnowiec),20,29,9.630000000000001,a-22
+228,Europe,Poland,Katowice region (Gliwice + Katowice + Sosnowiec),10,19,8.15,a-22
+228,Europe,Poland,Katowice region (Gliwice + Katowice + Sosnowiec),30,39,15.61,a-22
+228,Europe,Poland,Katowice region (Gliwice + Katowice + Sosnowiec),40,49,14.92,a-22
+228,Europe,Poland,Katowice region (Gliwice + Katowice + Sosnowiec),80,100,5.45,a-22
+228,Europe,Poland,Katowice region (Gliwice + Katowice + Sosnowiec),60,69,15.61,a-22
+225,Latin America,Colombia,Cordoba: 8 cities,40,49,12.1,a-14
+225,Latin America,Colombia,Cordoba: 8 cities,30,39,14.3,a-14
+225,Latin America,Colombia,Cordoba: 8 cities,20,29,16.3,a-14
+225,Latin America,Colombia,Cordoba: 8 cities,90,100,.5,a-14
+225,Latin America,Colombia,Cordoba: 8 cities,50,59,10.3,a-14
+225,Latin America,Colombia,Cordoba: 8 cities,80,89,1.5,a-14
+225,Latin America,Colombia,Cordoba: 8 cities,0,9,17.4,a-14
+225,Latin America,Colombia,Cordoba: 8 cities,60,69,6.9,a-14
+225,Latin America,Colombia,Cordoba: 8 cities,10,19,17,a-14
+225,Latin America,Colombia,Cordoba: 8 cities,70,79,3.7,a-14
+226,Middle East,Jordan,National Study,65,69,1.46,n-2003
+226,Middle East,Jordan,National Study,25,29,8.449999999999999,n-2003
+226,Middle East,Jordan,National Study,50,54,4.25,n-2003
+226,Middle East,Jordan,National Study,40,44,5.95,n-2003
+226,Middle East,Jordan,National Study,75,79,.78,n-2003
+226,Middle East,Jordan,National Study,20,24,9.210000000000001,n-2003
+226,Middle East,Jordan,National Study,0,4,10.37,n-2003
+226,Middle East,Jordan,National Study,70,74,1.09,n-2003
+226,Middle East,Jordan,National Study,55,59,3.16,n-2003
+226,Middle East,Jordan,National Study,85,89,.16,n-2003
+226,Middle East,Jordan,National Study,10,14,11.17,n-2003
+226,Middle East,Jordan,National Study,30,34,7.62,n-2003
+226,Middle East,Jordan,National Study,15,19,10.2,n-2003
+226,Middle East,Jordan,National Study,80,84,.42,n-2003
+226,Middle East,Jordan,National Study,90,94,.04,n-2003
+226,Middle East,Jordan,National Study,95,100,0,n-2003
+226,Middle East,Jordan,National Study,5,9,11.31,n-2003
+226,Middle East,Jordan,National Study,60,64,2.13,n-2003
+226,Middle East,Jordan,National Study,35,39,6.99,n-2003
+226,Middle East,Jordan,National Study,45,49,5.24,n-2003
+205,Europe,Hungary,National Study,80,84,2.42,n-2001
+205,Europe,Hungary,National Study,5,9,4.7,n-2001
+205,Europe,Hungary,National Study,35,39,6.96,n-2001
+205,Europe,Hungary,National Study,95,100,.17,n-2001
+205,Europe,Hungary,National Study,90,94,.48,n-2001
+205,Europe,Hungary,National Study,25,29,6.59,n-2001
+205,Europe,Hungary,National Study,40,44,8.529999999999999,n-2001
+205,Europe,Hungary,National Study,45,49,7.78,n-2001
+205,Europe,Hungary,National Study,30,34,6.29,n-2001
+205,Europe,Hungary,National Study,0,4,4.72,n-2001
+205,Europe,Hungary,National Study,60,64,6.86,n-2001
+205,Europe,Hungary,National Study,70,74,4.74,n-2001
+205,Europe,Hungary,National Study,15,19,5.03,n-2001
+205,Europe,Hungary,National Study,10,14,5.02,n-2001
+205,Europe,Hungary,National Study,20,24,5.55,n-2001
+205,Europe,Hungary,National Study,85,89,1.35,n-2001
+205,Europe,Hungary,National Study,75,79,3.75,n-2001
+205,Europe,Hungary,National Study,50,54,6.46,n-2001
+205,Europe,Hungary,National Study,65,69,6.8,n-2001
+205,Europe,Hungary,National Study,55,59,5.82,n-2001
+120,South Asia ,India,Tamil Nadu,0,4,7.32,g-13
+120,South Asia ,India,Tamil Nadu,5,9,7.69,g-13
+120,South Asia ,India,Tamil Nadu,50,54,5.13,g-13
+120,South Asia ,India,Tamil Nadu,40,44,7.02,g-13
+120,South Asia ,India,Tamil Nadu,45,49,6.53,g-13
+120,South Asia ,India,Tamil Nadu,55,59,4.3,g-13
+120,South Asia ,India,Tamil Nadu,65,69,2.59,g-13
+120,South Asia ,India,Tamil Nadu,25,29,9.24,g-13
+120,South Asia ,India,Tamil Nadu,70,100,4.05,g-13
+120,South Asia ,India,Tamil Nadu,35,39,8.09,g-13
+120,South Asia ,India,Tamil Nadu,20,24,8.890000000000001,g-13
+120,South Asia ,India,Tamil Nadu,15,19,8.67,g-13
+120,South Asia ,India,Tamil Nadu,60,64,3.86,g-13
+120,South Asia ,India,Tamil Nadu,30,34,8.06,g-13
+120,South Asia ,India,Tamil Nadu,10,14,8.56,g-13
+229,South Asia ,India,Malegaon (city population),55,59,3.09,a-19
+229,South Asia ,India,Malegaon (city population),25,29,9.17,a-19
+229,South Asia ,India,Malegaon (city population),30,34,7.78,a-19
+229,South Asia ,India,Malegaon (city population),20,24,10.04,a-19
+229,South Asia ,India,Malegaon (city population),0,4,9.6,a-19
+229,South Asia ,India,Malegaon (city population),15,19,9.75,a-19
+229,South Asia ,India,Malegaon (city population),80,84,.43,a-19
+229,South Asia ,India,Malegaon (city population),5,9,9.800000000000001,a-19
+229,South Asia ,India,Malegaon (city population),60,64,2.83,a-19
+229,South Asia ,India,Malegaon (city population),35,39,6.98,a-19
+229,South Asia ,India,Malegaon (city population),65,69,2.43,a-19
+229,South Asia ,India,Malegaon (city population),40,44,5.96,a-19
+229,South Asia ,India,Malegaon (city population),10,14,10.37,a-19
+229,South Asia ,India,Malegaon (city population),50,54,4.02,a-19
+229,South Asia ,India,Malegaon (city population),70,74,1.61,a-19
+229,South Asia ,India,Malegaon (city population),45,49,4.99,a-19
+229,South Asia ,India,Malegaon (city population),75,79,.79,a-19
+229,South Asia ,India,Malegaon (city population),85,100,.35,a-19
+234,Latin America,Brazil,Cuiaba,0,9,14.69,n-2009
+234,Latin America,Brazil,Cuiaba,30,39,17.09,n-2009
+234,Latin America,Brazil,Cuiaba,20,29,20.12,n-2009
+234,Latin America,Brazil,Cuiaba,80,100,.92,n-2009
+234,Latin America,Brazil,Cuiaba,50,59,9.44,n-2009
+234,Latin America,Brazil,Cuiaba,40,49,13.38,n-2009
+234,Latin America,Brazil,Cuiaba,60,69,4.92,n-2009
+234,Latin America,Brazil,Cuiaba,70,79,2.3,n-2009
+234,Latin America,Brazil,Cuiaba,10,19,17.15,n-2009
+241,Latin America,Brazil,Varzea Grande,70,79,2,n-2016
+241,Latin America,Brazil,Varzea Grande,10,19,18.44,n-2016
+241,Latin America,Brazil,Varzea Grande,20,29,19.68,n-2016
+241,Latin America,Brazil,Varzea Grande,0,9,16.48,n-2016
+241,Latin America,Brazil,Varzea Grande,30,39,17.31,n-2016
+241,Latin America,Brazil,Varzea Grande,60,69,4.36,n-2016
+241,Latin America,Brazil,Varzea Grande,80,100,.78,n-2016
+241,Latin America,Brazil,Varzea Grande,40,49,12.77,n-2016
+241,Latin America,Brazil,Varzea Grande,50,59,8.19,n-2016
+244,Latin America,Brazil,Pitangueiras,20,29,19.39,n-2019
+244,Latin America,Brazil,Pitangueiras,40,49,12.97,n-2019
+244,Latin America,Brazil,Pitangueiras,60,69,5.38,n-2019
+244,Latin America,Brazil,Pitangueiras,70,79,3.17,n-2019
+244,Latin America,Brazil,Pitangueiras,50,59,8.380000000000001,n-2019
+244,Latin America,Brazil,Pitangueiras,10,19,18.19,n-2019
+244,Latin America,Brazil,Pitangueiras,0,9,15.78,n-2019
+244,Latin America,Brazil,Pitangueiras,80,100,1.31,n-2019
+244,Latin America,Brazil,Pitangueiras,30,39,15.44,n-2019
+246,Latin America,Brazil,Mato Grosso (8 cities),40,49,13.4,a-23
+246,Latin America,Brazil,Mato Grosso (8 cities),30,39,16.7,a-23
+246,Latin America,Brazil,Mato Grosso (8 cities),80,100,.88,a-23
+246,Latin America,Brazil,Mato Grosso (8 cities),50,59,8.640000000000001,a-23
+246,Latin America,Brazil,Mato Grosso (8 cities),10,19,18.57,a-23
+246,Latin America,Brazil,Mato Grosso (8 cities),0,9,15.98,a-23
+246,Latin America,Brazil,Mato Grosso (8 cities),70,79,2.36,a-23
+246,Latin America,Brazil,Mato Grosso (8 cities),60,69,4.72,a-23
+246,Latin America,Brazil,Mato Grosso (8 cities),20,29,18.75,a-23
+247,Latin America,Paraguay,Asuncion + Central Dept.,20,29,17.25,a-24
+247,Latin America,Paraguay,Asuncion + Central Dept.,0,9,17.82,a-24
+247,Latin America,Paraguay,Asuncion + Central Dept.,30,39,15.69,a-24
+247,Latin America,Paraguay,Asuncion + Central Dept.,70,79,2.98,a-24
+247,Latin America,Paraguay,Asuncion + Central Dept.,80,100,1.41,a-24
+247,Latin America,Paraguay,Asuncion + Central Dept.,40,49,12.26,a-24
+247,Latin America,Paraguay,Asuncion + Central Dept.,10,19,17.69,a-24
+247,Latin America,Paraguay,Asuncion + Central Dept.,50,59,8.880000000000001,a-24
+247,Latin America,Paraguay,Asuncion + Central Dept.,60,69,6,a-24

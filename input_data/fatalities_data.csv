@@ -1,0 +1,291 @@
+location_id,global_region,country,location_label,lower_age,upper_age,deaths,fatalities_citation_id
+5,Latin America,Brazil,Maranhao,0,100,3434,n-1070
+5,Latin America,Brazil,Maranhao,0,9,17,n-1070
+5,Latin America,Brazil,Maranhao,10,19,16,n-1070
+5,Latin America,Brazil,Maranhao,20,29,35,n-1070
+5,Latin America,Brazil,Maranhao,30,39,109,n-1070
+5,Latin America,Brazil,Maranhao,40,49,199,n-1070
+5,Latin America,Brazil,Maranhao,50,59,367,n-1070
+5,Latin America,Brazil,Maranhao,60,69,782,n-1070
+5,Latin America,Brazil,Maranhao,70,100,1909,n-1070
+11,South Asia ,India,Delhi,0,100,4462,"g-2 , g-1000 , n-21"
+12,South Asia ,India,Karnataka,0,100,2335,a-313
+12,South Asia ,India,Karnataka,0,9,4,a-313
+12,South Asia ,India,Karnataka,10,19,9,a-313
+12,South Asia ,India,Karnataka,20,29,38,a-313
+12,South Asia ,India,Karnataka,30,39,134,a-313
+12,South Asia ,India,Karnataka,40,49,296,a-313
+12,South Asia ,India,Karnataka,50,59,593,a-313
+12,South Asia ,India,Karnataka,60,69,648,a-313
+12,South Asia ,India,Karnataka,70,79,424,a-313
+12,South Asia ,India,Karnataka,80,100,189,a-313
+13,South Asia ,India,Pimpri-Chinchwad,0,100,2181,n-23
+16,South Asia ,India,Puducherry,0,100,468,n-30
+18,South Asia ,India,West Bengal (only Paschim Medinipur),0,100,40,n-41
+19,South Asia ,India,Chennai,0,100,2273,ss-32
+19,South Asia ,India,Chennai,0,18,5,ss-32
+19,South Asia ,India,Chennai,19,24,8,ss-32
+19,South Asia ,India,Chennai,25,29,22,ss-32
+19,South Asia ,India,Chennai,30,34,31,ss-32
+19,South Asia ,India,Chennai,35,39,55,ss-32
+19,South Asia ,India,Chennai,40,44,86,ss-32
+19,South Asia ,India,Chennai,45,49,118,ss-32
+19,South Asia ,India,Chennai,50,54,187,ss-32
+19,South Asia ,India,Chennai,55,59,260,ss-32
+19,South Asia ,India,Chennai,60,64,300,ss-32
+19,South Asia ,India,Chennai,65,69,328,ss-32
+19,South Asia ,India,Chennai,70,74,329,ss-32
+19,South Asia ,India,Chennai,75,79,226,ss-32
+19,South Asia ,India,Chennai,80,84,183,ss-32
+19,South Asia ,India,Chennai,85,100,135,ss-32
+24,Africa,Mozambique,Maputo city,0,100,15,s-2
+36,Africa,Kenya,Nairobi County,0,100,760,"n-33, sp-6"
+36,Africa,Kenya,Nairobi County,0,4,18,n-33
+36,Africa,Kenya,Nairobi County,5,9,1,n-33
+36,Africa,Kenya,Nairobi County,10,19,6,n-33
+36,Africa,Kenya,Nairobi County,20,39,163,n-33
+36,Africa,Kenya,Nairobi County,40,59,278,n-33
+36,Africa,Kenya,Nairobi County,60,100,294,n-33
+38,Latin America,Argentina,Buenos Aires City,0,100,4922,a-301
+38,Latin America,Argentina,Buenos Aires City,0,17,4,a-301
+38,Latin America,Argentina,Buenos Aires City,18,39,82,a-301
+38,Latin America,Argentina,Buenos Aires City,40,59,483,a-301
+38,Latin America,Argentina,Buenos Aires City,60,100,4353,a-301
+40,Latin America,Argentina,Municipality of Hurlingham,0,100,291,a-301
+40,Latin America,Argentina,Municipality of Hurlingham,0,17,0,a-301
+40,Latin America,Argentina,Municipality of Hurlingham,18,30,2,a-301
+40,Latin America,Argentina,Municipality of Hurlingham,31,40,1,a-301
+40,Latin America,Argentina,Municipality of Hurlingham,41,50,10,a-301
+40,Latin America,Argentina,Municipality of Hurlingham,51,60,26,a-301
+40,Latin America,Argentina,Municipality of Hurlingham,61,70,58,a-301
+40,Latin America,Argentina,Municipality of Hurlingham,71,80,82,a-301
+40,Latin America,Argentina,Municipality of Hurlingham,81,100,112,a-301
+42,Latin America,Bolivia,Santa Cruz,0,100,3968,n-1061
+44,Latin America,Colombia,Leticia,0,100,106,a-302
+44,Latin America,Colombia,Leticia,0,4,0,a-302
+44,Latin America,Colombia,Leticia,5,10,0,a-302
+44,Latin America,Colombia,Leticia,11,18,0,a-302
+44,Latin America,Colombia,Leticia,19,40,1,a-302
+44,Latin America,Colombia,Leticia,41,60,32,a-302
+44,Latin America,Colombia,Leticia,61,100,73,a-302
+45,Latin America,Colombia,Barranquilla,0,100,1687,a-302
+45,Latin America,Colombia,Barranquilla,0,4,1,a-302
+45,Latin America,Colombia,Barranquilla,5,10,0,a-302
+45,Latin America,Colombia,Barranquilla,11,18,0,a-302
+45,Latin America,Colombia,Barranquilla,19,40,102,a-302
+45,Latin America,Colombia,Barranquilla,41,60,383,a-302
+45,Latin America,Colombia,Barranquilla,61,100,1201,a-302
+46,Latin America,Colombia,Medellin,0,100,2209,a-302
+46,Latin America,Colombia,Medellin,0,4,0,a-302
+46,Latin America,Colombia,Medellin,5,10,1,a-302
+46,Latin America,Colombia,Medellin,11,18,1,a-302
+46,Latin America,Colombia,Medellin,19,40,71,a-302
+46,Latin America,Colombia,Medellin,41,60,304,a-302
+46,Latin America,Colombia,Medellin,61,100,1832,a-302
+48,Latin America,Colombia,Bucaramanga,0,100,683,a-302
+48,Latin America,Colombia,Bucaramanga,0,4,0,a-302
+48,Latin America,Colombia,Bucaramanga,5,10,0,a-302
+48,Latin America,Colombia,Bucaramanga,11,18,0,a-302
+48,Latin America,Colombia,Bucaramanga,19,40,20,a-302
+48,Latin America,Colombia,Bucaramanga,41,60,147,a-302
+48,Latin America,Colombia,Bucaramanga,61,100,516,a-302
+49,Latin America,Colombia,Cucuta,0,100,711,a-302
+49,Latin America,Colombia,Cucuta,0,4,0,a-302
+49,Latin America,Colombia,Cucuta,5,10,0,a-302
+49,Latin America,Colombia,Cucuta,11,18,0,a-302
+49,Latin America,Colombia,Cucuta,19,40,38,a-302
+49,Latin America,Colombia,Cucuta,41,60,196,a-302
+49,Latin America,Colombia,Cucuta,61,100,477,a-302
+50,Latin America,Colombia,Villavicencio,0,100,398,a-302
+50,Latin America,Colombia,Villavicencio,0,4,1,a-302
+50,Latin America,Colombia,Villavicencio,5,10,0,a-302
+50,Latin America,Colombia,Villavicencio,11,18,0,a-302
+50,Latin America,Colombia,Villavicencio,19,40,16,a-302
+50,Latin America,Colombia,Villavicencio,41,60,88,a-302
+50,Latin America,Colombia,Villavicencio,61,100,293,a-302
+51,Latin America,Colombia,Bogota,0,100,7928,a-302
+51,Latin America,Colombia,Bogota,0,4,7,a-302
+51,Latin America,Colombia,Bogota,5,10,4,a-302
+51,Latin America,Colombia,Bogota,11,18,6,a-302
+51,Latin America,Colombia,Bogota,19,40,319,a-302
+51,Latin America,Colombia,Bogota,41,60,1705,a-302
+51,Latin America,Colombia,Bogota,61,100,5887,a-302
+52,Latin America,Colombia,Cali,0,100,2437,a-302
+52,Latin America,Colombia,Cali,0,4,0,a-302
+52,Latin America,Colombia,Cali,5,10,2,a-302
+52,Latin America,Colombia,Cali,11,18,1,a-302
+52,Latin America,Colombia,Cali,19,40,75,a-302
+52,Latin America,Colombia,Cali,41,60,388,a-302
+52,Latin America,Colombia,Cali,61,100,1971,a-302
+54,Latin America,Colombia,Ipiales,0,100,118,a-302
+54,Latin America,Colombia,Ipiales,0,4,0,a-302
+54,Latin America,Colombia,Ipiales,5,10,0,a-302
+54,Latin America,Colombia,Ipiales,11,18,0,a-302
+54,Latin America,Colombia,Ipiales,19,40,9,a-302
+54,Latin America,Colombia,Ipiales,41,60,22,a-302
+54,Latin America,Colombia,Ipiales,61,100,87,a-302
+59,Latin America,Peru,Cusco Province,0,100,833,a-309
+59,Latin America,Peru,Cusco Province,0,11,0,a-309
+59,Latin America,Peru,Cusco Province,12,17,0,a-309
+59,Latin America,Peru,Cusco Province,18,29,5,a-309
+59,Latin America,Peru,Cusco Province,30,59,236,a-309
+59,Latin America,Peru,Cusco Province,60,100,592,a-309
+60,Latin America,Peru,Lambayeque,0,100,1855,a-309
+60,Latin America,Peru,Lambayeque,0,8,4,a-309
+60,Latin America,Peru,Lambayeque,9,20,5,a-309
+60,Latin America,Peru,Lambayeque,21,30,14,a-309
+60,Latin America,Peru,Lambayeque,31,40,57,a-309
+60,Latin America,Peru,Lambayeque,41,50,158,a-309
+60,Latin America,Peru,Lambayeque,51,60,347,a-309
+60,Latin America,Peru,Lambayeque,61,70,507,a-309
+60,Latin America,Peru,Lambayeque,71,80,428,a-309
+60,Latin America,Peru,Lambayeque,81,100,335,a-309
+63,Latin America,Peru,Lima (Metropolitana) + Callao,0,100,22914,a-309
+63,Latin America,Peru,Lima (Metropolitana) + Callao,0,11,55,a-309
+63,Latin America,Peru,Lima (Metropolitana) + Callao,12,17,15,a-309
+63,Latin America,Peru,Lima (Metropolitana) + Callao,18,29,213,a-309
+63,Latin America,Peru,Lima (Metropolitana) + Callao,30,59,6403,a-309
+63,Latin America,Peru,Lima (Metropolitana) + Callao,60,100,16228,a-309
+64,Latin America,Peru,"Iquitos, Loreto",0,100,580,a-309
+64,Latin America,Peru,"Iquitos, Loreto",0,11,1,a-309
+64,Latin America,Peru,"Iquitos, Loreto",12,17,0,a-309
+64,Latin America,Peru,"Iquitos, Loreto",18,29,1,a-309
+64,Latin America,Peru,"Iquitos, Loreto",30,59,173,a-309
+64,Latin America,Peru,"Iquitos, Loreto",60,100,405,a-309
+73,Latin America,Brazil,Sao Paulo City,0,100,19030,a-304
+73,Latin America,Brazil,Sao Paulo City,0,4,28,a-304
+73,Latin America,Brazil,Sao Paulo City,5,9,11,a-304
+73,Latin America,Brazil,Sao Paulo City,10,14,10,a-304
+73,Latin America,Brazil,Sao Paulo City,15,19,29,a-304
+73,Latin America,Brazil,Sao Paulo City,20,24,66,a-304
+73,Latin America,Brazil,Sao Paulo City,25,29,89,a-304
+73,Latin America,Brazil,Sao Paulo City,30,34,199,a-304
+73,Latin America,Brazil,Sao Paulo City,35,39,297,a-304
+73,Latin America,Brazil,Sao Paulo City,40,44,454,a-304
+73,Latin America,Brazil,Sao Paulo City,45,49,595,a-304
+73,Latin America,Brazil,Sao Paulo City,50,54,931,a-304
+73,Latin America,Brazil,Sao Paulo City,55,59,1294,a-304
+73,Latin America,Brazil,Sao Paulo City,60,64,1774,a-304
+73,Latin America,Brazil,Sao Paulo City,65,69,2184,a-304
+73,Latin America,Brazil,Sao Paulo City,70,74,2355,a-304
+73,Latin America,Brazil,Sao Paulo City,75,79,2267,a-304
+73,Latin America,Brazil,Sao Paulo City,80,84,2478,a-304
+73,Latin America,Brazil,Sao Paulo City,85,100,3969,a-304
+74,Latin America,Brazil,Foz do Iguacu,0,100,7,n-16
+77,South Asia,India,Kashmir: Srinagar district,0,100,396,n-1006
+78,South Asia,Nepal,National Study,0,100,1800,n-1001
+80,Africa,Ethiopia,Addis Ababa #2,0,100,122,s-1
+81,Middle East,Iran,National Study,0,100,29070,n-1000
+82,Latin America,Mexico,National Study,0,100,151910,a-202
+83,South Asia,India,Odisha: Bhubaneswar,0,100,18,n-1014
+84,South Asia,India,Odisha: Berhampur,0,100,56,n-1023
+90,Africa,South Africa,Mitchells Plain,0,100,861,"n-1041 , n-1042"
+98,Africa,Ethiopia,Diredawa,0,100,6,s-1
+102,Africa,Zambia,Ndola + 5 other districts,0,100,237,ss-1037
+120,Europe,Russia,St. Petersburg,0,100,2839,"n-1097 , n-1098"
+121,East Asia,China,Wuhan #1,0,100,3869,n-1075
+121,East Asia,China,Wuhan #1,0,19,4,n-1076
+121,East Asia,China,Wuhan #1,20,39,93,n-1076
+121,East Asia,China,Wuhan #1,40,59,635,n-1076
+121,East Asia,China,Wuhan #1,60,100,3134,n-1076
+123,East  Asia,China,Hubei province (excluding Wuhan #1),0,100,643,n-1075
+125,Middle East,Pakistan,Karachi,0,100,1943,n-1051
+126,Middle East,Pakistan,Lahore,0,100,842,n-1051
+140,South Asia ,India,Mumbai (3 wards),0,100,661,a-201
+144,Europe,Poland,Katowice region (Gliwice + Katowice + Sosnowiec),0,100,191,"a-307, a-308, n-1058, n-1065"
+148,Latin America,Colombia,Cordoba: 8 cities,0,100,1180,a-302
+148,Latin America,Colombia,Cordoba: 8 cities,0,9,0,a-302
+148,Latin America,Colombia,Cordoba: 8 cities,10,19,2,a-302
+148,Latin America,Colombia,Cordoba: 8 cities,20,29,16,a-302
+148,Latin America,Colombia,Cordoba: 8 cities,30,34,15,a-302
+148,Latin America,Colombia,Cordoba: 8 cities,35,39,23,a-302
+148,Latin America,Colombia,Cordoba: 8 cities,40,44,42,a-302
+148,Latin America,Colombia,Cordoba: 8 cities,45,49,42,a-302
+148,Latin America,Colombia,Cordoba: 8 cities,50,54,64,a-302
+148,Latin America,Colombia,Cordoba: 8 cities,55,59,89,a-302
+148,Latin America,Colombia,Cordoba: 8 cities,60,64,109,a-302
+148,Latin America,Colombia,Cordoba: 8 cities,65,69,150,a-302
+148,Latin America,Colombia,Cordoba: 8 cities,70,74,149,a-302
+148,Latin America,Colombia,Cordoba: 8 cities,75,79,129,a-302
+148,Latin America,Colombia,Cordoba: 8 cities,80,84,160,a-302
+148,Latin America,Colombia,Cordoba: 8 cities,85,100,190,a-302
+156,Middle East,Jordan,National Study,0,100,4269,n-1077
+156,Middle East,Jordan,National Study,0,4,4,a-305
+156,Middle East,Jordan,National Study,5,14,6,a-305
+156,Middle East,Jordan,National Study,15,24,22,a-305
+156,Middle East,Jordan,National Study,25,34,42,a-305
+156,Middle East,Jordan,National Study,35,44,131,a-305
+156,Middle East,Jordan,National Study,45,54,404,a-305
+156,Middle East,Jordan,National Study,55,64,859,a-305
+156,Middle East,Jordan,National Study,65,74,1166,a-305
+156,Middle East,Jordan,National Study,75,84,1185,a-305
+156,Middle East,Jordan,National Study,85,100,383,a-305
+192,Europe,Hungary,National Study,0,100,539,n-1044
+192,Europe,Hungary,National Study,0,14,0,n-1045
+192,Europe,Hungary,National Study,15,39,4,n-1045
+192,Europe,Hungary,National Study,40,64,56,n-1045
+192,Europe,Hungary,National Study,65,100,482,n-1045
+201,South Asia,India,Tamil Nadu (iFlash districts),0,100,2546,"ss-32 , a-306"
+201,South Asia,India,Tamil Nadu (iFlash districts),0,18,14,"ss-32 , a-306"
+201,South Asia,India,Tamil Nadu (iFlash districts),19,24,8,"ss-32 , a-306"
+201,South Asia,India,Tamil Nadu (iFlash districts),25,29,20,"ss-32 , a-306"
+201,South Asia,India,Tamil Nadu (iFlash districts),30,34,34,"ss-32 , a-306"
+201,South Asia,India,Tamil Nadu (iFlash districts),35,39,36,"ss-32 , a-306"
+201,South Asia,India,Tamil Nadu (iFlash districts),40,44,84,"ss-32 , a-306"
+201,South Asia,India,Tamil Nadu (iFlash districts),45,49,119,"ss-32 , a-306"
+201,South Asia,India,Tamil Nadu (iFlash districts),50,54,268,"ss-32 , a-306"
+201,South Asia,India,Tamil Nadu (iFlash districts),55,59,343,"ss-32 , a-306"
+201,South Asia,India,Tamil Nadu (iFlash districts),60,64,364,"ss-32 , a-306"
+201,South Asia,India,Tamil Nadu (iFlash districts),65,69,411,"ss-32 , a-306"
+201,South Asia,India,Tamil Nadu (iFlash districts),70,74,395,"ss-32 , a-306"
+201,South Asia,India,Tamil Nadu (iFlash districts),75,79,223,"ss-32 , a-306"
+201,South Asia,India,Tamil Nadu (iFlash districts),80,84,154,"ss-32 , a-306"
+201,South Asia,India,Tamil Nadu (iFlash districts),85,100,73,"ss-32 , a-306"
+202,South Asia,India,Tamil Nadu (Vitros districts),0,100,5272,"ss-32 , a-306"
+202,South Asia,India,Tamil Nadu (Vitros districts),0,18,11,"ss-32 , a-306"
+202,South Asia,India,Tamil Nadu (Vitros districts),19,24,18,"ss-32 , a-306"
+202,South Asia,India,Tamil Nadu (Vitros districts),25,29,40,"ss-32 , a-306"
+202,South Asia,India,Tamil Nadu (Vitros districts),30,34,63,"ss-32 , a-306"
+202,South Asia,India,Tamil Nadu (Vitros districts),35,39,117,"ss-32 , a-306"
+202,South Asia,India,Tamil Nadu (Vitros districts),40,44,176,"ss-32 , a-306"
+202,South Asia,India,Tamil Nadu (Vitros districts),45,49,302,"ss-32 , a-306"
+202,South Asia,India,Tamil Nadu (Vitros districts),50,54,503,"ss-32 , a-306"
+202,South Asia,India,Tamil Nadu (Vitros districts),55,59,617,"ss-32 , a-306"
+202,South Asia,India,Tamil Nadu (Vitros districts),60,64,785,"ss-32 , a-306"
+202,South Asia,India,Tamil Nadu (Vitros districts),65,69,831,"ss-32 , a-306"
+202,South Asia,India,Tamil Nadu (Vitros districts),70,74,771,"ss-32 , a-306"
+202,South Asia,India,Tamil Nadu (Vitros districts),75,79,504,"ss-32 , a-306"
+202,South Asia,India,Tamil Nadu (Vitros districts),80,84,332,"ss-32 , a-306"
+202,South Asia,India,Tamil Nadu (Vitros districts),85,100,202,"ss-32 , a-306"
+203,South Asia ,India,Malegaon (city population),0,100,110,n-1078; pop a-20
+209,Latin America,Brazil,Cuiaba,0,100,1032,n-1082
+209,Latin America,Brazil,Cuiaba,0,9,4,n-1082
+209,Latin America,Brazil,Cuiaba,10,19,3,n-1082
+209,Latin America,Brazil,Cuiaba,20,29,11,n-1082
+209,Latin America,Brazil,Cuiaba,30,39,44,n-1082
+209,Latin America,Brazil,Cuiaba,40,49,93,n-1082
+209,Latin America,Brazil,Cuiaba,50,59,169,n-1082
+209,Latin America,Brazil,Cuiaba,60,69,269,n-1082
+209,Latin America,Brazil,Cuiaba,70,79,262,n-1082
+209,Latin America,Brazil,Cuiaba,80,100,168,n-1082
+216,Latin America,Brazil,Varzea Grande,0,100,491,"a-310, a-311"
+216,Latin America,Brazil,Varzea Grande,0,9,2,"a-310, a-311"
+216,Latin America,Brazil,Varzea Grande,10,19,6,"a-310, a-311"
+216,Latin America,Brazil,Varzea Grande,20,29,2,"a-310, a-311"
+216,Latin America,Brazil,Varzea Grande,30,39,19,"a-310, a-311"
+216,Latin America,Brazil,Varzea Grande,40,49,65,"a-310, a-311"
+216,Latin America,Brazil,Varzea Grande,50,59,95,"a-310, a-311"
+216,Latin America,Brazil,Varzea Grande,60,69,121,"a-310, a-311"
+216,Latin America,Brazil,Varzea Grande,70,79,94,"a-310, a-311"
+216,Latin America,Brazil,Varzea Grande,80,100,87,"a-310, a-311"
+218,Latin America,Brazil,Pitangueiras,0,100,22,n-16
+220,Latin America,Brazil,Mato Grosso (8 cities),0,100,810,"n-16 , n-1081 , n-1085 , n-1089 , n-1092 , n-1093"
+221,Latin America,Paraguay,Asuncion + Central Dept.,0,100,1630,n-1079
+221,Latin America,Paraguay,Asuncion + Central Dept.,0,4,2,n-1079
+221,Latin America,Paraguay,Asuncion + Central Dept.,5,14,1,n-1079
+221,Latin America,Paraguay,Asuncion + Central Dept.,15,19,0,n-1079
+221,Latin America,Paraguay,Asuncion + Central Dept.,20,29,16,n-1079
+221,Latin America,Paraguay,Asuncion + Central Dept.,30,39,43,n-1079
+221,Latin America,Paraguay,Asuncion + Central Dept.,40,49,97,n-1079
+221,Latin America,Paraguay,Asuncion + Central Dept.,50,59,248,n-1079
+221,Latin America,Paraguay,Asuncion + Central Dept.,60,100,1204,n-1079

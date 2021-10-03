@@ -1,0 +1,52 @@
+agedistribution_citation_id,descrip_label,citation
+a-01,Foz do Iguacu (Brazil),http://citypopulation.de/en/brazil/regiaosud/admin/paran%C3%A1/4108304__foz_do_igua%C3%A7u/
+a-02,Mitchells Plain (South Africa),https://www.westerncape.gov.za/assets/departments/health/h_102_2020_covid-19_population_data.pdf
+a-03,Hubei Province (excluding Wuhan),http://citypopulation.de/en/china/admin/42__h%C3%BAb%C4%95i/ 
+a-04,St. Petersburg (Russia),https://piterbu.ru/pozitiv/6686-chislennost-naseleniya-sankt-peterburga-na-2017-god-ego-sostav-i-natsionalnosti.html
+a-05,Iquitos (Peru),http://citypopulation.de/en/peru/loreto/admin/maynas/160101__iquitos/
+a-06,Lima Province + Callao Province,http://citypopulation.de/en/peru/admin/callao/0701__callao/ and http://citypopulation.de/en/peru/admin/lima/1501__lima/
+a-07,Karachi,https://www.pbs.gov.pk/sites/default/files//tables/POPULATION%20BY%20SELECTIVE%20AGE%20GROUPS.pdf
+a-08,Lahore,https://www.pbs.gov.pk/sites/default/files//tables/POPULATION%20BY%20SELECTIVE%20AGE%20GROUPS.pdf
+a-12,Dire Dawa (Ethiopia),https://www.statsethiopia.gov.et/wp-content/uploads/2019/05/ICPS-Population-Projection-2007-2037-produced-in-2012.pdf
+a-13,Ndola + 5 other districts (Zambia),https://www.zamstats.gov.zm/phocadownload/Zambia%20Census%20Projection%202011%20-%202035.pdf
+a-14,Cordoba (8 cities in Colombia),http://citypopulation.de/en/colombia/admin/23__c%C3%B3rdoba/
+a-15,"Maputo City, Mozambique",http://citypopulation.de/en/mozambique/admin/11__maputo_cidade/
+a-19,Malegaon District (India),https://www.city-facts.com/m%C4%81legaon
+a-22,Sosnowiec (3 cities),http://citypopulation.de/en/poland/slaskie/admin/powiat_sosnowiec
+a-23,Mato Grosso (8 cities),http://citypopulation.de/en/brazil/regiaocentrooeste/admin/mato_grosso/
+a-24,Asuncion + Central District (Paraguay),https://www.citypopulation.de/en/paraguay/admin
+g-10,delhi,http://statisticstimes.com/demographics/india/delhi-population.php
+g-11,karnataka,http://statisticstimes.com/demographics/india/karnataka-population.php
+g-12,puducherry,http://statisticstimes.com/demographics/india/puducherry-population.php
+g-13,tamil nadu,https://statisticstimes.com/demographics/india/tamil-nadu-population.php
+g-14,"pune, Paschim Medinipur, chennai, mumbai, odisha",2011 Indian Cenus
+g-19,maranhao,https://censo2010.ibge.gov.br/sinopse/index.php?uf=21&dados=26
+g-20,sao paulo,https://censo2010.ibge.gov.br/sinopse/webservice/frm_piramide.php?codigo=35&corhomem=3d4590&cormulher=9cdbfc
+g-54,Mumbai,https://www.medrxiv.org/content/10.1101/2020.08.27.20182741v1.full.pdf
+n-2001,Hungary nat'l,https://www.populationpyramid.net/hungary/2019/
+n-2003,Jordan nat'l,https://www.populationpyramid.net/jordan/2020/
+n-2009,"Cuiaba (Mato Grosso, Brazil)",http://citypopulation.de/en/brazil/regiaocentrooeste/admin/mato_grosso/5103403__cuiab%C3%A1/
+n-2016,"Varzea Grande (Mato Grosso, Brazil)",http://citypopulation.de/en/brazil/regiaocentrooeste/admin/mato_grosso/5108402__v%C3%A1rzea_grande/
+n-2019,Pitangueiras,https://www.citypopulation.de/en/brazil/regiaosudeste/admin/s%C3%A3o_paulo/3539509__pitangueiras/
+r-3,nairobi,https://kenya.africageoportal.com/datasets/KenyaOpenData::nairobi-population-pyramid-age-groups-2009/data
+r-37,buenos aires,http://www.citypopulation.de/php/argentina-admin.php?adm2id=02000
+r-39,leticia (colombia),https://citypopulation.de/en/colombia/admin/amazonas/91001__leticia/
+r-40,medellin (colombia),https://www.citypopulation.de/en/colombia/medellin/
+r-41,bucaramanga (colombia),http://citypopulation.de/en/colombia/santander/bucaramanga/68001000__bucaramanga/
+r-42,cucuta,https://www.citypopulation.de/en/colombia/nortedesantander/san_jos%C3%A9_de_c%C3%BAcuta/54001000__san_jos%C3%A9_de_c%C3%BAcuta/
+r-43,villavicencio,https://citypopulation.de/en/colombia/admin/meta/50001__villavicencio/
+r-44,barranquilla,https://citypopulation.de/en/colombia/atlantico/barranquilla/08001000__barranquilla/
+r-45,bogota,https://www.citypopulation.de/en/colombia/bogotadc/bogot%C3%A1/11001000__bogot%C3%A1/
+r-46,cali ,https://www.citypopulation.de/en/colombia/cali/
+r-48,ipiales,https://www.citypopulation.de/en/colombia/narino/ipiales/52356000__ipiales/
+r-49,cusco,https://www.city-facts.com/cusco-province
+r-50,lambayeque,https://www.citypopulation.de/en/peru/admin/14__lambayeque/
+r-51,hurlingham,https://citypopulation.de/php/argentina-admin.php?adm2id=06408
+r-52,nepal ,https://www.populationpyramid.net/nepal/2019/
+r-53,iran,https://www.populationpyramid.net/iran-islamic-republic-of/2019/
+r-56,addis ababa,https://www.statsethiopia.gov.et/wp-content/uploads/2019/05/ICPS-Population-Projection-2007-2037-produced-in-2012.pdf
+r-57,pimpri-chinchwad,https://www.city-facts.com/pimpri-chinchwad
+r-61,wuhan,https://www.citypopulation.de/en/china/hubei/admin/4201__wuhan/
+r-62,mexico,https://www.populationpyramid.net/mexico/2019/
+r-65,kashmir,https://www.censusindia.gov.in/2011census/C-series/C-14.html
+s-58,"Santa Cruz, Bolivia",https://www.citypopulation.de/en/bolivia/admin/santa_cruz/070101__santa_cruz_de_la_sierra/

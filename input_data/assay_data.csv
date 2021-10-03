@@ -1,0 +1,39 @@
+assay_id,assay_name,sensitivity_specimens,sensitivity_confirmed,specificity_specimens,specificity_confirmed
+2,Elecsys Anti-SARS-CoV-2,29,29,5272,5262
+4,THSCI RBD-IgG,379,321,184,184
+5,Kavach-AntiSARS-CoV-2 IgG ELISA,379,287,184,183
+6,iFlash SARS-CoV-2 (Shenzhen YHLO Biotech),594,457,100,100
+7,Vitros anti-SARS-CoV-2 IgG Regent Pack,49,49,400,400
+10,Panbio COVID-19 IgG/IgM Rapid Test,109,107,150,149
+11,Qingdao Hightop Biotech IgM/IgG Duo,300,279,1000,960
+12,Standard Q COVID-19 IgM/IgG Plus,133,130,150,148
+14,SARS-CoV-2 Total Advia Centaur - Siemens,42,42,1831,1829
+15,SEROKIT-ELISA COVIDAR IgG,289,252,277,277
+17,Wantai IgG/IgM ELISA,30,29,80,78
+18,Pishtaz Teb SARS-CoV-2 ELISA (for nucleocapsid),254,188,410,402
+19,Core Technology COVID-19 IgG rapid test,245,224,607,606
+22,Coretest COVID-19 IgM/IgG Ab Test,73,58,222,222
+23,INgezim COVID 19 DR test (Ingenasa),71,64,56,51
+26,Bioscience 2019-nCoV IgM and IgG,276,225,176,176
+27,Euroimmune anti-spike,30,27,80,80
+28,in-house ELISA for recombinant spike protein,120,114,80,79
+30,Orient Gene Biotech COVID-19 IgG/IgM Rapid Test,95,91,42,42
+31,Genetico CoronaPass ELISA,46,42,41,41
+32,"UNCOV-40, COVID-19 IgG and IgM",421,416,1164,1141
+33,RBD ELISA from Massachusetts General,1000,655,104,104
+35,DiaSorin LIAISON SARS-CoV-2 S1/S2 IgG,41,40,1090,1082
+38,Lumines anti-nucleocapsid + anti-spike assay,61,61,1197,1194
+39,RightSign COVID-19 IgG/IgM Rapid Test,30,30,80,80
+41,GenBody COVID-19 IgM/IgG for S1 (IgG parameters only),30,17,80,80
+42,Standard Q COVID-19 IgM/IgG Combo,164,154,235,225
+44,Karwa Kavach SARS-CoV-2 ELISA IgG,300,276,300,298
+45,"Beijing Kewei Clinical Diagnostic, COVID-19 IgG IgM rapid cassette",30,28,80,73
+46,"COVID-19 IgG/IgM ECO Test (not the ""Combo"" test)",173,130,116,115
+113,Abbott IgG Test (Pimpri-Chinchwad),723,563,1070,1066
+114,Abbott IgG Test (Mumbai 3 wards),791,608,1070,1066
+119,Abbott IgG Test (Chennai),632,526,1070,1066
+177,Abbott IgG Test (Srinagar district),679,530,1070,1066
+178,"Kavach (Delhi phase 2, PCR results)",356,232,184,183
+181,"ERBALISA (Paschim Medinipur, PCR results)",30,11,107,105
+182,Abbott IgG Test (Hungary national study),541,472,1070,1066
+183,"Abbott IgG Test (Diredawa, Ethiopia)",545,473,1070,1066
