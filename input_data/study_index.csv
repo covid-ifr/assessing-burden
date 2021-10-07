@@ -1,86 +1,86 @@
-study_info,location_id,global_region,country,location_label,map_x,map_y,start_date,end_date,fatalities_date,pop_location_id,assay_id,assay_name
-Age-Specific IFR,5,Latin America,Brazil,Maranhao,96.12694549560547,-130.9432373046875,7/27/2020,8/8/2020,8/30/2020,105,2,Elecsys Anti-SARS-CoV-2
-Age-Specific IFR,19,South Asia ,India,Chennai,185.0459594726563,-118.6364974975586,7/17/2020,7/28/2020,8/5/2020,119,119,Abbott IgG Test
-Age-Specific IFR,36,Africa,Kenya,Nairobi County,154.2135314941406,-128.9070434570313,11/2/2020,11/23/2020,12/10/2020,139,17,Wantai IgG/IgM ELISA
-Age-Specific IFR,38,Latin America,Argentina,Buenos Aires City,86.43951416015625,-154.2678375244141,9/10/2020,10/18/2020,10/13/2020,143,15,COVIDAR
-Age-Specific IFR,40,Latin America,Argentina,Municipality of Hurlingham,86.74217987060547,-154.6024627685547,11/26/2020,12/10/2020,12/17/2020,147,15,SEROKIT-ELISA COVIDAR IgG
-Age-Specific IFR,44,Latin America,Colombia,Leticia,78.20223236083984,-130.6097869873047,9/15/2020,9/25/2020,10/4/2020,153,14,SARS-CoV-2 Total Advia Centaur - Siemens
-Age-Specific IFR,45,Latin America,Colombia,Barranquilla,74.90577697753906,-120.20751953125,9/20/2020,9/30/2020,10/9/2020,154,14,SARS-CoV-2 Total Advia Centaur - Siemens
-Age-Specific IFR,46,Latin America,Colombia,Medellin,74.21408081054688,-123.5358505249023,10/5/2020,12/20/2020,11/26/2020,155,14,SARS-CoV-2 Total Advia Centaur - Siemens
-Age-Specific IFR,48,Latin America,Colombia,Bucaramanga,75.99446105957031,-122.911506652832,9/27/2020,10/9/2020,10/17/2020,157,14,SARS-CoV-2 Total Advia Centaur - Siemens
-Age-Specific IFR,49,Latin America,Colombia,Cucuta,76.44076538085938,-122.2321166992188,10/5/2020,10/15/2020,10/24/2020,158,14,SARS-CoV-2 Total Advia Centaur - Siemens
-Age-Specific IFR,50,Latin America,Colombia,Villavicencio,75.7393798828125,-125.1003189086914,10/20/2020,10/30/2020,11/8/2020,159,14,SARS-CoV-2 Total Advia Centaur - Siemens
-Age-Specific IFR,51,Latin America,Colombia,Bogota,75.22528076171875,-124.9474945068359,10/10/2020,11/5/2020,11/6/2020,160,14,SARS-CoV-2 Total Advia Centaur - Siemens
-Age-Specific IFR,52,Latin America,Colombia,Cali,73.52919006347656,-125.5809326171875,11/18/2020,11/28/2020,12/7/2020,161,14,SARS-CoV-2 Total Advia Centaur - Siemens
-Age-Specific IFR,54,Latin America,Colombia,Ipiales,72.97716522216797,-127.5896377563477,12/3/2020,12/11/2020,12/21/2020,163,14,SARS-CoV-2 Total Advia Centaur - Siemens
-Age-Specific IFR,60,Latin America,Peru,Lambayeque,71.24733734130859,-132.7450256347656,6/24/2020,7/10/2020,7/16/2020,173,22,Coretest COVID-19 IgM/IgG Ab Test
-Age-Specific IFR,63,Latin America,Peru,Lima (Metropolitana) + Callao,73.59867858886719,-136.5609588623047,6/28/2020,7/9/2020,7/17/2020,176,12,STANDARD Q COVID-19 IgM/IgG Plus
-Age-Specific IFR,64,Latin America,Peru,"Iquitos, Loreto",74.86102294921875,-131.5196838378906,7/13/2020,7/18/2020,7/29/2020,209,30,Orient Gene Biotech COVID-19 IgG/IgM Rapid Test (recognizes spike)
-Age-Specific IFR,73,Latin America,Brazil,Sao Paulo City,94.83448791503906,-145.2420196533203,10/1/2020,10/10/2020,10/19/2020,106,2,"Elecsys Anti-SARS-CoV-2 Roche, nucleocapsid IgG IgM "
-Age-Specific IFR,121,East Asia,China,Wuhan #1,209.3143920898438,-105.1156311035156,4/10/2020,4/18/2020,5/12/2020,199,26,Bioscience 2019-nCoV IgM and IgG
-Age-Specific IFR,148,Latin America,Colombia,Cordoba: 8 cities,74.14043426513672,-121.6809844970703,7/1/2020,10/29/2020,9/13/2020,225,23,INgezim COVID 19 DR Test
-Age-Specific IFR,156,Middle East,Jordan,National Study,154.1594522277512,-104.5834939320023,12/27/2020,1/6/2021,1/29/2021,226,17,Wantai ELISA total IgM/IgG
-Age-Specific IFR,192,Europe,Hungary,National Study,141.8051194549728,-89.86803194578918,5/1/2020,5/16/2020,6/5/2020,205,182,Abbott IgG Test
-Age-Specific IFR,201,South Asia ,India,Tamil Nadu (iFlash districts),183.9951171875,-121.3217391967773,10/19/2020,11/30/2020,11/23/2020,120,6,iFlash SARS-CoV-2 (Shenzhen YHLO Biotech)
-Age-Specific IFR,202,South Asia ,India,Tamil Nadu (Vitros districts),182.6778259277344,-120.1283340454102,10/19/2020,11/30/2020,11/23/2020,120,7,Vitros anti-SARS-CoV-2 IgG Regent Pack
-Age-Specific IFR,209,Latin America,Brazil,Cuiaba,88.13976287841797,-139.1872406005859,9/16/2020,10/15/2020,10/28/2020,234,35,DiaSorin LIAISON SARS-CoV-2 S1/S2 IgG
-Age-Specific IFR,216,Latin America,Brazil,Varzea Grande,88.06806182861328,-139.2703552246094,9/16/2020,10/15/2020,10/28/2020,241,35,DiaSorin LIAISON SARS-CoV-2 S1/S2 IgG
-Age-Specific IFR,221,Latin America,Paraguay,Asuncion + Central Dept.,87.12760162353516,-146.6683044433594,12/23/2020,2/16/2021,2/2/2021,247,45,"Beijing Kewei Clinical Diagnostic, COVID-19 IgG IgM rapid cassette"
-Population IFR,11,South Asia ,India,Delhi,182.8330535888672,-106.7232131958008,8/1/2020,8/7/2020,9/1/2020,111,178,Kavach-AntiSARS-CoV-2 IgG ELISA
-Population IFR,12,South Asia ,India,Karnataka,182.1739044189453,-117.7481918334961,6/15/2020,8/29/2020,8/19/2020,112,4,"Translational Health Sci and Tech Institute, India"
-Population IFR,13,South Asia ,India,Pimpri-Chinchwad,180.5614624023438,-114.6193695068359,10/7/2020,10/17/2020,11/9/2020,113,113,Abbott IgG Test
-Population IFR,16,South Asia ,India,Puducherry,184.72705078125,-119.4095611572266,9/10/2020,9/16/2020,10/11/2020,116,2,Elecsys Anti-SARS-CoV-2
-Population IFR,18,South Asia ,India,Paschim Medinipur (West Bengal),190.1302337646484,-111.653076171875,7/27/2020,8/7/2020,8/29/2020,118,181,ERBALISA COVID-19 IgG
-Population IFR,24,Africa,Mozambique,Maputo city,151.1649932861328,-147.0624542236328,8/3/2020,8/21/2020,9/9/2020,126,10,Panbio Abbott 
-Population IFR,42,Latin America,Bolivia,Santa Cruz,82.99910736083984,-140.8263092041016,8/22/2020,9/13/2020,9/30/2020,150,42,Standard Q COVID-19 IgM/IgG Combo
-Population IFR,59,Latin America,Peru,Cusco Province,76.93599700927734,-137.8080902099609,9/12/2020,9/27/2020,10/3/2020,171,2,Elecsys Anti-SARS-CoV-2 ROCHE Test
-Population IFR,74,Latin America,Brazil,Foz do Iguacu,89.25823974609375,-146.7151031494141,5/14/2020,6/9/2020,6/10/2020,204,28,in-house ELISA for recombinant spike protein
-Population IFR,77,South Asia,India,Kashmir: Srinagar district,181.2610473632813,-102.1528930664063,10/17/2020,10/20/2020,11/15/2020,203,177,Abbott SARS-CoV-2 IgG
-Population IFR,78,South Asia,Nepal,National Study,187.6896339355274,-107.0414828092206,10/9/2020,10/22/2020,11/12/2020,195,17,"Wantai SARS-CoV-2 Total Antibody, IgG IgM (against RBD of spike)"
-Population IFR,80,Africa,Ethiopia,Addis Ababa,155.5553894042969,-121.5657043457031,7/22/2020,8/10/2020,8/28/2020,122,19,Core Technology COVID-19 IgG rapid test
-Population IFR,81,Middle East,Iran,National Study,166.5406333696087,-103.3373061988487,8/3/2020,10/31/2020,10/14/2020,196,18,Pishtaz Teb SARS-CoV-2 ELISA kits (for nucleocapsid)
-Population IFR,82,Latin America,Mexico,National Study,55.08772522566568,-110.4497258013256,8/18/2020,11/13/2020,10/28/2020,200,2,"Elecsys Anti-SARS-CoV-2 Roche, nucleocapsid IgG IgM "
-Population IFR,83,South Asia,India,Odisha: Bhubaneswar,188.8602447509766,-113.3876113891602,7/10/2020,7/10/2020,8/7/2020,115,2,"Elecsys Anti-SARS-CoV-2 Roche, nucleocapsid IgG IgM "
-Population IFR,84,South Asia,India,Odisha: Berhampur,188.1641998291016,-113.805534362793,8/6/2020,8/6/2020,9/3/2020,1150,2,"Elecsys Anti-SARS-CoV-2 Roche, nucleocapsid IgG IgM "
-Population IFR,90,Africa,South Africa,Mitchells Plain,141.2173156738281,-153.7232666015625,12/8/2020,1/31/2021,2/1/2021,206,17,"Wantai SARS-CoV-2 Total Antibody, IgG IgM (against RBD of spike)"
-Population IFR,98,Africa,Ethiopia,Dire Dawa,157.8394317626953,-121.1300735473633,6/15/2020,7/30/2020,8/4/2020,223,183,Abbott IgG Test
-Population IFR,102,Africa,Zambia,Ndola + 5 other districts,147.9710540771484,-137.2210693359375,7/4/2020,7/27/2020,8/12/2020,224,27,Euroimmune anti-spike
-Population IFR,120,Europe,Russia,St. Petersburg,149.4630889892578,-74.48123168945313,5/25/2020,6/28/2020,6/30/2020,208,31,Genetico CoronaPass ELISA
-Population IFR,123,East Asia,China,Hubei province (excluding Wuhan #1),208.0517883300781,-105.065559387207,4/10/2020,4/18/2020,5/12/2020,207,26,Bioscience 2019-nCoV IgM and IgG
-Population IFR,125,South Asia,Pakistan,Karachi,175.6720275878906,-109.6663818359375,7/15/2020,7/31/2020,8/20/2020,210,2,"Elecsys Anti-SARS-CoV-2 Roche, nucleocapsid IgG IgM "
-Population IFR,126,South Asia,Pakistan,Lahore,180.5860900878906,-104.5805511474609,7/15/2020,7/31/2020,8/20/2020,211,2,"Elecsys Anti-SARS-CoV-2 Roche, nucleocapsid IgG IgM "
-Population IFR,140,South Asia ,India,Mumbai (3 wards),179.7954406738281,-114.2451095581055,6/29/2020,7/19/2020,8/6/2020,114,114,Abbott IgG Test
-Population IFR,144,Europe,Poland,Katowice region,141.4743804931641,-86.58404541015625,10/1/2020,11/30/2020,11/28/2020,228,27,Euroimmune anti-spike
-Population IFR,203,South Asia ,India,Malegaon (city population),180.6849670410156,-113.2821960449219,7/25/2020,8/20/2020,9/4/2020,229,44,Karwa Kavach SARS-CoV-2 ELISA IgG
-Population IFR,218,Latin America,Brazil,Pitangueiras,93.66938781738281,-143.2847595214844,8/24/2020,9/29/2020,10/9/2020,244,46,"COVID-19 IgG/IgM ECO Test (not the ""Combo"" test)"
-Population IFR,220,Latin America,Brazil,Mato Grosso (8 cities),88.15522766113281,-138.7016143798828,9/16/2020,10/15/2020,10/14/2020,246,35,DiaSorin LIAISON SARS-CoV-2 S1/S2 IgG
-Age-Specific Prevalence,17,South Asia ,India,Pune (five prabhags/subwards),180.5614624023438,-114.6193695068359,7/20/2020,8/5/2020,,117,27,Euroimmune anti-spike
-Age-Specific Prevalence,22,Africa,Mozambique,Beira,152.5800018310547,-141.6015625,9/21/2020,10/2/2020,,124,10,Panbio Abbott 
-Age-Specific Prevalence,25,Africa,Mozambique,Matola district (subset of Maputo province),151.1962890625,-146.7590789794922,9/14/2020,9/30/2020,,127,10,Panbio Abbott 
-Age-Specific Prevalence,26,Africa,Mozambique,Nampula,156.2043762207031,-138.7875823974609,6/17/2020,6/30/2020,,128,12,Standard Q COVID-19 IgM/IgG Plus
-Age-Specific Prevalence,27,Africa,Mozambique,Pemba,156.7498016357422,-137.3355560302734,7/6/2020,7/13/2020,,129,11,Qingdao Hightop Biotech IgM/IgG Duo
-Age-Specific Prevalence,28,Africa,Mozambique,Quelimane,154.2463836669922,-140.0800323486328,8/10/2020,8/21/2020,,130,10,Panbio Abbott 
-Age-Specific Prevalence,29,Africa,Mozambique,Tete,151.5657196044922,-139.1521759033203,8/31/2020,10/12/2020,,131,11,Qingdao Hightop Biotech IgM/IgG Duo
-Age-Specific Prevalence,30,Africa,Mozambique,Chimoio,151.4903411865234,-141.6751251220703,11/2/2020,11/17/2020,,132,11,Qingdao Hightop Biotech IgM/IgG Duo
-Age-Specific Prevalence,31,Africa,Mozambique,Chakwe,151.4689636230469,-146.0625915527344,11/16/2020,11/21/2020,,133,10,Panbio Abbott 
-Age-Specific Prevalence,32,Africa,Mozambique,Maxixe,152.8254699707031,-145.2923431396484,11/7/2020,11/21/2020,,134,11,Qingdao Hightop Biotech IgM/IgG Duo
-Age-Specific Prevalence,33,Africa,Mozambique,Massinga,152.9624938964844,-144.7765960693359,11/26/2020,12/3/2020,,135,11,Qingdao Hightop Biotech IgM/IgG Duo
-Age-Specific Prevalence,34,Africa,Mozambique,Xai-Xai,151.88232421875,-146.3715057373047,11/2/2020,11/12/2020,,136,10,Panbio Abbott 
-Age-Specific Prevalence,37,Africa,Nigeria,Niger State,132.2568054199219,-121.142463684082,6/26/2020,6/30/2020,,,32,"UNCOV-40, COVID-19 IgG and IgM"
-Age-Specific Prevalence,58,Latin America,Ecuador,Cuenca,71.80818176269531,-130.0582733154297,8/11/2020,11/1/2020,,,12,Standard Q COVID-19 IgM/IgG Plus
-Age-Specific Prevalence,88,South Asia,India,Odisha: Rourkela,188.3224639892578,-111.8441925048828,8/31/2020,8/31/2020,,1151,2,"Elecsys Anti-SARS-CoV-2 Roche, nucleocapsid IgG IgM "
-Age-Specific Prevalence,96,Africa,Cameroon,Cite Verte,136.1746063232422,-125.2323837280273,10/14/2020,11/26/2020,,,10,Panbio COVID-19 IgG/IgM Rapid Test
-Age-Specific Prevalence,100,Africa,South Africa,Jouberton,146.9157257080078,-147.1420593261719,7/20/2020,9/17/2020,,,2,"Elecsys Anti-SARS-CoV-2 Roche, nucleocapsid IgG IgM "
-Age-Specific Prevalence,101,Africa,South Sudan,Juba,150.331298828125,-124.8196716308594,8/10/2020,9/11/2020,,,33,RBD ELISA from Massachusetts General
-Age-Specific Prevalence,107,Middle East,United Arab Emirates,"Abu Dhabi, Al Ain, Al Dhafra",167.0848693847656,-110.2370681762695,7/19/2020,8/14/2020,,,35,DiaSorin LIAISON SARS-CoV-2 S1/S2 IgG
-Age-Specific Prevalence,108,South Asia,India,"Jabalpur (city, not district)",184.8087158203125,-111.0492935180664,12/11/2020,12/21/2020,,,5,Kavach-AntiSARS-CoV-2 IgG ELISA
-Age-Specific Prevalence,122,South Asia,India,"Indore (city, not district)",181.9058990478516,-111.3677597045898,8/11/2020,8/23/2020,,,5,Kavach-AntiSARS-CoV-2 IgG ELISA
-Age-Specific Prevalence,124,East Asia,China,"Provinces: Beijing, Shanghai, Guangdong, Jiangsu, Sichuan, Liaoning",210.7823944091797,-96.77902221679688,4/10/2020,4/18/2020,,,26,Bioscience 2019-nCoV IgM and IgG
-Age-Specific Prevalence,128,Africa,Democratic Republic of Congo,Kinshasa,139.3096771240234,-131.1581573486328,10/22/2020,11/8/2020,,,38,Lumines anti-nucleocapsid + anti-spike assay
-Age-Specific Prevalence,206,South Asia ,India,Hyderabad,183.7967224121094,-115.4426879882813,1/8/2021,1/24/2021,,,2,"Elecsys Anti-SARS-CoV-2 Roche, nucleocapsid IgG IgM "
-Overall Prevalence,55,Latin America,Dominican Republic,10 Provinces,77.87759290582385,-114.3135866986593,4/1/2020,6/30/2020,,,41,GenBody COVID-19 IgM/IgG for S1 (IgG parameters only)
-Overall Prevalence,94,Europe,Albania,"Tirana (city, not county)",142.0222473144531,-95.73091125488281,12/21/2020,12/28/2020,,,27,Euroimmune anti-spike
-Overall Prevalence,97,Africa,Ethiopia,"Jimma town, Seka, Manna",154.1963653564453,-122.3590774536133,8/19/2020,9/2/2020,,,19,Core Technology COVID-19 IgM/IgG rapid test
-Overall Prevalence,105,Middle East,Iraq,"Iraq: Duhok (city, not governorate)",158.6109313964844,-99.70243835449219,1/10/2021,1/30/2021,,,2,"Elecsys Anti-SARS-CoV-2 Roche, nucleocapsid IgG IgM "
-Overall Prevalence,129,Middle East,Libya,Benghazi,142.6442260742188,-104.2125701904297,5/2/2020,5/7/2020,,,39,RightSign COVID-19 IgG/IgM Rapid Test
-Overall Prevalence,151,Latin America,Argentina,"AMBA (Metropolitan Area of ​​Buenos Aires), 30 barrios",83.79053497314453,-157.7789916992188,7/16/2020,12/1/2020,,,15,SEROKIT-ELISA COVIDAR IgG
+study_info,location_id,global_region,country,location_label,longitude,latitude,map_x,map_y,start_date,end_date,fatalities_date,pop_location_id,assay_id,assay_name
+Age-Specific IFR,5,Latin America,Brazil,Maranhao,-44.821484,-4.1353235,96.126945,-130.94324,7/27/2020,8/8/2020,8/30/2020,105,2,Elecsys Anti-SARS-CoV-2
+Age-Specific IFR,19,South Asia ,India,Chennai,80.220879,13.053028,185.04596,-118.6365,7/17/2020,7/28/2020,8/5/2020,119,119,Abbott IgG Test
+Age-Specific IFR,36,Africa,Kenya,Nairobi County,36.862778,-1.275424,154.21353,-128.90704,11/2/2020,11/23/2020,12/10/2020,139,17,Wantai IgG/IgM ELISA
+Age-Specific IFR,38,Latin America,Argentina,Buenos Aires City,-58.444435,-34.61768,86.439514,-154.26784,9/10/2020,10/18/2020,10/13/2020,143,15,COVIDAR
+Age-Specific IFR,40,Latin America,Argentina,Municipality of Hurlingham,-58.018799,-35.004047,86.74218,-154.60246,11/26/2020,12/10/2020,12/17/2020,147,15,SEROKIT-ELISA COVIDAR IgG
+Age-Specific IFR,44,Latin America,Colombia,Leticia,-70.028114,-3.6675119,78.202232,-130.60979,9/15/2020,9/25/2020,10/4/2020,153,14,SARS-CoV-2 Total Advia Centaur - Siemens
+Age-Specific IFR,45,Latin America,Colombia,Barranquilla,-74.66375,10.891976,74.905777,-120.20752,9/20/2020,9/30/2020,10/9/2020,154,14,SARS-CoV-2 Total Advia Centaur - Siemens
+Age-Specific IFR,46,Latin America,Colombia,Medellin,-75.636452,6.2651858,74.214081,-123.53585,10/5/2020,12/20/2020,11/26/2020,155,14,SARS-CoV-2 Total Advia Centaur - Siemens
+Age-Specific IFR,48,Latin America,Colombia,Bucaramanga,-73.13279,7.1371593,75.994461,-122.91151,9/27/2020,10/9/2020,10/17/2020,157,14,SARS-CoV-2 Total Advia Centaur - Siemens
+Age-Specific IFR,49,Latin America,Colombia,Cucuta,-72.505173,8.0841331,76.440765,-122.23212,10/5/2020,10/15/2020,10/24/2020,158,14,SARS-CoV-2 Total Advia Centaur - Siemens
+Age-Specific IFR,50,Latin America,Colombia,Villavicencio,-73.491501,4.0742364,75.73938,-125.10032,10/20/2020,10/30/2020,11/8/2020,159,14,SARS-CoV-2 Total Advia Centaur - Siemens
+Age-Specific IFR,51,Latin America,Colombia,Bogota,-74.214455,4.288579,75.225281,-124.94749,10/10/2020,11/5/2020,11/6/2020,160,14,SARS-CoV-2 Total Advia Centaur - Siemens
+Age-Specific IFR,52,Latin America,Colombia,Cali,-76.599579,3.3998175,73.52919,-125.58093,11/18/2020,11/28/2020,12/7/2020,161,14,SARS-CoV-2 Total Advia Centaur - Siemens
+Age-Specific IFR,54,Latin America,Colombia,Ipiales,-77.375862,.57706046,72.977165,-127.58964,12/3/2020,12/11/2020,12/21/2020,163,14,SARS-CoV-2 Total Advia Centaur - Siemens
+Age-Specific IFR,60,Latin America,Peru,Lambayeque,-79.808434,-6.657649,71.247337,-132.74503,6/24/2020,7/10/2020,7/16/2020,173,22,Coretest COVID-19 IgM/IgG Ab Test
+Age-Specific IFR,63,Latin America,Peru,Lima (Metropolitana) + Callao,-76.501862,-11.951227,73.598679,-136.56096,6/28/2020,7/9/2020,7/17/2020,176,12,STANDARD Q COVID-19 IgM/IgG Plus
+Age-Specific IFR,64,Latin America,Peru,"Iquitos, Loreto",-74.726685,-4.9434032,74.861023,-131.51968,7/13/2020,7/18/2020,7/29/2020,209,30,Orient Gene Biotech COVID-19 IgG/IgM Rapid Test (recognizes spike)
+Age-Specific IFR,73,Latin America,Brazil,Sao Paulo City,-46.639004,-23.553694,94.834488,-145.24202,10/1/2020,10/10/2020,10/19/2020,106,2,"Elecsys Anti-SARS-CoV-2 Roche, nucleocapsid IgG IgM "
+Age-Specific IFR,121,East Asia,China,Wuhan #1,114.34837,30.611429,209.31439,-105.11563,4/10/2020,4/18/2020,5/12/2020,199,26,Bioscience 2019-nCoV IgM and IgG
+Age-Specific IFR,148,Latin America,Colombia,Cordoba: 8 cities,-75.740021,8.850709,74.140434,-121.68098,7/1/2020,10/29/2020,9/13/2020,225,23,INgezim COVID 19 DR Test
+Age-Specific IFR,156,Middle East,Jordan,National Study,35.82724,31.914667,153.47716,-104.03142,12/27/2020,1/6/2021,1/29/2021,226,17,Wantai ELISA total IgM/IgG
+Age-Specific IFR,192,Europe,Hungary,National Study,19.202713,47.272705,141.65526,-89.756836,5/1/2020,5/16/2020,6/5/2020,205,182,Abbott IgG Test
+Age-Specific IFR,201,South Asia ,India,Tamil Nadu (iFlash districts),78.743126,9.3495312,183.99512,-121.32174,10/19/2020,11/30/2020,11/23/2020,120,6,iFlash SARS-CoV-2 (Shenzhen YHLO Biotech)
+Age-Specific IFR,202,South Asia ,India,Tamil Nadu (Vitros districts),76.890686,11.001301,182.67783,-120.12833,10/19/2020,11/30/2020,11/23/2020,120,7,Vitros anti-SARS-CoV-2 IgG Regent Pack
+Age-Specific IFR,209,Latin America,Brazil,Cuiaba,-56.053463,-15.53803,88.139763,-139.18724,9/16/2020,10/15/2020,10/28/2020,234,35,DiaSorin LIAISON SARS-CoV-2 S1/S2 IgG
+Age-Specific IFR,216,Latin America,Brazil,Varzea Grande,-56.154282,-15.6506,88.068062,-139.27036,9/16/2020,10/15/2020,10/28/2020,241,35,DiaSorin LIAISON SARS-CoV-2 S1/S2 IgG
+Age-Specific IFR,221,Latin America,Paraguay,Asuncion + Central Dept.,-57.476822,-25.379204,87.127602,-146.6683,12/23/2020,2/16/2021,2/2/2021,247,45,"Beijing Kewei Clinical Diagnostic, COVID-19 IgG IgM rapid cassette"
+Population IFR,11,South Asia ,India,Delhi,77.108978,28.646519,182.83305,-106.72321,8/1/2020,8/7/2020,9/1/2020,111,178,Kavach-AntiSARS-CoV-2 IgG ELISA
+Population IFR,12,South Asia ,India,Karnataka,76.182053,14.266849,182.1739,-117.74819,6/15/2020,8/29/2020,8/19/2020,112,4,"Translational Health Sci and Tech Institute, India"
+Population IFR,13,South Asia ,India,Pimpri-Chinchwad,73.914558,18.487116,180.56146,-114.61937,10/7/2020,10/17/2020,11/9/2020,113,113,Abbott IgG Test
+Population IFR,16,South Asia ,India,Puducherry,79.772415,11.991779,184.72705,-119.40956,9/10/2020,9/16/2020,10/11/2020,116,2,Elecsys Anti-SARS-CoV-2
+Population IFR,18,South Asia ,India,Paschim Medinipur (West Bengal),87.370659,22.394842,190.13023,-111.65308,7/27/2020,8/7/2020,8/29/2020,118,181,ERBALISA COVID-19 IgG
+Population IFR,24,Africa,Mozambique,Maputo city,32.575768,-25.878944,151.16499,-147.06245,8/3/2020,8/21/2020,9/9/2020,126,10,Panbio Abbott 
+Population IFR,42,Latin America,Bolivia,Santa Cruz,-63.282505,-17.746258,82.999107,-140.82631,8/22/2020,9/13/2020,9/30/2020,150,42,Standard Q COVID-19 IgM/IgG Combo
+Population IFR,59,Latin America,Peru,Cusco Province,-71.808754,-13.661315,76.935997,-137.80809,9/12/2020,9/27/2020,10/3/2020,171,2,Elecsys Anti-SARS-CoV-2 ROCHE Test
+Population IFR,74,Latin America,Brazil,Foz do Iguacu,-54.480598,-25.438644,89.25824,-146.7151,5/14/2020,6/9/2020,6/10/2020,204,28,in-house ELISA for recombinant spike protein
+Population IFR,77,South Asia,India,Kashmir: Srinagar district,74.898346,34.129353,181.26105,-102.15289,10/17/2020,10/20/2020,11/15/2020,203,177,Abbott SARS-CoV-2 IgG
+Population IFR,78,South Asia,Nepal,National Study,84.891899,27.670149,188.36757,-107.51074,10/9/2020,10/22/2020,11/12/2020,195,17,"Wantai SARS-CoV-2 Total Antibody, IgG IgM (against RBD of spike)"
+Population IFR,80,Africa,Ethiopia,Addis Ababa,38.749771,9.0108528,155.55539,-121.5657,7/22/2020,8/10/2020,8/28/2020,122,19,Core Technology COVID-19 IgG rapid test
+Population IFR,81,Middle East,Iran,National Study,50.806313,34.338009,164.12894,-101.97343,8/3/2020,10/31/2020,10/14/2020,196,18,Pishtaz Teb SARS-CoV-2 ELISA kits (for nucleocapsid)
+Population IFR,82,Latin America,Mexico,National Study,-99.040001,20.004011,57.571556,-113.4768,8/18/2020,11/13/2020,10/28/2020,200,2,"Elecsys Anti-SARS-CoV-2 Roche, nucleocapsid IgG IgM "
+Population IFR,83,South Asia,India,Odisha: Bhubaneswar,85.584732,20.12182,188.86024,-113.38761,7/10/2020,7/10/2020,8/7/2020,115,2,"Elecsys Anti-SARS-CoV-2 Roche, nucleocapsid IgG IgM "
+Population IFR,84,South Asia,India,Odisha: Berhampur,84.605911,19.569017,188.1642,-113.80553,8/6/2020,8/6/2020,9/3/2020,1150,2,"Elecsys Anti-SARS-CoV-2 Roche, nucleocapsid IgG IgM "
+Population IFR,90,Africa,South Africa,Mitchells Plain,18.586855,-33.985073,141.21732,-153.72327,12/8/2020,1/31/2021,2/1/2021,206,17,"Wantai SARS-CoV-2 Total Antibody, IgG IgM (against RBD of spike)"
+Population IFR,98,Africa,Ethiopia,Dire Dawa,41.961708,9.6153812,157.83943,-121.13007,6/15/2020,7/30/2020,8/4/2020,223,183,Abbott IgG Test
+Population IFR,102,Africa,Zambia,Ndola + 5 other districts,28.084299,-12.857821,147.97105,-137.22107,7/4/2020,7/27/2020,8/12/2020,224,27,Euroimmune anti-spike
+Population IFR,120,Europe,Russia,St. Petersburg,30.182474,59.902176,149.46309,-74.481232,5/25/2020,6/28/2020,6/30/2020,208,31,Genetico CoronaPass ELISA
+Population IFR,123,East Asia,China,Hubei province (excluding Wuhan #1),112.57282,30.672016,208.05179,-105.06556,4/10/2020,4/18/2020,5/12/2020,207,26,Bioscience 2019-nCoV IgM and IgG
+Population IFR,125,South Asia,Pakistan,Karachi,67.038803,24.95322,175.67203,-109.66638,7/15/2020,7/31/2020,8/20/2020,210,2,"Elecsys Anti-SARS-CoV-2 Roche, nucleocapsid IgG IgM "
+Population IFR,126,South Asia,Pakistan,Lahore,73.949196,31.256859,180.58609,-104.58055,7/15/2020,7/31/2020,8/20/2020,211,2,"Elecsys Anti-SARS-CoV-2 Roche, nucleocapsid IgG IgM "
+Population IFR,140,South Asia ,India,Mumbai (3 wards),72.837334,18.985527,179.79544,-114.24511,6/29/2020,7/19/2020,8/6/2020,114,114,Abbott IgG Test
+Population IFR,144,Europe,Poland,Katowice region,18.94836,50.213768,141.47438,-86.584045,10/1/2020,11/30/2020,11/28/2020,228,27,Euroimmune anti-spike
+Population IFR,203,South Asia ,India,Malegaon (city population),74.088226,20.260952,180.68497,-113.2822,7/25/2020,8/20/2020,9/4/2020,229,44,Karwa Kavach SARS-CoV-2 ELISA IgG
+Population IFR,218,Latin America,Brazil,Pitangueiras,-48.277431,-21.007084,93.669388,-143.28476,8/24/2020,9/29/2020,10/9/2020,244,46,"COVID-19 IgG/IgM ECO Test (not the ""Combo"" test)"
+Population IFR,220,Latin America,Brazil,Mato Grosso (8 cities),-56.031708,-14.879041,88.155228,-138.70161,9/16/2020,10/15/2020,10/14/2020,246,35,DiaSorin LIAISON SARS-CoV-2 S1/S2 IgG
+Age-Specific Prevalence,17,South Asia ,India,Pune (five prabhags/subwards),73.914558,18.487116,180.56146,-114.61937,7/20/2020,8/5/2020,,117,27,Euroimmune anti-spike
+Age-Specific Prevalence,22,Africa,Mozambique,Beira,34.56562,-18.781509,152.58,-141.60156,9/21/2020,10/2/2020,,124,10,Panbio Abbott 
+Age-Specific Prevalence,25,Africa,Mozambique,Matola district (subset of Maputo province),32.619793,-25.494482,151.19629,-146.75908,9/14/2020,9/30/2020,,127,10,Panbio Abbott 
+Age-Specific Prevalence,26,Africa,Mozambique,Nampula,39.662399,-14.995837,156.20438,-138.78758,6/17/2020,6/30/2020,,128,12,Standard Q COVID-19 IgM/IgG Plus
+Age-Specific Prevalence,27,Africa,Mozambique,Pemba,40.429417,-13.014747,156.7498,-137.33556,7/6/2020,7/13/2020,,129,11,Qingdao Hightop Biotech IgM/IgG Duo
+Age-Specific Prevalence,28,Africa,Mozambique,Quelimane,36.908966,-16.743994,154.24638,-140.08003,8/10/2020,8/21/2020,,130,10,Panbio Abbott 
+Age-Specific Prevalence,29,Africa,Mozambique,Tete,33.13929,-15.490508,151.56572,-139.15218,8/31/2020,10/12/2020,,131,11,Qingdao Hightop Biotech IgM/IgG Duo
+Age-Specific Prevalence,30,Africa,Mozambique,Chimoio,33.033279,-18.879423,151.49034,-141.67513,11/2/2020,11/17/2020,,132,11,Qingdao Hightop Biotech IgM/IgG Duo
+Age-Specific Prevalence,31,Africa,Mozambique,Chakwe,33.003216,-24.607189,151.46896,-146.06259,11/16/2020,11/21/2020,,133,10,Panbio Abbott 
+Age-Specific Prevalence,32,Africa,Mozambique,Maxixe,34.910828,-23.618555,152.82547,-145.29234,11/7/2020,11/21/2020,,134,11,Qingdao Hightop Biotech IgM/IgG Duo
+Age-Specific Prevalence,33,Africa,Mozambique,Massinga,35.103497,-22.952366,152.96249,-144.7766,11/26/2020,12/3/2020,,135,11,Qingdao Hightop Biotech IgM/IgG Duo
+Age-Specific Prevalence,34,Africa,Mozambique,Xai-Xai,33.584526,-25.001518,151.88232,-146.37151,11/2/2020,11/12/2020,,136,10,Panbio Abbott 
+Age-Specific Prevalence,37,Africa,Nigeria,Niger State,5.9861398,9.598196,132.25681,-121.14246,6/26/2020,6/30/2020,,,32,"UNCOV-40, COVID-19 IgG and IgM"
+Age-Specific Prevalence,58,Latin America,Ecuador,Cuenca,-79.019745,-2.8932245,71.808182,-130.05827,8/11/2020,11/1/2020,,,12,Standard Q COVID-19 IgM/IgG Plus
+Age-Specific Prevalence,88,South Asia,India,Odisha: Rourkela,84.828445,22.146132,188.32246,-111.84419,8/31/2020,8/31/2020,,1151,2,"Elecsys Anti-SARS-CoV-2 Roche, nucleocapsid IgG IgM "
+Age-Specific Prevalence,96,Africa,Cameroon,Cite Verte,11.495543,3.8889706,136.17461,-125.23238,10/14/2020,11/26/2020,,,10,Panbio COVID-19 IgG/IgM Rapid Test
+Age-Specific Prevalence,100,Africa,South Africa,Jouberton,26.600243,-25.979618,146.91573,-147.14206,7/20/2020,9/17/2020,,,2,"Elecsys Anti-SARS-CoV-2 Roche, nucleocapsid IgG IgM "
+Age-Specific Prevalence,101,Africa,South Sudan,Juba,31.403395,4.4678059,150.3313,-124.81967,8/10/2020,9/11/2020,,,33,RBD ELISA from Massachusetts General
+Age-Specific Prevalence,107,Middle East,United Arab Emirates,"Abu Dhabi, Al Ain, Al Dhafra",54.963093,24.223475,167.08487,-110.23707,7/19/2020,8/14/2020,,,35,DiaSorin LIAISON SARS-CoV-2 S1/S2 IgG
+Age-Specific Prevalence,108,South Asia,India,"Jabalpur (city, not district)",79.887245,23.177641,184.80872,-111.04929,12/11/2020,12/21/2020,,,5,Kavach-AntiSARS-CoV-2 IgG ELISA
+Age-Specific Prevalence,122,South Asia,India,"Indore (city, not district)",75.805183,22.765312,181.9059,-111.36776,8/11/2020,8/23/2020,,,5,Kavach-AntiSARS-CoV-2 IgG ELISA
+Age-Specific Prevalence,124,East Asia,China,"Provinces: Beijing, Shanghai, Guangdong, Jiangsu, Sichuan, Liaoning",116.41274,40.147686,210.78239,-96.779022,4/10/2020,4/18/2020,,,26,Bioscience 2019-nCoV IgM and IgG
+Age-Specific Prevalence,128,Africa,Democratic Republic of Congo,Kinshasa,15.904241,-4.4367104,139.30968,-131.15816,10/22/2020,11/8/2020,,,38,Lumines anti-nucleocapsid + anti-spike assay
+Age-Specific Prevalence,206,South Asia ,India,Hyderabad,78.464134,17.38562,183.79672,-115.44269,1/8/2021,1/24/2021,,,2,"Elecsys Anti-SARS-CoV-2 Roche, nucleocapsid IgG IgM "
+Overall Prevalence,55,Latin America,Dominican Republic,10 Provinces,-70.603195,18.868631,77.793282,-114.33298,4/1/2020,6/30/2020,,,41,GenBody COVID-19 IgM/IgG for S1 (IgG parameters only)
+Overall Prevalence,94,Europe,Albania,"Tirana (city, not county)",19.71879,41.264957,142.02225,-95.730911,12/21/2020,12/28/2020,,,27,Euroimmune anti-spike
+Overall Prevalence,97,Africa,Ethiopia,"Jimma town, Seka, Manna",36.838627,7.9073277,154.19637,-122.35908,8/19/2020,9/2/2020,,,19,Core Technology COVID-19 IgM/IgG rapid test
+Overall Prevalence,105,Middle East,Iraq,"Iraq: Duhok (city, not governorate)",43.046612,36.933105,158.61093,-99.702438,1/10/2021,1/30/2021,,,2,"Elecsys Anti-SARS-CoV-2 Roche, nucleocapsid IgG IgM "
+Overall Prevalence,129,Middle East,Libya,Benghazi,20.593433,31.698174,142.64423,-104.21257,5/2/2020,5/7/2020,,,39,RightSign COVID-19 IgG/IgM Rapid Test
+Overall Prevalence,151,Latin America,Argentina,"AMBA (Metropolitan Area of ​​Buenos Aires), 30 barrios",-62.169571,-38.580036,83.790535,-157.77899,7/16/2020,12/1/2020,,,15,SEROKIT-ELISA COVIDAR IgG
