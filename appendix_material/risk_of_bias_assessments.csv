@@ -1,0 +1,96 @@
+,,,Seroprevalence risk of bias,,Deaths risk of bias
+Region,Country,Location,"?60% of people (or if that's not known, of households) contacted get tested, or correction for non-response","assay with low risk of seroreversion, adjustment performed for seroreversion, or high seroconversion among those previously diagnosed",local or country excess deaths <1.5X deaths used for IFR (IFR locations only)
+Latin America,Argentina,"Buenos Aires city (CABA, not part of Buenos Aires province)",Low,Low,Low
+Latin America,Argentina,Argentina: Buenos Aires city (Barrio Padre Mugica),Low,Low,Low
+Latin America,Argentina,"Metropolitan Area of ??Buenos Aires (AMBA), 30 barrios",Low,Low,Low
+Latin America,Argentina,Buenos Aires city (Barrio Villa Azul),Low,Low,Low
+Latin America,Argentina,"Metropolitan Area of ??Buenos Aires (AMBA), 40 municipalities",High,Low,Low
+Latin America,Argentina,Hurlingham (part of Bueno Aires province),Low,Low,Low
+Latin America,Bolivia,Santa Cruz,High,High,High
+Latin America,Brazil,Distrito Federal (9 administrative regions),High,High,Low
+Latin America,Brazil,Maranhao,Low,Low,High
+Latin America,Brazil,Mato Grosso: 10 cities,Low,Low,Low
+Latin America,Brazil,Minas Gerais: Carmópolis + Nepomuceno,High,High,Low
+Latin America,Brazil,Paraná: Foz do Iguaçu,High,High,Low
+Latin America,Brazil,Rio Grande do Sul: 9 cities,High,Low,Low
+Latin America,Brazil,São Paulo state: Pitangueiras,High,High,Low
+Latin America,Brazil,São Paulo state: São Paulo city,High,Low,Low
+Latin America,Brazil,São Paulo state: São Paulo city #2,High,High,Low
+Latin America,Chile,"Coquimbo-La Serena, Talca, Greater Santiago (not Santiago region, and not just Santiago province)",Low,Low,Low
+Latin America,Colombia,10 cities,Low,Low,Low
+Latin America,Colombia,Córdoba: 8 cities (including Montería),High,High,Low
+Latin America,Dominican Republic,10 provinces,High,High,-
+Latin America,Ecuador,"Cuenca (canton, not city)",High,High,-
+Latin America,Mexico,national,Low,Low,Low
+Latin America,Paraguay,Paraguay: Asunción + Central department,High,High,Low
+Latin America,Peru,Cusco province + Quillabamba City,High,Low,Low
+Latin America,Peru,Iquitos,Low,High,Low
+Latin America,Peru,Lambayeque,High,High,Low
+Latin America,Peru,Lima Metropolitana + Callao,High,High,Low
+Europe,Albania,"Tirana city, not county",High,High,-
+Europe,Hungary,national,Low,Low,Low
+Europe,Poland,"Gliwice, Katowice, Sosnowiec",High,High,High
+Europe,Russia,St. Petersburg (performed by European University at St. Petersburg),Low,Low,High
+Africa,Cameroon,Cité Verte in Yaoundé,Low,High,-
+Africa,Dem. Republic of Congo,Kinshasa,Low,High,-
+Africa,Ethiopia,14 towns (including Addis Ababa #3),Low,Low,High
+Africa,Ethiopia,Addis Ababa #1,Low,High,High
+Africa,Ethiopia,Addis Ababa #2 + Jimma,Low,High,High
+Africa,Ethiopia,"Addis Ababa (Addis Ketema, Yeka) + Jimma (urban + rural)",High,Low,-
+Africa,Ethiopia,Diredawa region/state,High,Low,High
+Africa,Kenya,Nairobi County,Low,Low,High
+Africa,Kenya,Nairobi County (Kibera settlement),Low,Low,-
+Africa,Libya,Benghazi,High,High,-
+Africa,Mozambique,Beira,High,High,-
+Africa,Mozambique,Chimoio,High,High,-
+Africa,Mozambique,Chokwé,High,High,-
+Africa,Mozambique,Lichinga,High,High,High
+Africa,Mozambique,Maputo city,High,High,High
+Africa,Mozambique,Massinga,High,High,-
+Africa,Mozambique,Matola district (subset of Maputo province),High,High,-
+Africa,Mozambique,Maxixe,High,High,-
+Africa,Mozambique,Nampula city,High,High,-
+Africa,Mozambique,Pemba,High,High,-
+Africa,Mozambique,Quelimane,High,High,-
+Africa,Mozambique,Tete city,High,High,-
+Africa,Mozambique,Xai-Xai,High,High,-
+Africa,Nigeria,Niger state,High,High,-
+Africa,Senegal,national,Low,Low,High
+Africa,South Africa,Jouberton (PHIRST-C study),High,Low,-
+Africa,South Africa,"Klerksdorp, Mitchells Plain, Pietermaritzburg",High,Low,High
+Africa,South Sudan,Juba,High,High,-
+Africa,Zambia,6 districts (including Ndola and Lusaka),High,High,High
+Middle East,Iran,national,High,High,High
+Middle East,Iran,18 cities,1,High,-
+Middle East,Iran,Guilan province,High,High,-
+Middle East,Iran,Mazandaran province,High,High,-
+Middle East,Iraq,"Duhok city, not governorate",Low,Low,-
+Middle East,Jordan,national,Low,Low,High
+Middle East,United Arab Emirates,"Abu Dhabi, Al Ain, Al Dhafra",High,Low,-
+Middle East,Yemen,Aden governorate (4 districts),Low,High,-
+South Asia,India,national,Low,Low,High
+South Asia,India,Delhi,High,Low,High
+South Asia,India,Karnataka,Low,High,High
+South Asia,India,Kashmir: whole valley,Low,Low,High
+South Asia,India,Kashmir: Srinagar district,Low,Low,High
+South Asia,India,"Madhya Pradesh: Indore city, not district",Low,High,-
+South Asia,India,"Madhya Pradesh: Jabalpur city, not district",High,High,-
+South Asia,India,Maharashtra: Malegaon,Low,High,High
+South Asia,India,Maharashtra: Mumbai (3 wards),High,Low,High
+South Asia,India,Maharashtra: Pune (5 subwards),Low,Low,-
+South Asia,India,Maharashtra: Pune (Pimpri-Chinchwad),Low,Low,High
+South Asia,India,"Odisha: Bhubaneswar (phase 2), Berhampur, Rourkela",Low,Low,High
+South Asia,India,"Odisha: Bhubaneswar, phases 1 - 3",Low,Low,High
+South Asia,India,Puducherry: Puducherry district,Low,Low,High
+South Asia,India,Tamil Nadu,High,High,High
+South Asia,India,Tamil Nadu: Chennai,Low,Low,High
+South Asia,India,Tamil Nadu: K.V. Kuppam block,High,Low,-
+South Asia,India,Tamil Nadu: Madurai district,High,High,High
+South Asia,India,Telangana: Hyderabad,High,Low,-
+South Asia,India,West Bengal: Paschim Medinipur,High,Low,High
+South Asia,Nepal,national,Low,Low,High
+South Asia,Pakistan,7 cities (including Karachi and Lahore),High,Low,High
+East Asia,China,"Wuhan #1, Hubei outside of Wuhan, 6 other locations",Low,High,High
+East Asia,China,Wuhan #2,Low,Low,High
+East Asia,China,Wuhan: Wuchang District,High,High,-
+East Asia,Laos,5 provinces / national,Low,High,High
