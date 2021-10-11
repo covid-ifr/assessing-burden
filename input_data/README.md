@@ -1,11 +1,11 @@
 
 | filename                       | description    |
 | --- | --- |
-|`study_index.csv`               | basic information about studies used in our meta-analysis of seroprevalence and IFRs (global region, country, location, location_id, study dates, death cutoff date, population_location_id, assay name, assay_id) |
-|`serology_data.csv`             | serology data for studies used in our meta-analysis of seroprevalence and IFRs|
-|`assay_data.csv`                | assay data for studies used in our meta-analysis of seroprevalence and IFRs|
-|`fatalities_data.csv`           | death data for locations in our meta-analysis of IFRs|
-|`population_data.csv`           | catchment sizes for locations in our meta-analysis of IFRs|
-|`agedistribution_data.csv`      | age distributions for locations in our meta-analysis of IFRs|
-|`fatalities_citations.csv`      | sources of death data for locations used in our meta-analysis of IFRs|
-|`agedistribution_citations.csv` | sources of age distribution data for locations used in our meta-analysis of IFRs|
+|`study_index.csv`               | basic study information (location, dates, death cutoff date, assay name) |
+|`serology_data.csv`             | serology data (age group, sample size, seropositive count)|
+|`assay_data.csv`                | assay data (specificity & sensitivity)|
+|`fatalities_data.csv`           | death data (age group, number of fatalities)|
+|`population_data.csv`           | population of catchment area|
+|`agedistribution_data.csv`      | age distribution (age group, percent share of total population)|
+|`fatalities_citations.csv`      | sources of death data|
+|`agedistribution_citations.csv` | sources of age distribution data|
