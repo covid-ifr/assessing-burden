@@ -1,0 +1,666 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>Assessing the Burden of COVID-19 in Developing Countries: Systematic Review, Meta-Analysis, and Public Policy Implications</title>
+<meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no"/>
+<!--<script src="https://api.tiles.mapbox.com/mapbox-gl-js/v0.53.0/mapbox-gl.js"></script>
+<link href="https://api.tiles.mapbox.com/mapbox-gl-js/v0.53.0/mapbox-gl.css" rel="stylesheet"/>-->
+<script src="https://unpkg.com/maplibre-gl@1.15.2/dist/maplibre-gl.js"></script>
+<link href="https://unpkg.com/maplibre-gl@1.15.2/dist/maplibre-gl.css" rel="stylesheet" />
+<script src="https://d3js.org/d3.v5.min.js"></script>
+<script src="https://npmcdn.com/csv2geojson@latest/csv2geojson.js"></script>
+
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+    }
+    h1{
+        padding: 2px;
+        text-align: center;
+        font-size: 1.6em;
+    }
+    h2{
+        text-align: center;
+        font-size: 1.3em;
+    }
+    fieldset.inline {
+        display: inline;
+        vertical-align:top;
+        text-align: left;
+    }
+    p{
+        margin: 2em;
+    }
+
+    #controls{
+        text-align: center;
+    }
+
+    #map {
+        position: absolute;
+        height: 80%;
+        width: 100%;
+        margin-top: 1em;
+    }
+
+    .tooltip{
+        z-index: 100;
+    }
+    .dots{
+        stroke: black;
+        stroke-width: 0.5px;
+    }
+    .national{
+        stroke: white;
+        stroke-width: 4px;
+    }
+    .legend{
+        z-index: 120;
+    }
+    .legend_text{
+        color: white;
+    }
+    .legend_text_header{
+        font-size: 1.3em;
+    }
+    .legend_text_sub{
+        font-size: 1.1em;
+    }
+</style>
+</head>
+  <body>
+    <div id="Text">
+        <h1> Assessing the Burden of COVID-19 in Developing Countries: Systematic Review, Meta-Analysis, and Public Policy Implications </h1>
+        <h2> Interactive map of all included studies </h2>
+        <p>This map displays the location and seroprevalence of all the studies included in our paper "<a href="https://www.medrxiv.org/content/10.1101/2021.09.29.21264325v1.full-text">Assessing the Burden of COVID-19 in Developing Countries: Systematic Review, Meta-Analysis, and Public Policy Implications.</a>"<br> You can click on a study for more information.</p>
+    </div>
+    <div id="controls">
+        <div id="inclusion">
+            <fieldset class="inline">
+                <legend>Data Source (uncheck to exclude):</legend>
+                <div>
+                  <input type="checkbox" id="Age-specific-IFR" name="Age-specific-IFR" checked onchange="changeAgeIFR()">
+                  <label for="Age-specific-IFR">Age-specific-IFR</label>
+                </div>
+                <div>
+                  <input type="checkbox" id="Population-IFR" name="Population-IFR" checked onchange="changePopulationIFR()">
+                  <label for="Population-IFR">Population-IFR</label>
+                </div>
+                <div>
+                  <input type="checkbox" id="Age-specific-Prevalence" name="Age-specific-Prevalence" checked onchange="changeAgePrevalence()">
+                  <label for="Age-specific-Prevalence">Age-specific-Prevalence</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="Overall-Prevalence" name="Overall-Prevalence" checked onchange="changeOverallPrevalence()">
+                    <label for="Overall-Prevalence">Overall-Prevalence</label>
+                </div>
+            </fieldset>
+
+            <fieldset class="inline">
+                <legend>Data location (uncheck to exclude):</legend>
+                <div>
+                  <input type="checkbox" id="national" name="national" checked onchange="changeNational()">
+                  <label for="national">National</label>
+                </div>
+                <div>
+                  <input type="checkbox" id="local" name="local" checked onchange="changeLocal()">
+                  <label for="local">Local (city or county)</label>
+                </div>
+            </fieldset>
+            <!--
+            <fieldset class="inline">
+                <legend>Prevalence distribution accross ages (uncheck to exclude):</legend>
+                <div>
+                  <input type="checkbox" id="uniform" name="uniform" checked onchange="changeUniform()">
+                  <label for="uniform">Uniform Prevalence By Age</label>
+                </div>
+                <div>
+                  <input type="checkbox" id="declining" name="declining" checked onchange="changeDecreasing()">
+                  <label for="declining">Declining Prevalence By Age</label>
+                </div>
+                <div>
+                  <input type="checkbox" id="increasing" name="increasing" checked onchange="changeIncreasing()">
+                  <label for="increasing">Increasing Prevalence By Age</label>
+                </div>
+            </fieldset>
+            -->
+        </div>
+    </div>
+    <div id="map"></div>
+    <script>
+
+
+
+        /****** Data handling functions & variables*****/
+        var initial_data ;
+        var data_to_display ;
+        var include_age_specific_IFR = true ; 
+        var include_population_IFR = true ;
+        var include_overall_prevalence = true ;
+        var include_age_specific_prevalence = true ;
+
+        var include_national = true ;
+        var include_local = true ;
+
+        var include_uniform = true ;
+        var include_decreasing = true ;
+        var include_increasing = true ;
+
+
+        const age_specific_ifr = "Age-Specific IFR"
+        const population_ifr = "Population IFR"
+        const age_specific_prevalence = "Age-Specific Prevalence"
+        const overall_prevalence = "Overall Prevalence"
+
+        function changeAgeIFR() {
+            include_age_specific_IFR = !include_age_specific_IFR
+            filterData()
+        }
+        function changeAgePrevalence(){
+            include_age_specific_prevalence = !include_age_specific_prevalence
+            filterData()
+        }
+        function changeOverallPrevalence(){
+            include_overall_prevalence = !include_overall_prevalence
+            filterData()
+        }
+        function changePopulationIFR(){
+            include_population_IFR = !include_population_IFR
+            filterData()
+        }
+        function changeNational(){
+            include_national = !include_national
+            filterData()
+        }
+        function changeLocal(){
+            include_local = !include_local
+            filterData()
+        }
+        function changeUniform(){
+            include_uniform = !include_uniform
+            filterData()
+        }
+        function changeDecreasing(){
+            include_decreasing = !include_decreasing
+            filterData()
+        }
+        function changeIncreasing(){
+            include_increasing = !include_increasing
+            filterData()
+        }
+
+        function filterData(){
+            data_to_display =  []
+            for(var i = 0 ; i < initial_data.features.length ; i++){
+                let elem = initial_data.features[i]
+                if(include_age_specific_IFR == false && elem.properties.study_info == age_specific_ifr){
+                    continue
+                }
+                if(include_population_IFR == false && elem.properties.study_info == population_ifr){
+                    continue
+                }
+                if(include_age_specific_prevalence == false && elem.properties.study_info == age_specific_prevalence){
+                    continue                 
+                }
+                if(include_overall_prevalence == false && elem.properties.study_info == overall_prevalence){
+                    continue
+                }
+                if(include_local == false && elem.properties.location_label != "National Study"){
+                    continue
+                }
+                if(include_national == false && elem.properties.location_label == "National Study"){
+                    continue
+                }
+                /*if(include_uniform == false && elem.properties.AgeClassification == "Uniform"){
+                    continue
+                }
+                if(include_decreasing == false && elem.properties.AgeClassification == "Declining"){
+                    continue
+                }
+                if(include_increasing == false && elem.properties.AgeClassification == "Increasing"){
+                    continue
+                }*/
+                data_to_display.push(elem)
+            }
+            createDots(data_to_display)
+
+        }
+
+
+
+        /****** D3 bits*****/
+
+
+        var color1 = "rgba(255,255,255,0.85)"
+        var color2 = "rgba(165,15,21,0.85)"
+
+        var tooltip_ref_point_coordinates = null ;
+
+        var colorScale = d3.scaleLinear()
+            .range([color1, color2]); //"rgba(103,0,13,0.8)"]);
+
+        var max_sero = 0;
+        var min_sero = 100
+
+        var tooltipXOffset = 10 ;
+        var tooltipYOffset = -50 ;
+
+        var clickedData = false ;
+
+        var display_study_type = true ;
+        var offsetYTooltip = document.getElementById("Text").clientHeight + document.getElementById("controls").clientHeight;
+        //var offsetYTooltip = document.getElementById("Text").offsetHeight + document.getElementById("controls").offsetHeight;
+
+        var formatNumber = d3.format('.2f');
+
+
+        var Tooltip = d3.select("#map")
+                .append("div")
+                .attr("class", "tooltip")
+                .style("opacity", 0)
+                .style("background-color", "pink")
+                .style("border", "solid")
+                .style("border-width", "2px")
+                .style("border-radius", "5px")
+                .style("padding", "5px")
+                .style("position","absolute")
+        
+        var mouseClickData = function(d) {
+
+            clickedData = true ;
+            Tooltip.style("opacity", 1)
+            /*tooltip_x = (d3.event.pageX+10) + "px"
+            tooltip_y = (d3.event.pageY-offsetYTooltip) + "px"*/
+
+            var projection = project(d.geometry.coordinates)
+            tooltip_ref_point_coordinates = d.geometry.coordinates ;
+            var tooltip_x = (projection.x+tooltipXOffset)+"px"
+            var tooltip_y = (projection.y+tooltipYOffset)+"px"
+            var location
+            if(d.properties.location_label == "National Study"){
+                location = d.properties.country +" [National Study]"
+            }
+            else{
+                location = (d.properties.location_label + " ["+d.properties.country+"]")
+
+            }
+            Tooltip
+            .html("Location:<br>"+location + "<br><br>Type:<br>" + d.properties.study_info + "<br><br>Mean Seroprevalence:<br>" + d.properties.mean+"<br><br>Assay name:<br>"+d.properties.assay_name)
+            .style("left", tooltip_x)
+            .style("top", tooltip_y)
+        }
+        
+        
+        var mouseClickMap = function(d) {
+            if(!clickedData){
+                Tooltip.style("opacity", 0)    
+                tooltip_ref_point_coordinates = null ;
+            }
+            clickedData = false ;
+            
+        }
+
+        
+
+        /****** Map bits*****/
+
+        //mapboxgl.accessToken = "pk.eyJ1IjoibG9ubmliZXNhbmNvbiIsImEiOiJjamxjaWNpOHQwMHV0M3FwaHhneGhvY2l2In0.7GxI8W_dnTKITNF4hEvZeQ";
+
+        var map;
+
+
+        /****** Display code *****/
+
+        d3.csv("./map/map_data.csv")
+            .then(function(data){
+                initial_data = JSON.parse(JSON.stringify(data))
+                //initial_data = data
+                updateMaxMinForColorScale(data,"mean")
+                createLegend()
+                createMap()
+                makeGeoJson(data)
+                return ;
+            })
+
+        function createMap() {
+            map = new maplibregl.Map({
+            container: "map", // container id
+            //style: "mapbox://styles/mapbox/light-v9", // stylesheet location
+            //style: "mapbox://styles/lobenichou/cjto9zfpj00jq1fs7gajbuaas?fresh=true",
+            style: "https://api.maptiler.com/maps/darkmatter/style.json?key=vzWoiH8YygJqMjY0TcSt ",
+            
+
+
+            zoom: 1.8, // starting zoom
+            maxZoom: 10.2,
+            });
+
+
+            map.on("viewreset", render);
+            map.on("move", render);
+            map.on("moveend", render);
+
+            // Optional: Modify map with d3
+            d3.selectAll(".mapboxgl-canvas")
+              .style("opacity", 1)
+              .style("position", "absolute")
+              .style("z-index", 1);
+
+            var container = map.getCanvasContainer();
+            var svg = d3
+                .select(container)
+                .append("svg")
+                .attr("width", "100%")
+                .attr("height", "2000")
+                .style("position", "absolute")
+                .style("z-index", 10)   // Ensure d3 layer in front of map
+                .attr("class","d3_layer")
+                .on("click",mouseClickMap);
+        }
+
+    function createLegend(){
+        
+        var scale = 0.75
+
+        var y_offset_to_middle = scale*5 ;
+        var x_offset = scale*15 ;
+        var y_offset = scale*40 ;    //These two offsets represent the title
+
+        var font_size = scale+"em"
+        var font_size_header = (1.3*scale)+"em"
+        var font_size_sub = (1.1*scale)+"em"
+
+        var background_color = "rgba(0,0,0,0.8)"
+        var text_color = 'rgba(255,255,255,1)'
+        var legendDiv = d3.select('#map').append('div')
+            .attr('width', (scale*360)+'px')
+            .attr('height', (scale*230)+'px')
+            .style("z-index",110)
+            .style("opacity",1)
+            .attr("class","legend")
+            .style("background-color",background_color)
+            .style("position","absolute")
+            .style("border", "solid")
+            .style("border-width", "2px")
+            .style("border-radius", "5px")
+            .style("border-color","white")
+
+        var data = [age_specific_ifr,population_ifr,age_specific_prevalence,overall_prevalence]
+
+
+        //First we create the legend for the shapes
+        legendSvg = legendDiv.append("svg")
+            .attr('width', (scale*360)+'px')
+            .attr('height', (scale*230)+'px')
+            .style("z-index",110)
+            .attr("class","legend")
+            .style("background-color",background_color)
+            .style("opacity",1)
+            .style("border-width","2px")
+            .style("border-color","white");
+
+        legendSvg.append("text")
+            .attr("x",scale*5)
+            .attr("y",scale*20)
+            .text("Legend:")
+            .style("font-size",font_size_header)
+            .style("fill",text_color)
+            .attr("class","legend_text_header legend_text")
+
+        legendSvg.append("text")
+            .attr("x",scale*(5+x_offset))
+            .attr("y",scale*50)
+            .text("Study type")
+            .style("fill",text_color)
+            .style("font-size",font_size_sub)
+            .attr("class","legend_text_sub legend_text")
+
+        legendSvg.selectAll(".legend_dots").data(data).enter().append("path")
+            .attr("class", "legend_dots")
+            .style("fill", function(d){
+                return(colorScale(1))
+            })
+            .attr("d", d3.symbol()
+                .size(scale*200)
+                .type(function(d) { 
+                    return(getShape(d))
+                })
+
+            )
+            .attr("transform",function(d,i){
+                let x = scale*10 +x_offset
+                let y = scale*((i+1)*30) + y_offset
+                return ("translate("+x+","+y+")")
+            });
+        legendSvg.selectAll(".text").data(data).enter().append("text")
+            .attr("x", (scale*25)+ x_offset)
+            .attr("y",function(d,i){
+                let y = scale*(((i+1)*30) + y_offset_to_middle) + y_offset
+                return y ;
+            })
+            .text(function(d){
+                return d ;
+            })
+            .attr("class","legend_text")
+            .style("fill",text_color)
+            .style("font-size",font_size);
+
+        //Now we create the legend for the national VS non-national studies
+        //We add it at the bottom as an extra line to show how national studies are highlighted
+        let y_position = scale*(4*30) + 1/scale*60
+        legendSvg.selectAll(".legend_dots_national").data(data).enter().append("path")
+            .attr("class", "legend_dots_national national")
+            .style("fill", function(d){
+                return(colorScale(1))
+            })
+            .attr("d", d3.symbol()
+                .size(scale*200)
+                .type(function(d) { 
+                    return(getShape(d))
+                })
+
+            )
+            .attr("transform",function(d,i){
+                let x = scale*(10 + (i*25) + x_offset)
+                let y = scale*(y_position+y_offset)
+                return ("translate("+x+","+y+")")
+            });
+
+        legendSvg.append("text")
+            .attr("x", scale*(110+x_offset))
+            .attr("y", function(){
+                return (scale*(y_position + y_offset_to_middle + y_offset))
+            })
+            .text("National Studies")
+            .attr("class","legend_text")
+            .style("fill",text_color)
+            .style("font-size",font_size);
+
+        legend2_x_start = scale*300
+
+        //Now we want to make the continuous scale legend
+        
+        var width_rectangle = scale*30
+        var height_rectangle = scale*100
+        var x_extra_offset = scale*30
+
+        var gradient = legendSvg.append("defs").append("linearGradient")
+            .attr("id", "mygrad")//id of the gradient
+            .attr("x1", "0%")
+            .attr("x2", "0%")
+            .attr("y1", "0%")
+            .attr("y2", "100%")//since its a vertical linear gradient 
+            ;
+            gradient.append("stop")
+            .attr("offset", "0%")
+            .style("stop-color", color1)
+            .style("stop-opacity", 1)
+
+            gradient.append("stop")
+            .attr("offset", "100%")
+            .style("stop-color", color2)
+            .style("stop-opacity", 1)
+
+        legendSvg.append("text")
+            .attr("x",scale*(legend2_x_start))
+            .attr("y",scale*50)
+            .style('fill', '')
+            .text("Prevalence (in %)")
+            .attr("class","legend_text_sub legend_text")
+            .style("fill",text_color)
+            .style("font-size",font_size_sub);
+
+        legendSvg.append("rect")
+            .attr("width", width_rectangle)
+            .attr("height", height_rectangle)
+            .style("fill", "url(#mygrad)")
+            .attr("x",scale*(legend2_x_start+x_extra_offset))
+            .attr("y",scale*(y_offset+40))
+
+        legendSvg.append("text")
+            .attr("x",scale*(legend2_x_start+(width_rectangle/2)-7+x_extra_offset))
+            .attr("y",scale*(45-10+y_offset))
+            .text("0%")
+            .attr("class","legend_text")
+            .style("fill",text_color)
+            .style("font-size",font_size);
+
+        legendSvg.append("text")
+            .attr("x",scale*(legend2_x_start+(width_rectangle/2)-13+x_extra_offset))
+            .attr("y",scale*(height_rectangle+80+y_offset))
+            .text("100%")
+            .attr("class","legend_text")
+            .style("fill",text_color)
+            .style("font-size",font_size);
+
+
+
+    }
+
+    function createDots(input_data) {
+        //d3.selectAll(".d3_layer").remove(); //For when we update the map
+        var svg = d3.select(".d3_layer")
+        svg.selectAll(".dots").remove(); //For when we update the map
+
+        var dots = svg.selectAll(".dots")
+            .data(input_data);
+
+        dots.exit().remove()
+        dots.enter()
+            .append("path")
+            //.attr("class","dots")
+            .attr("class", function(d){
+                if(d.properties.location_label == "National Study"){
+                    return "dots national"
+                }
+                return "dots"
+            })
+            .style("fill", function(d){
+                var color = colorScale(d.properties.mean);
+                return(color)
+            })
+            .attr("d", d3.symbol()
+                .size(200)
+                .type(function(d) { 
+                    return(getShape(d.properties.study_info))
+                })
+
+            )
+            .on("click",mouseClickData)
+
+        render();
+      }
+
+      // Projection method:
+      // Project geojson coordinate to the map's current state
+      function project(d) {
+        return map.project(new maplibregl.LngLat(d[0], d[1]));
+      }
+
+      // Render method redraws lines
+      function render() {
+        d3.selectAll(".dots")
+            .attr("transform", function(d) {
+                let projection = project(d.geometry.coordinates)
+                let coordinates = ""+projection.x+","+projection.y;
+                return "translate("+coordinates+")"
+            });
+        if(tooltip_ref_point_coordinates!=null){
+            let coordinates = project(tooltip_ref_point_coordinates)
+            var tooltip_x = (coordinates.x+tooltipXOffset)+"px"
+            var tooltip_y = (coordinates.y+tooltipYOffset)+"px"
+            d3.selectAll(".tooltip")
+                .style("left", tooltip_x)
+                .style("top", tooltip_y)
+        }
+        
+      }
+
+
+
+        function updateMaxMinForColorScale(data, column_name){
+            console.log("DATA")
+            console.dir(data)
+            var max =d3.max(data, function(d) {  return +d[column_name]; });
+            var min =d3.min(data, function(d) {  return +d[column_name];})
+            console.log("Max = ")
+            console.log(max)
+            colorScale.domain([0,max]);
+        }
+
+        function getShape(input){
+            if(display_study_type){
+                console.log("Input=")
+                console.log(input)
+                if (input == age_specific_ifr){
+                    return d3.symbolCircle;
+                }
+                if(input == population_ifr){
+                    return d3.symbolSquare;
+                }
+                if(input == age_specific_prevalence){
+                    return d3.symbolDiamond;
+                }
+                if(input == overall_prevalence){
+                    return d3.symbolCross;
+                }
+                console.log("Error on study type")
+            }
+            /*else if(display_age_classification){
+                if (input == "Uniform"){
+
+                }
+                if(input == "Declining"){
+
+                }
+                if(input == "Increasing"){
+
+                }
+            }*/
+           
+        }
+
+
+      function makeGeoJson(input_data){
+        csv2geojson.csv2geojson(input_data, {
+            latfield: 'latitude',
+            lonfield: 'longitude',
+            delimiter: ','
+        }, function(err, output_data) {
+            if(err != null){
+                console.log("There was an error in the encoding to GeoJson")
+                console.dir(err)
+            }
+            else{
+                initial_data = output_data
+                createDots(output_data.features)
+            }
+            
+
+        });
+      }
+    </script>
+  </body>
+</html>
