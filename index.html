@@ -984,15 +984,14 @@
         
 
         /****** Map bits*****/
-
-        //mapboxgl.accessToken = "pk.eyJ1IjoibG9ubmliZXNhbmNvbiIsImEiOiJjamxjaWNpOHQwMHV0M3FwaHhneGhvY2l2In0.7GxI8W_dnTKITNF4hEvZeQ";
+        
 
         var map;
 
 
         /****** Display code *****/
 
-        d3.csv("./map_data.csv", d3.autoType)
+        d3.csv("https://raw.githubusercontent.com/covid-ifr/assessing-burden/main/map/map_data.csv", d3.autoType)
             .then(function(data){
                 initial_data = JSON.parse(JSON.stringify(data))
                 //initial_data = data
