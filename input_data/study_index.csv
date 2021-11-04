@@ -12,7 +12,7 @@ Age-Specific IFR,49,Latin America,Colombia,Cucuta,-72.505173,8.0841331,76.440765
 Age-Specific IFR,50,Latin America,Colombia,Villavicencio,-73.491501,4.0742364,75.73938,-125.10032,10/20/2020,10/30/2020,11/8/2020,159,14,SARS-CoV-2 Total Advia Centaur - Siemens
 Age-Specific IFR,51,Latin America,Colombia,Bogota,-74.214455,4.288579,75.225281,-124.94749,10/10/2020,11/5/2020,11/6/2020,160,14,SARS-CoV-2 Total Advia Centaur - Siemens
 Age-Specific IFR,52,Latin America,Colombia,Cali,-76.599579,3.3998175,73.52919,-125.58093,11/18/2020,11/28/2020,12/7/2020,161,14,SARS-CoV-2 Total Advia Centaur - Siemens
-Age-Specific IFR,54,Latin America,Colombia,Ipiales,-77.375862,.57706046,72.977165,-127.58964,12/3/2020,12/11/2020,12/21/2020,163,14,SARS-CoV-2 Total Advia Centaur - Siemens
+Age-Specific IFR,54,Latin America,Colombia,Ipiales,-77.375862,0.57706046,72.977165,-127.58964,12/3/2020,12/11/2020,12/21/2020,163,14,SARS-CoV-2 Total Advia Centaur - Siemens
 Age-Specific IFR,60,Latin America,Peru,Lambayeque,-79.808434,-6.657649,71.247337,-132.74503,6/24/2020,7/10/2020,7/16/2020,173,22,Coretest COVID-19 IgM/IgG Ab Test
 Age-Specific IFR,63,Latin America,Peru,Lima (Metropolitana) + Callao,-76.501862,-11.951227,73.598679,-136.56096,6/28/2020,7/9/2020,7/17/2020,176,12,STANDARD Q COVID-19 IgM/IgG Plus
 Age-Specific IFR,64,Latin America,Peru,"Iquitos, Loreto",-74.726685,-4.9434032,74.861023,-131.51968,7/13/2020,7/18/2020,7/29/2020,209,30,Orient Gene Biotech COVID-19 IgG/IgM Rapid Test (recognizes spike)
@@ -28,7 +28,7 @@ Age-Specific IFR,216,Latin America,Brazil,Varzea Grande,-56.154282,-15.6506,88.0
 Age-Specific IFR,221,Latin America,Paraguay,Asuncion + Central Dept.,-57.476822,-25.379204,87.127602,-146.6683,12/23/2020,2/16/2021,2/2/2021,247,45,"Beijing Kewei Clinical Diagnostic, COVID-19 IgG IgM rapid cassette"
 Population IFR,11,South Asia ,India,Delhi,77.108978,28.646519,182.83305,-106.72321,8/1/2020,8/7/2020,9/1/2020,111,178,Kavach-AntiSARS-CoV-2 IgG ELISA
 Population IFR,12,South Asia ,India,Karnataka,76.182053,14.266849,182.1739,-117.74819,6/15/2020,8/29/2020,8/19/2020,112,4,"Translational Health Sci and Tech Institute, India"
-Population IFR,13,South Asia ,India,Pimpri-Chinchwad,73.914558,18.487116,180.56146,-114.61937,10/7/2020,10/17/2020,11/9/2020,113,113,Abbott IgG Test
+Population IFR,13,South Asia ,India,Pimpri-Chinchwad,73.914558,18.5,180.56146,-114.61937,10/7/2020,10/17/2020,11/9/2020,113,113,Abbott IgG Test
 Population IFR,16,South Asia ,India,Puducherry,79.772415,11.991779,184.72705,-119.40956,9/10/2020,9/16/2020,10/11/2020,116,2,Elecsys Anti-SARS-CoV-2
 Population IFR,18,South Asia ,India,Paschim Medinipur (West Bengal),87.370659,22.394842,190.13023,-111.65308,7/27/2020,8/7/2020,8/29/2020,118,181,ERBALISA COVID-19 IgG
 Population IFR,24,Africa,Mozambique,Maputo city,32.575768,-25.878944,151.16499,-147.06245,8/3/2020,8/21/2020,9/9/2020,126,10,Panbio Abbott 
@@ -54,7 +54,7 @@ Population IFR,144,Europe,Poland,Katowice region,18.94836,50.213768,141.47438,-8
 Population IFR,203,South Asia ,India,Malegaon (city population),74.088226,20.260952,180.68497,-113.2822,7/25/2020,8/20/2020,9/4/2020,229,44,Karwa Kavach SARS-CoV-2 ELISA IgG
 Population IFR,218,Latin America,Brazil,Pitangueiras,-48.277431,-21.007084,93.669388,-143.28476,8/24/2020,9/29/2020,10/9/2020,244,46,"COVID-19 IgG/IgM ECO Test (not the ""Combo"" test)"
 Population IFR,220,Latin America,Brazil,Mato Grosso (8 cities),-56.031708,-14.879041,88.155228,-138.70161,9/16/2020,10/15/2020,10/14/2020,246,35,DiaSorin LIAISON SARS-CoV-2 S1/S2 IgG
-Age-Specific Prevalence,17,South Asia ,India,Pune (five prabhags/subwards),73.914558,18.487116,180.56146,-114.61937,7/20/2020,8/5/2020,,117,27,Euroimmune anti-spike
+Age-Specific Prevalence,17,South Asia ,India,Pune (five prabhags/subwards),73.914558,18.45,180.56146,-114.61937,7/20/2020,8/5/2020,,117,27,Euroimmune anti-spike
 Age-Specific Prevalence,22,Africa,Mozambique,Beira,34.56562,-18.781509,152.58,-141.60156,9/21/2020,10/2/2020,,124,10,Panbio Abbott 
 Age-Specific Prevalence,25,Africa,Mozambique,Matola district (subset of Maputo province),32.619793,-25.494482,151.19629,-146.75908,9/14/2020,9/30/2020,,127,10,Panbio Abbott 
 Age-Specific Prevalence,26,Africa,Mozambique,Nampula,39.662399,-14.995837,156.20438,-138.78758,6/17/2020,6/30/2020,,128,12,Standard Q COVID-19 IgM/IgG Plus
