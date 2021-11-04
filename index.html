@@ -15,6 +15,8 @@
     body {
         margin: 0;
         padding: 0;
+        height: 100%;
+        width: 100%;
     }
     h1{
         padding: 2px;
@@ -25,7 +27,7 @@
         text-align: center;
         font-size: 1.3em;
     }
-    fieldset.inline {
+    .inline {
         display: inline;
         vertical-align:top;
         text-align: left;
@@ -33,16 +35,42 @@
     p{
         margin: 2em;
     }
+    table{
+        margin-top: 10px;
+    }
+
+    #main_part{
+        display: flex;
+    }
 
     #controls{
         text-align: center;
     }
 
-    #map {
-        position: absolute;
-        height: 80%;
+    #map{
+        height: 100%;
+        width: 100%;
+    }
+
+    #map_container {
+        position: relative;
+        height: 800px;
         width: 100%;
         margin-top: 1em;
+        float: bottom;
+        bottom: 0px;
+        /*top: 870px;   /*TODO:  fix;*/
+    }
+
+    fieldset{
+        border-width: 0;
+        margin: 0;
+    }
+    .input_ui{
+        margin-left: 2em;
+        margin-bottom: 0.5em;
+        margin-top: 0.2em;
+        width: 100%;
     }
 
     .tooltip{
@@ -59,15 +87,150 @@
     .legend{
         z-index: 120;
     }
-    .legend_text{
-        color: white;
-    }
     .legend_text_header{
         font-size: 1.3em;
     }
     .legend_text_sub{
         font-size: 1.1em;
     }
+
+    #forest_plot_div{
+        position: absolute;
+    }
+
+    .hovered{
+        stroke: pink;
+        stroke-width: 5px;
+    }
+
+    .risk_td{
+        margin: 6%;
+        padding-left: 5%;
+    }
+    .risk_th{
+        margin: 6%;
+    }
+
+    .float-container {
+        margin: auto;
+    }
+
+    .float-child{
+        width: 48.5%;
+        min-width: 420px;
+        float: left;
+    }  
+
+    .float-child-right{
+        width: 54%;
+    }
+    
+    #studyInfo{
+        float: bottom;
+        min-height: 350px;
+    }
+
+
+
+    .header{
+        margin: 0.3em;
+        padding: 0.1em;
+        margin-bottom: 0.7em;
+        text-align: center;
+        font-size: 1.3em;
+        width: 100%;
+    }
+
+    .sub_header{
+        margin-bottom: 0.3em;
+        padding: 0.1em;
+        font-size: 1.07em;
+    }
+
+    #main{
+        display: flex;
+        width: 100%;
+        height: 1000px;
+        flex-direction: column;
+    }
+    #top_left{
+        width: 49%;
+        min-width: 450px;
+    }
+    #top_right{
+        width: 49%;
+        overflow-y: scroll;
+    }
+    #top_container{
+        display: inline-flex;
+        width: 100%;
+        height: 600px;
+        margin-bottom: 50px;
+    }
+    #bottom_left{
+        width: 40%;
+        min-width: 400px;
+        display: flex;
+        height: 600px;
+
+        flex-direction: column;
+    }
+    #bottom_right{
+        width: 100%;
+        min-width: 60%;
+    }
+    #bottom_container{
+        display: inline-flex;
+        width: 100%;
+        height: 600px;
+        margin-top: 1px;
+    }
+    #forest_plot{
+        height: 100%;
+        width: 100%;
+        min-width: 420px;
+        min-height: 600px;
+    }
+
+    #mapLegend{
+        width: 100%;
+        height: 200px;
+        margin-top: 1px;
+        display: inline-flex;
+    }
+
+    #left_legend{
+        width: 60%;
+        min-width: 60%;
+        height: 100%;
+    }
+    #right_legend{
+        width: 40%;
+        max-width: 40%;
+    }
+    .legend_dots{
+        display: block;
+        max-height: 100%;
+        heigh: 100%;
+        width: 100%;
+        max-width: 100%;
+    }
+    #gradient_legend_svg{
+        display: block;
+        margin: auto;
+    }
+    #svg_gradient{
+        display: block;
+        margin: auto;
+        width: 60px;
+    }
+    .legend_text{
+        font-size: 1em;
+    }
+    .td_info{
+        height: 36px;
+    }
+
 </style>
 </head>
   <body>
@@ -76,39 +239,213 @@
         <h2> Interactive map of all included studies </h2>
         <p>This map displays the location and seroprevalence of all the studies included in our paper "<a href="https://www.medrxiv.org/content/10.1101/2021.09.29.21264325v1.full-text">Assessing the Burden of COVID-19 in Developing Countries: Systematic Review, Meta-Analysis, and Public Policy Implications.</a>"<br> You can click on a study for more information.</p>
     </div>
+
+    <div id="main">
+        <div id="top_container">
+            <div id="top_left">
+                <svg width="400" height="600" id="forest_plot"></svg>
+            </div>
+            <div id="top_right">
+                <div id="allUI">
+                    <div id="data_to_show">
+                        Data to visualise: 
+                            <select name="encodeVariable" id="encodeVariable" onchange="changeEncodeVariable()"> 
+                            </select> 
+                    </div>
+                    <span class="sub_header">Assay Starts:</span><br/>
+                    <div id="date_div_start" class="input_ui">
+                        <table>
+                            <tr>
+                                <td>Min Date</td> 
+                                <td><input type="date" id="minDateInputStart" name="minDateInputStart" onchange="changeMinStart()" value="2018-11-23"></td>
+                            </tr>
+                            <tr>
+                                <td>Max Date</td> 
+                                <td><input type="date" id="maxDateInputStart" name="maxDateInputStart" onchange="changeMaxStart()" value="2020-11-23"><br/></td>
+                            </tr>
+                        </table>
+                    </div>
+                    <span class="sub_header">Assay Ends:</span><br/>
+                    <div id="date_div_end" class="input_ui">
+                        Min Date <input type="date" id="minDateInputEnd" name="minDateInputEnd" onchange="changeMinEnd()" value="2018-11-23"><br/>
+                        Max Date <input type="date" id="maxDateInputEnd" name="maxDateInputEnd" onchange="changeMaxEnd()" value="2020-11-23"><br/>
+                    </div>
+                    <span class="sub_header">Data location (uncheck to exclude):</span>
+                    <fieldset class="inline input_ui">
+                        <!--<legend>Data location (uncheck to exclude):</legend>-->
+                        <div>
+                          <input type="checkbox" id="national" name="national" checked onchange="changeNational()">
+                          <label for="national">National</label>
+                        </div>
+                        <div>
+                          <input type="checkbox" id="local" name="local" checked onchange="changeLocal()">
+                          <label for="local">Local (city or county)</label>
+                        </div>
+                    </fieldset>
+
+                    <span class="sub_header">Data Source (uncheck to exclude):</span>
+                    <fieldset class="inline input_ui">
+                        <!--<legend>Data Source (uncheck to exclude):</legend>-->
+                        <div>
+                          <input type="checkbox" id="Age-specific-IFR" name="Age-specific-IFR" checked onchange="changeAgeIFR()">
+                          <label for="Age-specific-IFR">Age-specific-IFR</label>
+                        </div>
+                        <div>
+                          <input type="checkbox" id="Population-IFR" name="Population-IFR" checked onchange="changePopulationIFR()">
+                          <label for="Population-IFR">Population-IFR</label>
+                        </div>
+                        <div>
+                          <input type="checkbox" id="Age-specific-Prevalence" name="Age-specific-Prevalence" checked onchange="changeAgePrevalence()">
+                          <label for="Age-specific-Prevalence">Age-specific-Prevalence</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="Overall-Prevalence" name="Overall-Prevalence" checked onchange="changeOverallPrevalence()">
+                            <label for="Overall-Prevalence">Overall-Prevalence</label>
+                        </div>
+                    </fieldset>
+                    <span class="sub_header">Bias risks (uncheck to exclude):</span>
+                    <fieldset class="inline input_ui">
+                        <!--<legend>Bias risks (uncheck to exclude):</legend>-->
+                        <table style="width: 90%">
+                            <tr>
+                                <th class="risk_th">Non Response</th>
+                                <th class="risk_th">Seroreversion</th> 
+                                <th class="risk_th">Death Undercount</th>
+                            </tr>
+                            <tr>
+
+                                <td class="risk_td"><input type="checkbox" id="NRR_high" name="NRR" checked onchange="changeNRR()">
+                                <label for="NRR_high">High</label></td>
+                                <td class="risk_td"><input type="checkbox" id="SR_high" name="SR" checked onchange="changeSR()">
+                                <label for="SR_high">High</label></td>
+                                <td class="risk_td"><input type="checkbox" id="DU_high" name="DU" checked onchange="changeDU()">
+                                <label for="DU_high">High</label></td>
+                            </tr>
+                            <tr>
+
+                                <td class="risk_td"><input type="checkbox" id="NRR_low" name="NRR" checked onchange="changeNRR()">
+                                <label for="NRR_low">Low </label></td>                        
+                                <td class="risk_td"><input type="checkbox" id="SR_low" name="SR" checked onchange="changeSR()">
+                                <label for="SR_low">Low </label></td>
+                                <td class="risk_td"><input type="checkbox" id="DU_low" name="DU" checked onchange="changeDU()">
+                                <label for="DU_low">Low </label></td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td></td>
+                                <td class="risk_td"><input type="checkbox" id="DU_NA" name="DU" checked onchange="changeDU()">
+                                <label for="DU_NA">NA  </label></td>
+                            </tr>
+
+                        </table>
+                    </fieldset>
+                </div>
+            </div>
+        </div>
+        <div id="bottom_container">
+            <div id="bottom_left">
+                <div id="studyInfo" class="studyInfo">
+                    <p class="header"> Study Info </p>
+                    <table>
+                        <tr>
+                            <td class="legend_text td_info">Location:</td>
+                            <td id="locationInfo" class="legend_text"></td>
+                        </tr>
+                        <tr>
+                            <td class="legend_text td_info">Type:</td>
+                            <td id="typeInfo" class="legend_text"></td>
+                        </tr>
+                        <tr>
+                            <td class="legend_text td_info">Seroprevalence:</td>
+                            <td id="seroprevalenceInfo" class="legend_text"></td>
+                        </tr>
+                        <tr>
+                            <td class="legend_text td_info">IFR:</td>
+                            <td id="IFRInfo" class="legend_text"></td>
+                        </tr>
+                        <tr>
+                            <td class="legend_text td_info">Assay Name:</td>
+                            <td id="assayInfo" class="legend_text"></td>
+                        </tr>
+                        <tr>
+                            <td class="legend_text td_info">Dates:</td>
+                            <td id="datesInfo" class="legend_text"></td>
+                        </tr>
+                        <tr>
+                            <td class="legend_text td_info">Sources:</td>
+                            <td id="sourcesInfo" class="legend_text"></td>
+                        </tr>
+                    </table>
+                </div>
+                <div>
+                    <p class="header">Legend:</p>
+                    <div id="mapLegend">
+                        <div id="left_legend">
+                            <span class="sub_header">Study type</span>
+                            <table>
+                                <tr>
+                                    <td id="legend_shape1"></td>
+                                    <td class="legend_text">Age Specific IFR</td>
+                                </tr>
+                                <tr>
+                                    <td width="30px" height="auto" id="legend_shape2"></td>
+                                    <td class="legend_text">Population IFR</td>
+                                </tr>
+                                <tr>
+                                    <td width="30px" height="auto" id="legend_shape3"></td>
+                                    <td class="legend_text">Age Specific Prevalence</td>
+                                </tr>
+                                <tr>
+                                    <td width="30px" height="auto" id="legend_shape4"></td>
+                                    <td class="legend_text">Overall Prevalence</td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div id="right_legend">
+                            <center><span id="gradient_legend">Seroprevalence</span></center>
+                            <center><div id="gradient_legend_svg"></div></center>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div id="bottom_right">
+                <div id="map"></div>
+            </div>
+        </div>        
+    </div>
     <div id="controls">
         <div id="inclusion">
+            
+            <!--
             <fieldset class="inline">
-                <legend>Data Source (uncheck to exclude):</legend>
+                <legend>Seroreversion risk (uncheck to exclude):</legend>
                 <div>
-                  <input type="checkbox" id="Age-specific-IFR" name="Age-specific-IFR" checked onchange="changeAgeIFR()">
-                  <label for="Age-specific-IFR">Age-specific-IFR</label>
+                  <input type="checkbox" id="SR_high" name="SR" checked onchange="changeSR()">
+                  <label for="Age-specific-IFR">High</label>
                 </div>
                 <div>
-                  <input type="checkbox" id="Population-IFR" name="Population-IFR" checked onchange="changePopulationIFR()">
-                  <label for="Population-IFR">Population-IFR</label>
-                </div>
-                <div>
-                  <input type="checkbox" id="Age-specific-Prevalence" name="Age-specific-Prevalence" checked onchange="changeAgePrevalence()">
-                  <label for="Age-specific-Prevalence">Age-specific-Prevalence</label>
-                </div>
-                <div>
-                    <input type="checkbox" id="Overall-Prevalence" name="Overall-Prevalence" checked onchange="changeOverallPrevalence()">
-                    <label for="Overall-Prevalence">Overall-Prevalence</label>
+                  <input type="checkbox" id="SR_low" name="SR" checked onchange="changeSR()">
+                  <label for="Population-IFR">Low</label>
                 </div>
             </fieldset>
+            <fieldset class="inline">
+                <legend>Death undercount risk (uncheck to exclude):</legend>
+                <div>
+                  <input type="checkbox" id="DU_high" name="DU" checked onchange="changeDU()">
+                  <label for="DU_high">High</label>
+                </div>
+                <div>
+                  <input type="checkbox" id="DU_low" name="DU" checked onchange="changeDU()">
+                  <label for="DU_low">Low</label>
+                </div>
+                <div>
+                  <input type="checkbox" id="DU_NA" name="DU" checked onchange="changeDU()">
+                  <label for="DU_NA">NA</label>
+                </div>
+            </fieldset>
+            -->
 
-            <fieldset class="inline">
-                <legend>Data location (uncheck to exclude):</legend>
-                <div>
-                  <input type="checkbox" id="national" name="national" checked onchange="changeNational()">
-                  <label for="national">National</label>
-                </div>
-                <div>
-                  <input type="checkbox" id="local" name="local" checked onchange="changeLocal()">
-                  <label for="local">Local (city or county)</label>
-                </div>
-            </fieldset>
             <!--
             <fieldset class="inline">
                 <legend>Prevalence distribution accross ages (uncheck to exclude):</legend>
@@ -128,7 +465,16 @@
             -->
         </div>
     </div>
-    <div id="map"></div>
+    <!--<div id="map_container">
+        <div height="600" class="float-container">
+            <div class="float-child">
+                
+            </div>
+        </div>
+        <div id="map_container">
+        </div>
+    </div>-->
+    
     <script>
 
 
@@ -148,7 +494,26 @@
         var include_decreasing = true ;
         var include_increasing = true ;
 
+        var include_DU = [true, true, true]   //We include both high, low, and NA
+        var include_SR = [true, true]         //We include both high and low
+        var include_NRR = [true, true]   //We include both high and low
+
         const encode_national_studies = false
+
+        var possible_focus = ["Seroprevalence","IFR"]
+        var possible_properties = ["mean","IFR_mean"] 
+
+        var focus_elem = document.getElementById("encodeVariable")
+        for(i in possible_focus) {focus_elem.add(new Option(possible_focus[i],possible_focus[i]));}
+
+        var variable_focus = possible_focus[0]
+
+        var min_date_start = null
+        var max_date_start = null
+        var min_date_end = null 
+        var max_date_end = null 
+
+        var max_ci_IFR, max_IFR, max_CI_seroprevalence, max_seroprevalence;
 
 
 
@@ -194,6 +559,128 @@
             filterData()
         }
 
+        function changeNRR(){
+            var radios = document.getElementsByName("NRR");
+            for (var i = 0 ; i < radios.length ; i++) {
+               include_NRR[i] = radios[i].checked
+            }
+            filterData()
+        }
+
+        function changeDU(){
+            var radios = document.getElementsByName("DU");
+            for (var i = 0 ; i < radios.length ; i++) {
+               include_DU[i] = radios[i].checked
+            }
+            filterData()
+        }
+
+        function changeSR(){
+            var radios = document.getElementsByName("SR");
+            for (var i = 0 ; i < radios.length ; i++) {
+               include_SR[i] = radios[i].checked
+            }
+            filterData()
+        }
+
+
+        function changeMinStart(){
+            let v = document.getElementById("minDateInputStart").value;
+            min_date_start = parseISODate(v);
+            filterData();
+        }
+
+        function changeMinEnd(){
+            let v = document.getElementById("minDateInputEnd").value;
+            min_date_end = parseISODate(v);
+            filterData();
+        }
+
+        function changeMaxStart(){
+            let v = document.getElementById("maxDateInputStart").value;
+            max_date_start = parseISODate(v);
+            filterData();
+        }
+        function changeMaxEnd(){
+            let v = document.getElementById("maxDateInputEnd").value;
+            max_date_end = parseISODate(v);
+            filterData();
+        }
+
+        //Custom sort function 
+        function sortBy(field) {
+            return function(a, b) {
+                //console.log("a.properties[field] = "+a.properties[field])
+                //console.log("b.properties[field] = "+b.properties[field])
+                if(a.properties[field] > b.properties[field]){
+                    //console.log("Return a > b")
+                    return -1 
+                }         
+                else if(a.properties[field] > b.properties[field]){
+                    //console.log("Return a < b")
+                    return 1
+                }
+                else{
+                    //console.log("Return a = b")
+                    return 0
+                }
+                //return (a.properties[field] > b.properties[field]) - (a.properties[field] < b.properties[field])
+            };
+        }
+
+
+        // Parse and validate a date in format yyyy-mm-dd
+        // Note that a date without a timezone is treated as LOCAL since
+        // the HTML spec is consistent with ISO 8601
+        function parseISODate(s){
+            var b = s.split(/\D/);
+            var d = new Date(b[0], --b[1], b[2]);
+            return d && d.getMonth() == b[1]? d : new Date(NaN);
+        }
+
+        function changeEncodeVariable(){
+            var value = focus_elem.options[focus_elem.selectedIndex].value;
+            //Seroprevalence, column mean
+            variable_focus = value
+            if (variable_focus == possible_focus[0]){
+
+            }
+            else{
+
+            }
+            updateLegendAndScales(variable_focus)
+            filterData()
+        }
+
+        //Returns false if the element is not between specified dates
+        function filterByDate(elem){
+            if( elem.properties.start_date < min_date_start || elem.properties.start_date > max_date_start){
+                return false
+            }
+            if( elem.properties.end_date < min_date_end || elem.properties.end_date > max_date_end){
+                return false
+            }
+            return true 
+        }
+
+        function checkSingleBiasRisk(elem,risk_include_values,risk_name){
+            let values = ["High","Low","NA"]
+            for (var i = 0 ; i < risk_include_values.length ; i++){
+                if(risk_include_values[i] == false && elem[risk_name] == values[i]){
+                    console.dir(elem)
+                    return false
+                }
+            }
+            return true ;
+        }
+
+        //Returns false if the element is not within the wanted risk
+        function filterRisk(elem){
+            elem = elem.properties
+            let value = checkSingleBiasRisk(elem,include_DU,"death_undercount_risk") & checkSingleBiasRisk(elem,include_SR,"seroreversion_risk") & checkSingleBiasRisk(elem,include_NRR,"non_response_risk") 
+            return value
+        }
+
         function filterData(){
             data_to_display =  []
             for(var i = 0 ; i < initial_data.features.length ; i++){
@@ -225,12 +712,122 @@
                 if(include_increasing == false && elem.properties.AgeClassification == "Increasing"){
                     continue
                 }*/
+
+                //If we focus on Seroprevalece, no problem, but if we focus on IFR, some elements won't have a value, we should remove them
+                if(variable_focus == possible_focus[1]){
+                    if(elem.properties.IFR_mean == null){
+                        continue
+                    }
+                }
+
+                if(filterRisk(elem) == false){
+                    continue
+                }
+
+
+                if(filterByDate(elem) == false){
+                    continue 
+                }
                 data_to_display.push(elem)
             }
+
+            console.log("Pre-sort")
+            console.dir(data_to_display)
+            if(variable_focus == possible_focus[0]){
+                data_to_display.sort(sortBy('mean'));
+            }
+            else{
+                data_to_display.sort(sortBy('IFR_mean'));
+            }
+            console.log("Post-sort")
+            console.dir(data_to_display)
             createDots(data_to_display)
+            createForest(data_to_display)
 
         }
 
+        function create_date(input_string){
+            input_string = input_string.split("/")
+            let day = +input_string[1]
+            let month = +input_string[0]
+            let year = +input_string[2]
+            let date = new Date(year, month, day)
+            return date
+        }
+
+        function initialize_max_min_dates(type,date){
+            if(type=="start"){
+                if(min_date_start == null){
+                    min_date_start = date
+                }
+                if(max_date_start == null){
+                    max_date_start = date
+                }
+                if(date < min_date_start){
+                    min_date_start = date
+                }
+                if(date > max_date_start){
+                    max_date_start = date
+                }
+            }
+            else{
+                if(min_date_end == null){
+                    min_date_end = date
+                }
+                if(max_date_end == null){
+                    max_date_end = date
+                }
+                if(date < min_date_end){
+                    min_date_end = date
+                }
+                if(date > max_date_end){
+                    max_date_end = date
+                }
+            }
+        }
+
+
+        function parseDates(data){
+            for (var i = 0 ; i < data.features.length ; i++){
+                let elem = data.features[i].properties
+                let date = create_date(elem.start_date)
+                elem.start_date = date
+                initialize_max_min_dates("start",date)
+
+                date = create_date(elem.end_date)
+                elem.end_date = date 
+                initialize_max_min_dates("end",date)
+            }
+
+            document.getElementById("minDateInputStart").value = (toISOString(min_date_start).substr(0,10))
+            document.getElementById("maxDateInputStart").value = (toISOString(max_date_start).substr(0,10))
+            document.getElementById("minDateInputEnd").value = (toISOString(min_date_end).substr(0,10))
+            document.getElementById("maxDateInputEnd").value = (toISOString(max_date_end).substr(0,10))
+        }
+
+
+        /* This function will be called instead of the function in the Date object that does not leave the time in local timezone.*/
+        function toISOString(date) {
+          var tzo = -date.getTimezoneOffset(),
+              dif = tzo >= 0 ? '+' : '-',
+              pad = function(num) {
+                  var norm = Math.floor(Math.abs(num));
+                  return (norm < 10 ? '0' : '') + norm;
+              };
+
+          return date.getFullYear() +
+              '-' + pad(date.getMonth() + 1) +
+              '-' + pad(date.getDate()) +
+              'T' + pad(date.getHours()) +
+              ':' + pad(date.getMinutes()) +
+              ':' + pad(date.getSeconds()) +
+              dif + pad(tzo / 60) +
+              ':' + pad(tzo % 60);
+        }
+
+        function toShortString(date){
+            return (date.getFullYear()+"/"+(date.getMonth()+1)+"/"+date.getDate())
+        }
 
 
         /****** D3 bits*****/
@@ -244,8 +841,7 @@
         var colorScale = d3.scaleLinear()
             .range([color1, color2]); //"rgba(103,0,13,0.8)"]);
 
-        var max_sero = 0;
-        var min_sero = 100
+        var max_value = 100
 
         var tooltipXOffset = 10 ;
         var tooltipYOffset = -50 ;
@@ -259,6 +855,8 @@
         var formatNumber = d3.format('.2f');
 
         var map_style = "positron"
+
+        var transition_time = 700
 
         let style_link,legend_color,text_color,stroke_color
 
@@ -274,8 +872,43 @@
             text_color = 'rgba(255,255,255,1)'
         }
 
-        style_link+="?key=vzWoiH8YygJqMjY0TcSt"
+        style_link+="?key=vzWoiH8YygJqMjY0TcSt "
 
+        var forest_valueScale 
+        var forest_positionScale 
+
+        var forest_plot
+
+
+
+        function updateLegendAndScales(value_for_gradient){
+            let tmp = document.getElementById('gradient_legend')
+            tmp.textContent = value_for_gradient + " (in %)"
+            tmp = document.getElementById('legend_gradient_max')
+            let max_ci,max;
+            if(variable_focus == possible_focus[0]){
+                max_ci = max_ci_seroprevalence
+                max = max_seroprevalence
+            }
+            else{
+                max_ci = max_ci_IFR
+                max = max_IFR
+            }
+
+            
+            colorScale.domain([0,max]);
+            forest_valueScale.domain([0,max_ci])
+
+            max = parseFloat(max).toFixed(2)
+            tmp.textContent = ""+max+"%"
+
+            //d3.select("#forest_x_axis").call(d3.axisLeft(forest_positionScale))
+            console.log("Axis print")
+            console.dir(d3.selectAll("#forest_x_axis"))
+            d3.selectAll("#forest_x_axis")
+                .transition().duration(transition_time)
+                .call(d3.axisBottom(forest_valueScale));
+        }
 
         var Tooltip = d3.select("#map")
                 .append("div")
@@ -288,12 +921,12 @@
                 .style("padding", "5px")
                 .style("position","absolute")
         
-        var mouseClickData = function(d) {
+        /*var mouseClickData = function(d) {
 
             clickedData = true ;
-            Tooltip.style("opacity", 1)
-            /*tooltip_x = (d3.event.pageX+10) + "px"
-            tooltip_y = (d3.event.pageY-offsetYTooltip) + "px"*/
+            //Tooltip.style("opacity", 1)
+            //tooltip_x = (d3.event.pageX+10) + "px"
+            //tooltip_y = (d3.event.pageY-offsetYTooltip) + "px"
 
             var projection = project(d.geometry.coordinates)
             tooltip_ref_point_coordinates = d.geometry.coordinates ;
@@ -307,11 +940,36 @@
                 location = (d.properties.location_label + " ["+d.properties.country+"]")
 
             }
-            Tooltip
-            .html("Location:<br>"+location + "<br><br>Type:<br>" + d.properties.study_info + "<br><br>Mean Seroprevalence:<br>" + d.properties.mean+"<br><br>Assay name:<br>"+d.properties.assay_name)
+
+            let dates = toShortString(d.properties.start_date) + " -- " + toShortString(d.properties.end_date)
+            let links = ""
+            if(d.properties.link_one != ''){
+                links += "<a href='"+d.properties.link_one+"'>Link1</a>"
+            }
+            if(d.properties.link_two != ''){
+                links += "; <a href='"+d.properties.link_two+"'>Link2 </a>"
+            }
+
+            let seroprevalence_info = ""+d.properties.mean+ " ["+d.properties.p025+" ; "+d.properties.p975+" ]"
+            let ifr_info = "NA"
+            if(d.properties.IFR_mean != ""){
+                ifr_info = ""+d.properties.IFR_mean+ " ["+d.properties.IFR_p025+" ; "+d.properties.IFR_p975+" ]"
+            }
+            
+            document.getElementById("locationInfo").textContent = location
+            document.getElementById("studyInfo").textContent = d.properties.study_info
+            document.getElementById("seroprevalenceInfo").textContent = seroprevalence_info
+            document.getElementById("IFRInfo").textContent = ifr_info
+            document.getElementById("assayInfo").textContent = d.properties.assay_name
+            document.getElementById("datesInfo").textContent = dates
+            document.getElementById("sourcesInfo").innerHTML = datum.properties.source +"<br/>"+ links
+            //d3.select("#sourcesInfo").html = d.properties.source + links
+
+            //Tooltip
+            .html("Location:<br>"+location + "<br><br>Type:<br>" + d.properties.study_info + "<br><br>Seroprevalence: " + seroprevalence_info+ "<br>IFR: "+ifr_info+"<br><br>Assay name:<br>"+d.properties.assay_name + "<br><br>Dates:<br>" + dates + "<br><br>Source:<br>"+ d.properties.source + links)
             .style("left", tooltip_x)
             .style("top", tooltip_y)
-        }
+        }*/
         
         
         var mouseClickMap = function(d) {
@@ -334,23 +992,32 @@
 
         /****** Display code *****/
 
-        d3.csv("./map/map_data.csv")
+        d3.csv("./map_data.csv", d3.autoType)
             .then(function(data){
                 initial_data = JSON.parse(JSON.stringify(data))
                 //initial_data = data
-                updateMaxMinForColorScale(data,"mean")
-                createLegend()
+                max_ci_seroprevalence= d3.max(initial_data, function(d) {  return +d["p975"]; });
+                max_ci_IFR= d3.max(initial_data, function(d) {  return +d["IFR_p975"]; });
+                max_seroprevalence= d3.max(initial_data, function(d) {  return +d["mean"]; });
+                max_IFR= d3.max(initial_data, function(d) {  return +d["IFR_mean"]; });
+                colorScale.domain([0,max_seroprevalence]);
+                createLegendFinal()
                 createMap()
+                createForestPlot()
                 makeGeoJson(data)
+                parseDates(initial_data)
                 return ;
             })
 
         function createMap() {
             map = new maplibregl.Map({
             container: "map", // container id
+            //style: "mapbox://styles/mapbox/light-v9", // stylesheet location
+            //style: "mapbox://styles/lobenichou/cjto9zfpj00jq1fs7gajbuaas?fresh=true",
+            //style: "https://api.maptiler.com/maps/darkmatter/style.json?key=vzWoiH8YygJqMjY0TcSt",
             style: style_link,
             zoom: 1.8, // starting zoom
-            maxZoom: 5.5,
+            maxZoom: 10.2,
             });
 
 
@@ -373,8 +1040,318 @@
                 .style("position", "absolute")
                 .style("z-index", 10)   // Ensure d3 layer in front of map
                 .attr("class","d3_layer")
-                .on("click",mouseClickMap);
+                //.on("click",mouseClickMap);
         }
+
+
+    function createForestPlot(){
+        //var forest_plot = document.getElementById("forest_plot")
+        forest_plot = d3.select("#forest_plot")
+        
+        var margin = 10 
+
+
+        var height = (forest_plot.attr("height") - 2*margin);
+        var width = (forest_plot.attr("width") - 2*margin)
+
+        console.dir(forest_plot)
+        console.log("height forest plot = "+height)
+        console.log("width forest plot = "+width)
+
+   
+
+        forest_valueScale = d3.scaleLinear().range([0, width])
+        forest_positionScale = d3.scaleLinear().range([height, 0]);
+        forest_positionScale.domain([-2, initial_data.length+2])    //We want to not have the first study right on the axis, so we space it out
+        forest_valueScale.domain([-0.05, max_ci_seroprevalence]);
+
+
+        //Add the X-axis
+        forest_plot.append("g")
+            .attr("class","axis")
+            .attr("id","forest_x_axis")
+            .attr("transform", "translate("+margin+"," + height + ")")
+            .call(d3.axisBottom(forest_valueScale));
+
+        // Add the Y Axis
+        forest_plot.append("g")
+            .attr("class","axis")
+            .attr("transform", "translate("+margin+",0)")
+            .call(d3.axisLeft(forest_positionScale).tickValues([]));
+
+    }
+
+    function createForest(input_data){
+        var margin = 10
+        var forest = forest_plot.selectAll(".forest_dot")
+            .data(input_data, function(d) { return d.properties.location_id; });
+
+        forest.exit().remove()
+        forest.enter()
+            //.append("circle")
+            .append("path")
+            .attr("class", "forest_dot")
+            .attr("id",function(d,i){
+                return "f_"+d.id
+            })
+            .on("mouseover", function(d){handleMouseOver(d,""+this.id)})
+            .on("mouseout", function(d){handleMouseOut(d,""+this.id)})
+        .merge(forest)
+            .transition()
+            .duration(transition_time)
+            .attr("d", d3.symbol()
+                .size(40)
+                .type(function(d) { 
+                    return(getShape(d.properties.study_info))
+                })
+
+            )
+            //.attr("class","dots")
+            //.attr("r", 3)
+            //.attr("cx", function(d) { return forest_valueScale( parseInt(d.properties.location_id)); })
+            //.attr("cx", function(d,i) { return 4*i; })
+            //.attr("cy", function(d) { return forest_positionScale(d.properties.mean); })
+            .attr("transform", function(d,i) {
+                let y = forest_positionScale(i)
+                let x
+                if(variable_focus == possible_focus[0]){
+                    x = forest_valueScale(d.properties.mean)
+                }
+                else{
+                    x = forest_valueScale(d.properties.IFR_mean)
+                }
+                x += margin
+                let coordinates = ""+x+","+y
+                return "translate("+coordinates+")"
+            })
+
+        //render();
+
+        var forest_bars = forest_plot.selectAll(".forest_bars")
+            .data(input_data, function(d) { return d.properties.location_id; });
+        forest_bars.exit().remove()
+        forest_bars.enter()
+            //.append("circle")
+            .append("rect")
+            .attr("height", 2)
+            .attr("class", "forest_bars")
+            //.attr("r", 3)
+            .attr("id",function(d,i){
+                return "b_"+d.id
+            })
+            .on("mouseover", function(d){ handleMouseOver(d,""+this.id)})
+            .on("mouseout", function(d){handleMouseOut(d,""+this.id)})
+            .merge(forest_bars)
+            .transition()
+            .duration(transition_time)
+            .attr("y", function(d,i) { return (forest_positionScale(i)-1); })
+            .attr("x", function(d,i) { 
+                let x
+                if(variable_focus == possible_focus[0]){
+                    x = forest_valueScale(d.properties.p025)
+                }
+                else{
+                    x = forest_valueScale(d.properties.IFR_p025)
+                }
+                x +=margin
+                return x
+
+            })
+            .attr("width", function(d) { 
+                let x_min
+                let x_max
+                if(variable_focus == possible_focus[0]){
+                    x_min = forest_valueScale(d.properties.p025)
+                    x_max= forest_valueScale(d.properties.p975)
+                }
+                else{
+                    x_min = forest_valueScale(d.properties.IFR_p025)
+                    x_max= forest_valueScale(d.properties.IFR_p975)
+
+                }
+                return (x_max-x_min)
+            })
+        /*forest_plot.selectAll("dot")
+            .data(data_to_display)
+        .enter().append("circle")
+            .attr("r", 5)
+            .attr("cx", function(d) { return forest_valueScale(d.properties.location_id); })
+            .attr("cy", function(d) { return forest_positionScale(d.properties.mean); });*/
+
+    }
+
+    function handleMouseOver(datum,id){
+        id = id.split("_")[1]   //We only need the number
+        let id_to_select = "#f_"+id
+        let selection = d3.select(id_to_select)
+        selection.classed('hovered', true)
+        id_to_select = "#d_"+id
+        selection = d3.select(id_to_select)
+        selection.classed('hovered', true)
+        id_to_select = "#b_"+id
+        selection = d3.select(id_to_select)
+        selection.classed('hovered', true)
+
+        let h = d3.select("#forest_plot").attr("height")
+        console.log("h = "+h)
+
+        var location
+        if(datum.properties.location_label == "National Study"){
+            location = datum.properties.country +" [National Study]"
+        }
+        else{
+            location = (datum.properties.location_label + " ["+datum.properties.country+"]")
+
+        }
+
+        let dates = toShortString(datum.properties.start_date) + " -- " + toShortString(datum.properties.end_date)
+        
+        let links = ""
+        if(datum.properties.link_one != '' && datum.properties.link_one !=null){
+            links += "<a href='"+datum.properties.link_one+"'>Link1</a>"
+        }
+        if(datum.properties.link_two != '' && datum.properties.link_two !=null){
+            links += "; <a href='"+datum.properties.link_two+"'>Link2 </a>"
+        }
+
+        let seroprevalence_info = ""+parseFloat(datum.properties.mean).toFixed(2)+ " ["+parseFloat(datum.properties.p025).toFixed(2)+" ; "+parseFloat(datum.properties.p975).toFixed(2)+"]"
+        let ifr_info = "NA"
+        if(datum.properties.IFR_mean != null ){
+            ifr_info = ""+parseFloat(datum.properties.IFR_mean).toFixed(2)+ " ["+parseFloat(datum.properties.IFR_p025).toFixed(2)+" ; "+parseFloat(datum.properties.IFR_p975).toFixed(2)+"]"
+        }
+        
+        document.getElementById("locationInfo").textContent = location
+        document.getElementById("typeInfo").textContent = datum.properties.study_info
+        document.getElementById("seroprevalenceInfo").textContent = seroprevalence_info
+        document.getElementById("IFRInfo").textContent = ifr_info
+        document.getElementById("assayInfo").textContent = datum.properties.assay_name
+        document.getElementById("datesInfo").textContent = dates
+        document.getElementById("sourcesInfo").innerHTML = datum.properties.source +"<br/>"+ links
+        //d3.select("#sourcesInfo").html = datum.properties.source + links
+        
+    }
+
+    function handleMouseOut(datum,id){
+        id = id.split("_")[1]   //We only need the number
+        let id_to_select = "#f_"+id
+        let selection = d3.select(id_to_select)
+        selection.classed('hovered', false)
+        //d3.select(graph_object).classed('hovered', true);
+        id_to_select = "#d_"+id
+        selection = d3.select(id_to_select)
+        selection.classed('hovered', false)
+        id_to_select = "#b_"+id
+        selection = d3.select(id_to_select)
+        selection.classed('hovered', false)
+
+    }
+
+    function createLegendFinal(){
+
+        var data = [age_specific_ifr,population_ifr,age_specific_prevalence,overall_prevalence]
+        let id= "#legend_shape"
+        var scale = 0.6
+        var font_size_sub = (1.1*scale)+"em"
+        var font_size = scale+"em"
+        var draw_size = 100
+        var svg_size = 20
+
+        for (var i=0 ; i < data.length ; i ++){
+            console.log("Data #"+i)
+            let id_to_select = id+(i+1)
+            console.log("id_to_select = "+id_to_select)
+            let select = d3.select(id_to_select)
+            console.dir(select)
+            select.append("svg")
+            .attr('width', svg_size+'px')
+            .attr('height', svg_size+'px')
+                .append("path")
+                .attr("class", "legend_dots")
+                .style("fill", function(){
+                    return(colorScale(20))
+                })
+                .attr("d", d3.symbol()
+                    .size(draw_size)
+                    .type(function(){ 
+                        console.log("data[i] = "+data[i])
+                        console.log("getShape = "+getShape(data[i]))
+                        return(getShape(data[i]))
+                    })
+
+                )
+                .attr("transform","translate("+svg_size/2+","+svg_size/2+")")
+
+        }
+
+        var legend2_x_start = 30
+
+        //Now we want to make the continuous scale legend
+        
+        var width_rectangle = scale*30
+        var height_rectangle = scale*100
+        var x_extra_offset = scale*12
+
+        var legendDiv = d3.select("#gradient_legend_svg")
+
+        var legendSvg = legendDiv.append("svg").attr("id","svg_gradient")
+
+
+        //legendSvg.style("display","block").style("margin","auto")
+
+        var y_offset = 20
+
+        let max_text = parseFloat(max_seroprevalence).toFixed(2)
+
+        var gradient = legendSvg.append("defs").append("linearGradient")
+            .attr("id", "mygrad")//id of the gradient
+            .attr("x1", "0%")
+            .attr("x2", "0%")
+            .attr("y1", "0%")
+            .attr("y2", "100%")//since its a vertical linear gradient 
+            ;
+            gradient.append("stop")
+            .attr("offset", "0%")
+            .style("stop-color", color1)
+            .style("stop-opacity", 1)
+
+            gradient.append("stop")
+            .attr("offset", "100%")
+            .style("stop-color", color2)
+            .style("stop-opacity", 1)
+
+        /*legendSvg.append("text")
+            .attr("x",scale*(legend2_x_start))
+            .attr("y",scale*50)
+            .attr("id","gradient_legend")
+            .style('fill', '')
+            .text("Prevalence (in %)")
+            .attr("class","legend_text_sub legend_text")
+            .style("fill",text_color)
+            .style("font-size",font_size_sub);*/
+
+        legendSvg.append("rect")
+            .attr("width", width_rectangle)
+            .attr("height", height_rectangle)
+            .style("fill", "url(#mygrad)")
+            .attr("x",scale*(legend2_x_start+x_extra_offset))
+            .attr("y",scale*(y_offset+60))
+
+        legendSvg.append("text")
+            .attr("x",scale*(legend2_x_start+(width_rectangle/2)+x_extra_offset)-10)
+            .attr("y",scale*(45+y_offset))
+            .text("00.00%")
+            .attr("class","legend_text")
+            .style("fill",text_color)
+
+        legendSvg.append("text")
+            .attr("x",scale*(legend2_x_start+(width_rectangle/2)+x_extra_offset)-10)
+            .attr("y",scale*(height_rectangle+130+y_offset))
+            .text(max_text+"%")
+            .attr("id","legend_gradient_max")
+            .attr("class","legend_text")
+            .style("fill",text_color)
+
+    }
 
     function createLegend(){
         
@@ -393,7 +1370,7 @@
             additional_height = 30
         }
 
-        var legendDiv = d3.select('#map').append('div')
+        var legendDiv = d3.select('#mapLegend').append('div')
             .attr('width', (scale*360)+'px')
             .attr('height', (scale*(200+additional_height))+'px')
             .style("z-index",110)
@@ -528,6 +1505,7 @@
         legendSvg.append("text")
             .attr("x",scale*(legend2_x_start))
             .attr("y",scale*50)
+            .attr("id","gradient_legend")
             .style('fill', '')
             .text("Prevalence (in %)")
             .attr("class","legend_text_sub legend_text")
@@ -550,9 +1528,10 @@
             .style("font-size",font_size);
 
         legendSvg.append("text")
-            .attr("x",scale*(legend2_x_start+(width_rectangle/2)-13+x_extra_offset))
+            .attr("x",scale*(legend2_x_start+(width_rectangle/2)-13+x_extra_offset)-10)
             .attr("y",scale*(height_rectangle+80+y_offset))
-            .text("100%")
+            .text(max_seroprevalence+"%")
+            .attr("id","legend_gradient_max")
             .attr("class","legend_text")
             .style("fill",text_color)
             .style("font-size",font_size);
@@ -562,12 +1541,14 @@
     }
 
     function createDots(input_data) {
+        console.dir(input_data)
         //d3.selectAll(".d3_layer").remove(); //For when we update the map
         var svg = d3.select(".d3_layer")
         svg.selectAll(".dots").remove(); //For when we update the map
 
         var dots = svg.selectAll(".dots")
-            .data(input_data);
+            .data(input_data,function(d) { return d.properties.location_id; });
+
 
         dots.exit().remove()
         dots.enter()
@@ -581,9 +1562,17 @@
                 }
                 return "dots"
             })
+            .attr("id", function(d,i){
+                return("d_"+d.id)
+            })
             .style("fill", function(d){
-                var color = colorScale(d.properties.mean);
-                return(color)
+                if(variable_focus == possible_focus[0]){
+                    return(colorScale(d.properties.mean));
+                }
+                else{
+                    return(colorScale(d.properties.IFR_mean)) 
+                }
+                
             })
             .attr("d", d3.symbol()
                 .size(200)
@@ -592,7 +1581,9 @@
                 })
 
             )
-            .on("click",mouseClickData)
+            //.on("click",mouseClickData)
+            .on("mouseover", function(d){handleMouseOver(d,""+this.id)})
+            .on("mouseout", function(d){handleMouseOut(d,""+this.id)});
 
         render();
       }
@@ -624,17 +1615,15 @@
 
 
 
-        function updateMaxMinForColorScale(data, column_name){
-            console.log("DATA")
+        /*function updateMaxMinForColorScale(data, column_name){
             var max =d3.max(data, function(d) {  return +d[column_name]; });
             var min =d3.min(data, function(d) {  return +d[column_name];})
-            colorScale.domain([0,max]);
-        }
+            colorScale.domain([0,max_value]);
+        }*/
+
 
         function getShape(input){
             if(display_study_type){
-                console.log("Input=")
-                console.log(input)
                 if (input == age_specific_ifr){
                     return d3.symbolCircle;
                 }
@@ -676,7 +1665,18 @@
             }
             else{
                 initial_data = output_data
-                createDots(output_data.features)
+                for(var i = 0 ; i < output_data.features.length ; i ++){
+                    output_data.features[i].id = i
+                }
+                data_to_display = output_data.features
+                if(variable_focus == possible_focus[0]){
+                    data_to_display.sort(sortBy('mean'));
+                }
+                else{
+                    data_to_display.sort(sortBy('IFR_mean'));
+                }
+                createDots(data_to_display)
+                createForest(data_to_display)
             }
             
 

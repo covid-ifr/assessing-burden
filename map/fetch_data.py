@@ -3,6 +3,9 @@ import urllib2
 
 study_index = []
 study_prevalence = []
+study_ifr = []
+study_link = []
+risk_info = []
 
 
 '''
@@ -37,6 +40,60 @@ def fetch_study_total_seroprevalence():
 
     #for row in cr:
     #    study_prevalence.append([row['location_id'],row['mean']])
+
+
+'''
+Function fetching the studies' links
+This function needs to do some extra parsing. The links to the studies are not always in the same column.
+We thus need to find the location of all links for each study (if available)
+'''
+def fetch_study_link():
+    global study_link
+    url = 'https://raw.githubusercontent.com/covid-ifr/assessing-burden/main/appendix_material/included_study_info.csv'
+    response = urllib2.urlopen(url)
+    reader = csv.reader(response, delimiter = ',')
+    for row in reader:
+        location_id = row[0]
+        source = row[4]
+        link_one = ''
+        link_two = ''
+        for i in range(5, 11):
+            col = row[i]
+            #print 'col = '+str(col)
+            if link_one == '' or link_two =='':
+                if 'http' in col:
+                    if link_one == '':
+                        link_one = col
+                    elif link_two == '':
+                        link_two = col
+        dict_elem = {'location_id':location_id,'source':source,'link_one':link_one,'link_two':link_two}
+        study_link.append(dict_elem)
+
+
+'''
+Function fetching necessary data from the file risk_of_bias_assessments.csv
+'''
+def fetch_bias_risk_info():
+    global risk_info 
+    url = 'https://raw.githubusercontent.com/covid-ifr/assessing-burden/main/appendix_material/risk_of_bias_assessments.csv'
+    response = urllib2.urlopen(url)
+    risk_info = list(csv.DictReader(response))
+
+
+'''
+Function fetching necessary data from the file population_ifr.csv
+Does some extra processing of the IFR values (CIs and means) to make it a percentage
+'''
+def fetch_study_total_ifr():
+    global study_ifr
+    url = 'https://raw.githubusercontent.com/covid-ifr/assessing-burden/main/model_output/population_ifr.csv'
+    response = urllib2.urlopen(url)
+    study_ifr = list(csv.DictReader(response))
+
+    for row in study_ifr:
+        row["IFR_mean"] = round((float(row["IFR_mean"])),9)
+        row["IFR_p025"] = round((float(row["IFR_p025"])),9)
+        row["IFR_p975"] = round((float(row["IFR_p975"])),9)
 
 '''
 Function to remove specific keys in a list of dict
@@ -78,8 +135,8 @@ def match_data(input1, input2, field, fields_to_add):
         if corresponding_row!= -1:
             for f in fields_to_add:
                 row[f] = corresponding_row[f]
-        else:
-            print "Error finding a matching row"
+        '''else:
+            print "Error finding a matching row for "+str(field_value)'''
             
 
 '''
@@ -99,10 +156,16 @@ def save_data(input):
 
 
 fetch_study_info()
-clean_study_index(study_index,["map_x","map_y"])
+clean_study_index(study_index,["map_x","map_y","pop_location_id"])
 fetch_study_total_seroprevalence()
+fetch_study_total_ifr()
+fetch_study_link()
+fetch_bias_risk_info()
 
-match_data(study_index,study_prevalence,'location_id',['mean'])
+match_data(study_index,study_prevalence,'location_id',['mean','p025','p975'])
+match_data(study_index,study_ifr,'location_id',['IFR_mean','IFR_p025','IFR_p975'])
+match_data(study_index,study_link,'location_id',['source','link_one','link_two'])
+match_data(study_index,risk_info,'location_id',['non_response_risk','seroreversion_risk','death_undercount_risk'])
 save_data(study_index)
 
     
