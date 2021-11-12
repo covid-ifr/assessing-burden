@@ -1,9 +1,0 @@
-location_id,global_region,country,location,phase_id,median_date,"months from cases/day peak to median date, or from first detected case if median is at/before 1st peak",weighted number of specimens,weighted positive tests,weighted sensitivity,assay_id,case/day source
-10,South Asia ,India,National,2,9/4/2020,5,606,502,82.8,110,https://covid19.who.int/region/searo/country/in
-13,South Asia ,India,Pimpri-Chinchwad,1,10/12/2020,7,723,563,77.9,113,https://covid19.who.int/region/searo/country/in
-14,South Asia ,India,Mumbai (3 wards),1,7/9/2020,4,791,608,76.9,114,https://covid19.who.int/region/searo/country/in
-19,South Asia ,India,Chennai,1,7/22/2020,4,632,526,83.2,119,https://covid19.who.int/region/searo/country/in
-76,South Asia,India,Kashmir (whole region),1,10/26/2020,7,694,527,75.9,176,https://covid19.who.int/region/searo/country/in
-77,South Asia,India,Kashmir: Srinagar district,1,10/18/2020,7,679,530,78.1,177,https://covid19.who.int/region/searo/country/in
-192,Europe,Hungary,National,1,5/8/2020,1,541,472,87.2,182,ECDC national data:  https://www.ecdc.europa.eu/en/covid-19/data
-98,Africa,Ethiopia,Dire Dawa,1,7/6/2020,1,545,473,86.8,183,ECDC national data:  https://www.ecdc.europa.eu/en/covid-19/data
