@@ -1,0 +1,9 @@
+location_id,country,location,month_0,month_1,month_2,month_3,month_4,month_5,month_6,month_10
+10,India,National,0.585,0.277,0.098,0.033,0.007,0.001,0.000,0.000
+13,India,Pimpri-Chinchwad,0.443,0.329,0.176,0.043,0.008,0.001,0.000,0.000
+14,India,Mumbai (3 wards),0.451,0.304,0.243,0.003,0.000,0.000,0.000,0.000
+19,India,Chennai,0.630,0.301,0.066,0.004,0.000,0.000,0.000,0.000
+76,India,Kashmir (whole region),0.383,0.300,0.178,0.090,0.036,0.010,0.003,0.000
+77,India,Kashmir: Srinagar district,0.434,0.310,0.172,0.064,0.014,0.004,0.002,0.000
+192,Hungary,National,0.583,0.417,0.000,0.000,0.000,0.000,0.000,0.000
+98,Ethiopia,Diredawa,0.583,0.417,0.000,0.000,0.000,0.000,0.000,0.000
