@@ -1,0 +1,21 @@
+study_type,location_id,phase_id,country,location,test_id,test_name,sen_num_confirm_positives,sen_tested_positives,sensitivity_estimate,sen_lower95CI,sen_upper95CI,citation_id,assay_low_risk_of_seroreversion
+IFR,10,2,India,National,1,Abbott IgG Test,38,47,80.9,,,n-53,0
+IFR,76,1,India,Kashmir (whole region),1,Abbott SARS-CoV-2 IgG,140,176,79.5,,,n-4,0
+IFR,77,1,India,Kashmir: Srinagar district,1,Abbott SARS-CoV-2 IgG,100,121,82.6,,,n-5,0
+IFR,226,1,Ethiopia,Addis Ababa #2,1,Abbott IgG Test,30,55,54.5,40.5,68,n-168,0
+non-IFR,227,1,Ethiopia,14 towns (including Addis Ababa #2),1,Abbott IgG Test,30,55,54.5,40.5,68,n-168,0
+non-IFR,16,1,India,Puducherry,2,Elecsys Anti-SARS-CoV-2,25,29,86.2,,,n-54,1
+IFR,16,2,India,Puducherry,2,Elecsys Anti-SARS-CoV-2,25,29,86.2,,,n-54,1
+non-IFR,16,3,India,Puducherry,2,Elecsys Anti-SARS-CoV-2,25,29,86.2,,,n-54,1
+non-IFR,83,2,India,Odisha: Bhubaneswar,2,"Elecsys Anti-SARS-CoV-2 Roche, nucleocapsid IgG IgM ",23,29,79.3,,,n-47,1
+non-IFR,83,3,India,Odisha: Bhubaneswar,2,"Elecsys Anti-SARS-CoV-2 Roche, nucleocapsid IgG IgM ",124,132,93.9,,,n-47,1
+IFR,84,1,India,Odisha: Berhampur,2,"Elecsys Anti-SARS-CoV-2 Roche, nucleocapsid IgG IgM ",23,29,79.3,,,n-48,1
+non-IFR,88,1,India,Odisha: Rourkela,2,"Elecsys Anti-SARS-CoV-2 Roche, nucleocapsid IgG IgM ",23,29,79.3,,,n-48,1
+non-IFR,11,3,India,Delhi,3,ERBALISA COVID-19 IgG,148,226,65.5,,,n-53,0
+non-IFR,11,4,India,Delhi,3,ERBALISA COVID-19 IgG,147,260,56.5,,,n-53,0
+IFR,18,1,India,West Bengal (only Paschim Medinipur),3,ERBALISA COVID-19 IgG,11,30,36.7,,,n-114,0
+IFR,11,2,India,Delhi,5,Kavach-AntiSARS-CoV-2 IgG ELISA,232,356,65.2,,,n-53,0
+IFR,75,1,China,Wuhan #2,24,"Elecsys Anti-SARS-CoV-2, then in-house recombinant N protein ELISA",30,30,100.0,,,n-63,1
+non-IFR,17,1,India,Pune (five prabhags/subwards),27,Euroimmune anti-spike,19,21,90.5,,,n-128,0
+IFR,87,1,South Africa,Gauteng,53,author-designed Luminex S protein trimer IgG,57,122,46.7,38.0,55.6,"n-184 , n-126",0
+IFR,219,1,Chile,"Coquimbo-La Serena, Greater Santiago, Talca ",184,"Elecsys Anti-SARS-CoV-2- ROCHE , with Zhuhai Livzon IgM/IgG",120,83,68.8,,,n-161,0

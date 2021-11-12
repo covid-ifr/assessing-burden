@@ -1,0 +1,22 @@
+location_id,country,location,sublocation,month_0,month_1,month_2,month_3,month_4,month_5,month_6,month_10
+10,India,National,Total,4020241,1906616,673904,226719,46435,3684,28,0
+13,India,Pimpri-Chinchwad,Total,84275,62594,33484,8171,1474,167,20,0
+14,India,Mumbai (3 wards),Matunga,3729,3061,2684,16,0,0,0,0
+14,India,Mumbai (3 wards),Chembur West,2682,1879,1412,21,0,0,0,0
+14,India,Mumbai (3 wards),Dahisar,2069,765,469,10,0,0,0,0
+14,India,Mumbai (3 wards),Total,8480,5705,4565,47,0,0,0,0
+19,India,Chennai,Total,89561,42742,9370,528,0,0,0,0
+76,India,Kashmir (whole region),Anantnag,4183,3444,2193,1176,627,278,48,0
+76,India,Kashmir (whole region),Bandipore,3981,3319,1974,632,284,144,124,0
+76,India,Kashmir (whole region),Baramulla,5675,4215,2694,1772,748,143,62,0
+76,India,Kashmir (whole region),Budgam,5877,4703,2271,1128,358,76,14,0
+76,India,Kashmir (whole region),Ganderbal,3440,2819,1279,349,82,31,14,0
+76,India,Kashmir (whole region),Kulgam,2460,2244,1877,1445,751,228,6,0
+76,India,Kashmir (whole region),Kupwara,4311,3450,1943,1035,508,167,47,0
+76,India,Kashmir (whole region),Pulwama,4573,3817,2442,1219,409,28,3,0
+76,India,Kashmir (whole region),Shopian,2177,2000,1646,1390,704,129,63,0
+76,India,Kashmir (whole region),Srinagar,17697,12637,7026,2611,577,168,85,0
+76,India,Kashmir (whole region),Total,54374,42648,25345,12757,5048,1392,466,0
+77,India,Kashmir: Srinagar district,Total,17697,12637,7026,2611,577,168,85,0
+192,Hungary,National,Total,2255,895,0,0,0,0,0,0
+98,Ethiopia,Diredawa,Total,4452,1772,118,52,0,0,0,0
