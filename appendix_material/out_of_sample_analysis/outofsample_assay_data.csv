@@ -1,0 +1,11 @@
+assay_id,assay_name,sensitivity_specimens,sensitivity_confirmed,specificity_specimens,specificity_confirmed
+1,Abbott IgG Test,88,88,1070,1066
+6,iFlash SARS-CoV-2 (Shenzhen YHLO Biotech),594,457,100,100
+11,Qingdao Hightop Biotech IgM/IgG Duo,300,279,1000,960
+14,SARS-CoV-2 Total Advia Centaur - Siemens,42,42,1831,1829
+24,"Elecsys Anti-SARS-CoV-2, then in-house recombinant N protein ELISA",112,112,102,102
+27,Euroimmune anti-spike,30,27,80,80
+37,anti-nucleocapsid ELISA from French research group,51,33,265,251
+110,Abbott IgG Test (national India study),606,502,1070,1066
+176,Abbott IgG Test (Kashmir region),694,527,1070,1066
+185,"Abbott IgG Test (14 towns, Ethiopia)",55,30,113,113

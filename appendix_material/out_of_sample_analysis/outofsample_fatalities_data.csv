@@ -1,0 +1,31 @@
+location_id,global_region,country,location,lower_age,upper_age,deaths,fatalities_citation_id
+6,Latin America,Brazil,Sao Paulo #2,0,100,25024,a-304
+10,South Asia ,India,National,0,100,99773,"g-1, g-1001"
+21,Africa,Ethiopia,Addis Ababa #3,0,100,5,s-1
+23,Africa,Mozambique,Lichinga,0,100,0,s-2
+23,Africa,Mozambique,Lichinga,0,14,0,s-2
+23,Africa,Mozambique,Lichinga,15,34,0,s-2
+23,Africa,Mozambique,Lichinga,35,59,0,s-2
+23,Africa,Mozambique,Lichinga,60,100,0,s-2
+53,Latin America,Colombia,Guapi,0,100,6,a-302
+53,Latin America,Colombia,Guapi,0,4,0,a-302
+53,Latin America,Colombia,Guapi,5,10,0,a-302
+53,Latin America,Colombia,Guapi,11,18,0,a-302
+53,Latin America,Colombia,Guapi,19,40,0,a-302
+53,Latin America,Colombia,Guapi,41,60,1,a-302
+53,Latin America,Colombia,Guapi,61,100,5,a-302
+75,East Asia,China,Wuhan #2,0,100,3869,n-1075
+75,East Asia,China,Wuhan #2,0,19,4,n-1076
+75,East Asia,China,Wuhan #2,20,39,93,n-1076
+75,East Asia,China,Wuhan #2,40,59,635,n-1076
+75,East Asia,China,Wuhan #2,60,100,3134,n-1076
+76,South Asia,India,Kashmir (whole region),0,100,1079,n-1003
+92,East Asia,Laos,National Study,0,100,0,n-1048
+92,East Asia,Laos,National Study,0,18,0,n-1048
+92,East Asia,Laos,National Study,19,40,0,n-1048
+92,East Asia,Laos,National Study,41,60,0,n-1048
+92,East Asia,Laos,National Study,61,100,0,n-1048
+224,Latin America,Brazil,Carmópolis,0,100,4,n-1100
+225,Latin America,Brazil,Nepomuceno,0,100,0,n-1100
+226,Africa,Ethiopia,Addis Ababa #2,0,100,122,s-1
+230,South Asia ,India,Madurai district,0,100,425,"ss-32 , a-1106"

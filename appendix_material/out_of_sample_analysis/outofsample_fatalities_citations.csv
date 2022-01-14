@@ -1,0 +1,13 @@
+fatalities_citation_id,description,sourcetype,citation
+a-1106,tabulated deaths by age in Tamil Nadu,individual case data,TNSS_CleanDeathData_updated.csv
+a-302,Colombia cases & fatalities database (downloaded 04 July 2021),individual case data,https://www.datos.gov.co/Salud-y-Protecci-n-Social/Casos-positivos-de-COVID-19-en-Colombia/gt2j-8ykr/data
+a-304,"Sao Paolo city deaths by age (downloaded July 12, 2021)",official reports,http://tabnet.saude.prefeitura.sp.gov.br/cgi/tabcgi.exe?secretarias/saude/TABNET/SIM_PROV/obitop.def
+g-1001,India National Deaths,official reports,https://covid19.who.int/region/searo/country/in
+n-1003,"deaths in Kashmir, India; November 23, 2020",official reports,https://twitter.com/diprjk/status/1330845419849478145
+n-1048,"deaths in Laos, national (WHO)",official reports,https://covid19.who.int/region/wpro/country/la
+n-1075,"deaths in Hubei + Wuhan; May 12, 2020",official reports,http://wjw.hubei.gov.cn/bmdt/ztzl/fkxxgzbdgrfyyq/xxfb/202005/t20200512_2267455.shtml
+n-1076,Wuhan age-specific deaths (pages 24 and 25),official reports,https://static-content.springer.com/esm/art%3A10.1038%2Fs41467-020-19238-2/MediaObjects/41467_2020_19238_MOESM1_ESM.pdf
+n-1100,deaths in Minas Gerais for Carmópolis + Nepomuceno,official reports,https://coronavirus.saude.mg.gov.br/boletim
+s-1,deaths in ethiopia,official reports,http://web.archive.org/web/2020*/https://www.covid19.et/covid-19/
+s-2,"Lichinga, Mozambique deaths",official reports,https://www.misau.gov.mz/index.php/covid-19-boletins-diarios#
+ss-32,deaths by age in Tamil Nadu,official reports,https://stopcorona.tn.gov.in/

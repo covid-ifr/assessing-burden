@@ -1,0 +1,26 @@
+location_id,global_region,country,location,lower_age,upper_age,sample_size,num_positive
+6,Latin America,Brazil,Sao Paulo #2,0,100,1780,438
+10,South Asia ,India,National,0,100,29082,3135
+21,Africa,Ethiopia,Addis Ababa #3,0,100,301,23
+23,Africa,Mozambique,Lichinga,0,100,1635,5
+23,Africa,Mozambique,Lichinga,0,14,528,1
+23,Africa,Mozambique,Lichinga,15,34,618,3
+23,Africa,Mozambique,Lichinga,35,59,397,1
+23,Africa,Mozambique,Lichinga,60,100,92,0
+53,Latin America,Colombia,Guapi,0,100,721,423
+53,Latin America,Colombia,Guapi,5,10,64,36
+53,Latin America,Colombia,Guapi,11,18,137,88
+53,Latin America,Colombia,Guapi,19,40,232,132
+53,Latin America,Colombia,Guapi,41,60,181,118
+53,Latin America,Colombia,Guapi,61,100,107,49
+75,East Asia,China,Wuhan #2,0,100,9542,532
+76,South Asia,India,Kashmir (whole region),0,100,6230,2415
+92,East Asia,Laos,National Study,0,100,2433,131
+92,East Asia,Laos,National Study,0,18,233,9
+92,East Asia,Laos,National Study,19,40,849,31
+92,East Asia,Laos,National Study,41,60,1000,60
+92,East Asia,Laos,National Study,61,100,351,31
+224,Latin America,Brazil,Carmópolis,0,100,400,7
+225,Latin America,Brazil,Nepomuceno,0,100,400,2
+226,Africa,Ethiopia,Addis Ababa #2,0,100,6227,114
+230,South Asia,India,Madurai district,0,100,1140,451

@@ -1,0 +1,13 @@
+type_of_study,rationale,location_id,global_region,country,location,start_date,end_date,fatalities_date,pop_location_id,assay_id,assay_name
+IFR,overlapping geography,6,Latin America,Brazil,Sao Paulo #2,2/16/2021,2/18/2021,3/3/2021,106,27,Euroimmune anti-spike
+IFR,overlapping geography,10,South Asia ,India,National,8/17/2020,9/22/2020,10/2/2020,110,110,Abbott IgG Test
+IFR,overlapping geography,21,Africa,Ethiopia,Addis Ababa #3,4/23/2020,4/28/2020,5/23/2020,122,1,Abbott IgG Test
+IFR,overlapping geography,75,East Asia,China,Wuhan #2,4/14/2020,4/15/2020,5/12/2020,199,24,"Elecsys Anti-SARS-CoV-2, then in-house recombinant N protein ELISA"
+IFR,overlapping geography,76,South Asia,India,Kashmir (whole region),10/17/2020,11/4/2020,11/23/2020,202,176,Abbott SARS-CoV-2 IgG
+IFR,overlapping geography,226,Africa,Ethiopia,Addis Ababa #2,6/24/2020,7/8/2020,7/29/2020,122,185,Abbott IgG Test
+IFR,overlapping geography,230,South Asia,India,Madurai district,10/19/2020,11/5/2020,11/10/2020,252,6,iFlash SARS-CoV-2
+Sero Only,"small population (<20,000)",53,Latin America,Colombia,Guapi,12/3/2020,12/10/2020,,162,14,SARS-CoV-2 Total Advia Centaur - Siemens
+Sero Only,"small population (<20,000)",224,Latin America,Brazil,Carmópolis de Minas,6/27/2020,6/28/2020,,250,11,Qingdao Hightop Biotech IgM/IgG
+Sero Only,zero deaths,23,Africa,Mozambique,Lichinga,9/28/2020,10/9/2020,,125,11,Qingdao Hightop Biotech IgM/IgG Duo
+Sero Only,zero deaths,92,East Asia,Laos,National Study,8/12/2020,9/25/2020,,212,37,anti-nucleocapsid ELISA from French research group
+Sero Only,zero deaths,225,Latin America,Brazil,Nepomuceno,5/30/2020,5/31/2020,,251,11,Qingdao Hightop Biotech IgM/IgG

@@ -1,0 +1,154 @@
+pop_location_id,global_region,country,location,lower_age_bin,upper_age_bin,popshare,agedistribution_citation_id
+106,Latin America,Brazil,Sao Paulo,70,100,5.299999999999999,g-20
+106,Latin America,Brazil,Sao Paulo,60,64,3.7,g-20
+106,Latin America,Brazil,Sao Paulo,20,24,8.800000000000001,g-20
+106,Latin America,Brazil,Sao Paulo,25,29,9.199999999999999,g-20
+106,Latin America,Brazil,Sao Paulo,40,44,7.2,g-20
+106,Latin America,Brazil,Sao Paulo,50,54,5.9,g-20
+106,Latin America,Brazil,Sao Paulo,15,19,8,g-20
+106,Latin America,Brazil,Sao Paulo,45,49,6.7,g-20
+106,Latin America,Brazil,Sao Paulo,5,9,6.9,g-20
+106,Latin America,Brazil,Sao Paulo,35,39,7.8,g-20
+106,Latin America,Brazil,Sao Paulo,30,34,8.600000000000001,g-20
+106,Latin America,Brazil,Sao Paulo,55,59,4.9,g-20
+106,Latin America,Brazil,Sao Paulo,65,69,2.7,g-20
+106,Latin America,Brazil,Sao Paulo,10,14,8.1,g-20
+106,Latin America,Brazil,Sao Paulo,0,4,6.5,g-20
+110,South Asia ,India,National,80,84,.61,r-19
+110,South Asia ,India,National,90,94,.08,r-19
+110,South Asia ,India,National,30,34,8.130000000000001,r-19
+110,South Asia ,India,National,50,54,4.94,r-19
+110,South Asia ,India,National,100,100,0,r-19
+110,South Asia ,India,National,55,59,4.24,r-19
+110,South Asia ,India,National,10,14,9.289999999999999,r-19
+110,South Asia ,India,National,35,39,7.42,r-19
+110,South Asia ,India,National,40,44,6.45,r-19
+110,South Asia ,India,National,60,64,3.49,r-19
+110,South Asia ,India,National,5,9,8.779999999999999,r-19
+110,South Asia ,India,National,15,19,9.199999999999999,r-19
+110,South Asia ,India,National,20,24,8.91,r-19
+110,South Asia ,India,National,75,79,1.07,r-19
+110,South Asia ,India,National,70,74,1.67,r-19
+110,South Asia ,India,National,45,49,5.69,r-19
+110,South Asia ,India,National,25,29,8.539999999999999,r-19
+110,South Asia ,India,National,85,89,.25,r-19
+110,South Asia ,India,National,65,69,2.68,r-19
+110,South Asia ,India,National,95,99,.02,r-19
+110,South Asia ,India,National,0,4,8.550000000000001,r-19
+122,Africa,Ethiopia,Addis Ababa,50,54,3.22,r-56
+122,Africa,Ethiopia,Addis Ababa,40,44,6.09,r-56
+122,Africa,Ethiopia,Addis Ababa,45,49,3.83,r-56
+122,Africa,Ethiopia,Addis Ababa,35,39,7.58,r-56
+122,Africa,Ethiopia,Addis Ababa,30,34,12.2,r-56
+122,Africa,Ethiopia,Addis Ababa,60,64,1.67,r-56
+122,Africa,Ethiopia,Addis Ababa,15,19,8.619999999999999,r-56
+122,Africa,Ethiopia,Addis Ababa,65,69,1.37,r-56
+122,Africa,Ethiopia,Addis Ababa,80,100,.36,r-56
+122,Africa,Ethiopia,Addis Ababa,25,29,13.68,r-56
+122,Africa,Ethiopia,Addis Ababa,10,14,7.06,r-56
+122,Africa,Ethiopia,Addis Ababa,70,74,.93,r-56
+122,Africa,Ethiopia,Addis Ababa,20,24,13.26,r-56
+122,Africa,Ethiopia,Addis Ababa,55,59,2.51,r-56
+122,Africa,Ethiopia,Addis Ababa,5,9,6.5,r-56
+122,Africa,Ethiopia,Addis Ababa,75,79,.63,r-56
+125,Africa,Mozambique,Lichinga,10,19,24.71,r-38
+125,Africa,Mozambique,Lichinga,70,79,.92,r-38
+125,Africa,Mozambique,Lichinga,80,100,.53,r-38
+125,Africa,Mozambique,Lichinga,20,29,17.89,r-38
+125,Africa,Mozambique,Lichinga,0,9,33.76,r-38
+125,Africa,Mozambique,Lichinga,60,69,1.86,r-38
+125,Africa,Mozambique,Lichinga,30,39,10.85,r-38
+125,Africa,Mozambique,Lichinga,40,49,6.04,r-38
+125,Africa,Mozambique,Lichinga,50,59,3.44,r-38
+162,Latin America,Colombia,Guapi,60,69,5.82,r-47
+162,Latin America,Colombia,Guapi,80,89,1.43,r-47
+162,Latin America,Colombia,Guapi,50,59,7.61,r-47
+162,Latin America,Colombia,Guapi,10,19,22.04,r-47
+162,Latin America,Colombia,Guapi,70,79,2.95,r-47
+162,Latin America,Colombia,Guapi,90,100,.48,r-47
+162,Latin America,Colombia,Guapi,30,39,12.11,r-47
+162,Latin America,Colombia,Guapi,0,9,22.18,r-47
+162,Latin America,Colombia,Guapi,40,49,8.9,r-47
+162,Latin America,Colombia,Guapi,20,29,16.5,r-47
+199,East Asia,China,Wuhan,0,9,6.7,r-61
+199,East Asia,China,Wuhan,50,59,12.89,r-61
+199,East Asia,China,Wuhan,20,29,23.29,r-61
+199,East Asia,China,Wuhan,70,79,4,r-61
+199,East Asia,China,Wuhan,10,19,12.19,r-61
+199,East Asia,China,Wuhan,40,49,17.05,r-61
+199,East Asia,China,Wuhan,30,39,15.19,r-61
+199,East Asia,China,Wuhan,80,100,1.35,r-61
+199,East Asia,China,Wuhan,60,69,7.34,r-61
+202,South Asia,India,Kashmir (whole region),80,100,.9,r-65
+202,South Asia,India,Kashmir (whole region),70,74,1.4,r-65
+202,South Asia,India,Kashmir (whole region),40,44,5.6,r-65
+202,South Asia,India,Kashmir (whole region),60,64,2.5,r-65
+202,South Asia,India,Kashmir (whole region),75,79,.6,r-65
+202,South Asia,India,Kashmir (whole region),10,14,11.6,r-65
+202,South Asia,India,Kashmir (whole region),50,54,3.5,r-65
+202,South Asia,India,Kashmir (whole region),35,39,6.5,r-65
+202,South Asia,India,Kashmir (whole region),30,34,7.1,r-65
+202,South Asia,India,Kashmir (whole region),15,19,10.1,r-65
+202,South Asia,India,Kashmir (whole region),45,49,4.4,r-65
+202,South Asia,India,Kashmir (whole region),20,24,9.199999999999999,r-65
+202,South Asia,India,Kashmir (whole region),55,59,2.6,r-65
+202,South Asia,India,Kashmir (whole region),65,69,1.5,r-65
+202,South Asia,India,Kashmir (whole region),5,9,11.8,r-65
+202,South Asia,India,Kashmir (whole region),25,29,8.4,r-65
+202,South Asia,India,Kashmir (whole region),0,4,12.3,r-65
+212,East Asia,Laos,National Study,60,64,2.5,a-09
+212,East Asia,Laos,National Study,40,44,5.7,a-09
+212,East Asia,Laos,National Study,25,29,9.199999999999999,a-09
+212,East Asia,Laos,National Study,15,19,9.699999999999999,a-09
+212,East Asia,Laos,National Study,80,84,.4,a-09
+212,East Asia,Laos,National Study,50,54,4,a-09
+212,East Asia,Laos,National Study,30,34,8.1,a-09
+212,East Asia,Laos,National Study,65,69,1.8,a-09
+212,East Asia,Laos,National Study,70,74,1.2,a-09
+212,East Asia,Laos,National Study,0,4,11,a-09
+212,East Asia,Laos,National Study,45,49,4.9,a-09
+212,East Asia,Laos,National Study,85,89,.1,a-09
+212,East Asia,Laos,National Study,10,14,10.4,a-09
+212,East Asia,Laos,National Study,20,24,9.5,a-09
+212,East Asia,Laos,National Study,55,59,3.3,a-09
+212,East Asia,Laos,National Study,90,100,0,a-09
+212,East Asia,Laos,National Study,5,9,10.6,a-09
+212,East Asia,Laos,National Study,35,39,6.8,a-09
+212,East Asia,Laos,National Study,75,79,.7,a-09
+250,Latin America,Brazil,Carmópolis,70,79,4.36,n-2043
+250,Latin America,Brazil,Carmópolis,10,19,17.31,n-2043
+250,Latin America,Brazil,Carmópolis,30,39,15.27,n-2043
+250,Latin America,Brazil,Carmópolis,50,59,10.27,n-2043
+250,Latin America,Brazil,Carmópolis,40,49,14.08,n-2043
+250,Latin America,Brazil,Carmópolis,60,69,6.59,n-2043
+250,Latin America,Brazil,Carmópolis,20,29,17.09,n-2043
+250,Latin America,Brazil,Carmópolis,0,9,13.49,n-2043
+250,Latin America,Brazil,Carmópolis,80,100,1.54,n-2043
+251,Latin America,Brazil,Nepomuceno,60,69,7.1,n-2044
+251,Latin America,Brazil,Nepomuceno,30,39,14.67,n-2044
+251,Latin America,Brazil,Nepomuceno,0,9,13.75,n-2044
+251,Latin America,Brazil,Nepomuceno,20,29,16.55,n-2044
+251,Latin America,Brazil,Nepomuceno,80,100,1.95,n-2044
+251,Latin America,Brazil,Nepomuceno,70,79,4.1,n-2044
+251,Latin America,Brazil,Nepomuceno,50,59,11.66,n-2044
+251,Latin America,Brazil,Nepomuceno,40,49,12.85,n-2044
+251,Latin America,Brazil,Nepomuceno,10,19,17.36,n-2044
+122,Africa,Ethiopia,Addis Ababa,0,4,10.49,r-56
+252,South Asia,India,Madurai district,75,79,.88,n-2048
+252,South Asia,India,Madurai district,85,100,.33,n-2048
+252,South Asia,India,Madurai district,50,54,5.18,n-2048
+252,South Asia,India,Madurai district,55,59,4.33,n-2048
+252,South Asia,India,Madurai district,30,34,8.17,n-2048
+252,South Asia,India,Madurai district,80,84,.5600000000000001,n-2048
+252,South Asia,India,Madurai district,15,19,8.57,n-2048
+252,South Asia,India,Madurai district,5,9,7.77,n-2048
+252,South Asia,India,Madurai district,25,29,9.27,n-2048
+252,South Asia,India,Madurai district,70,74,1.87,n-2048
+252,South Asia,India,Madurai district,65,69,2.51,n-2048
+252,South Asia,India,Madurai district,10,14,8.68,n-2048
+252,South Asia,India,Madurai district,40,44,7.16,n-2048
+252,South Asia,India,Madurai district,60,64,3.91,n-2048
+252,South Asia,India,Madurai district,45,49,6.54,n-2048
+252,South Asia,India,Madurai district,0,4,7.37,n-2048
+252,South Asia,India,Madurai district,20,24,8.67,n-2048
+252,South Asia,India,Madurai district,35,39,8.220000000000001,n-2048
