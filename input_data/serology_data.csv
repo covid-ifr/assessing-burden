@@ -244,7 +244,7 @@ location_id,global_region,country,location_label,lower_age,upper_age,sample_size
 78,South Asia,Nepal,National Study,65,74,208,34
 78,South Asia,Nepal,National Study,75,84,77,5
 78,South Asia,Nepal,National Study,85,100,25,1
-80,Africa,Ethiopia,Addis Ababa #2,0,100,956,31
+80,Africa,Ethiopia,Addis Ababa,0,100,956,31
 81,Middle East,Iran,National Study,0,100,11256,1303
 81,Middle East,Iran,National Study,6,17,2302,237
 81,Middle East,Iran,National Study,18,39,4496,463
@@ -268,6 +268,12 @@ location_id,global_region,country,location_label,lower_age,upper_age,sample_size
 84,South Asia,India,Odisha: Berhampur,40,49,364,114
 84,South Asia,India,Odisha: Berhampur,50,59,271,77
 84,South Asia,India,Odisha: Berhampur,60,100,312,89
+87,Africa,South Africa,Gauteng,0,100,6332,1232
+87,Africa,South Africa,Gauteng,0,4,311,56
+87,Africa,South Africa,Gauteng,5,18,867,149
+87,Africa,South Africa,Gauteng,19,45,2754,526
+87,Africa,South Africa,Gauteng,46,60,968,202
+87,Africa,South Africa,Gauteng,61,100,647,125
 88,South Asia,India,Odisha: Rourkela,0,100,1452,346
 88,South Asia,India,Odisha: Rourkela,0,19,39,8
 88,South Asia,India,Odisha: Rourkela,20,29,217,50
@@ -276,6 +282,11 @@ location_id,global_region,country,location_label,lower_age,upper_age,sample_size
 88,South Asia,India,Odisha: Rourkela,50,59,287,65
 88,South Asia,India,Odisha: Rourkela,60,100,214,61
 90,Africa,South Africa,Mitchells Plain,0,100,325,149
+92,East Asia,Laos,5 provinces,0,100,2433,131
+92,East Asia,Laos,5 provinces,0,18,233,9
+92,East Asia,Laos,5 provinces,19,40,849,31
+92,East Asia,Laos,5 provinces,41,60,1000,60
+92,East Asia,Laos,5 provinces,61,100,351,31
 94,Europe,Albania,"Tirana (city, not county)",0,100,815,393
 96,Africa,Cameroon,Cite Verte,0,100,971,302
 96,Africa,Cameroon,Cite Verte,5,14,241,69
@@ -326,12 +337,12 @@ location_id,global_region,country,location_label,lower_age,upper_age,sample_size
 120,Europe,Russia,St. Petersburg,35,49,341,25
 120,Europe,Russia,St. Petersburg,50,64,199,21
 120,Europe,Russia,St. Petersburg,65,100,61,2
-121,East Asia,China,Wuhan #1,0,100,11353,377
-121,East Asia,China,Wuhan #1,1,9,978,18
-121,East Asia,China,Wuhan #1,10,19,1023,20
-121,East Asia,China,Wuhan #1,20,39,3348,103
-121,East Asia,China,Wuhan #1,40,59,4017,154
-121,East Asia,China,Wuhan #1,60,100,1987,82
+121,East Asia,China,Wuhan,0,100,11353,377
+121,East Asia,China,Wuhan,1,9,978,18
+121,East Asia,China,Wuhan,10,19,1023,20
+121,East Asia,China,Wuhan,20,39,3348,103
+121,East Asia,China,Wuhan,40,59,4017,154
+121,East Asia,China,Wuhan,60,100,1987,82
 122,South Asia,India,"Indore (city, not district)",0,100,7103,548
 122,South Asia,India,"Indore (city, not district)",0,17,2435,177
 122,South Asia,India,"Indore (city, not district)",18,44,3098,221
@@ -363,7 +374,7 @@ location_id,global_region,country,location_label,lower_age,upper_age,sample_size
 128,Africa,Democratic Republic of Congo,Kinshasa,0,17,281,39
 128,Africa,Democratic Republic of Congo,Kinshasa,18,39,428,53
 128,Africa,Democratic Republic of Congo,Kinshasa,40,100,371,75
-129,Middle East,Libya,Benghazi,0,100,600,0
+129,Africa,Libya,Benghazi,0,100,600,0
 140,South Asia ,India,"Mumbai (3 wards, age-specific)",0,100,6904,2635
 140,South Asia ,India,"Mumbai (3 wards, age-specific)",12,24,878,404
 140,South Asia ,India,"Mumbai (3 wards, age-specific)",25,39,2213,826
@@ -428,6 +439,12 @@ location_id,global_region,country,location_label,lower_age,upper_age,sample_size
 216,Latin America,Brazil,Varzea Grande,50,59,121.176,32
 216,Latin America,Brazil,Varzea Grande,60,100,151.776,17
 218,Latin America,Brazil,Pitangueiras,0,100,275,17
+219,Latin America,Chile,"Coquimbo-La Serena, Greater Santiago, Talca ",0,100,2493,242
+219,Latin America,Chile,"Coquimbo-La Serena, Greater Santiago, Talca ",7,14,176,21
+219,Latin America,Chile,"Coquimbo-La Serena, Greater Santiago, Talca ",15,24,360,38
+219,Latin America,Chile,"Coquimbo-La Serena, Greater Santiago, Talca ",25,39,649,62
+219,Latin America,Chile,"Coquimbo-La Serena, Greater Santiago, Talca ",40,59,813,93
+219,Latin America,Chile,"Coquimbo-La Serena, Greater Santiago, Talca ",60,100,493,28
 220,Latin America,Brazil,Mato Grosso (8 cities),0,100,2812,299
 220,Latin America,Brazil,Mato Grosso (8 cities),18,29,525,58
 220,Latin America,Brazil,Mato Grosso (8 cities),30,49,1134.97,146
@@ -440,3 +457,103 @@ location_id,global_region,country,location_label,lower_age,upper_age,sample_size
 221,Latin America,Paraguay,Asuncion + Central Dept.,40,49,208,54
 221,Latin America,Paraguay,Asuncion + Central Dept.,50,59,151,38
 221,Latin America,Paraguay,Asuncion + Central Dept.,60,100,177,44
+222,Latin America,Brazil,Distrito Federal (9 administrative regions),0,100,1077,183
+223,Latin America,Brazil,Rio Grande do Sul (9 cities),0,100,4445,443
+229,Middle East,Yemen,Aden governorate (4 districts),0,100,2001,549
+229,Middle East,Yemen,Aden governorate (4 districts),0,4,13,3
+229,Middle East,Yemen,Aden governorate (4 districts),5,14,252,61
+229,Middle East,Yemen,Aden governorate (4 districts),15,29,624,176
+229,Middle East,Yemen,Aden governorate (4 districts),30,44,553,155
+229,Middle East,Yemen,Aden governorate (4 districts),45,64,448,126
+229,Middle East,Yemen,Aden governorate (4 districts),65,100,111,28
+231,Africa,Senegal,National Study,0,100,1446,393
+231,Africa,Senegal,National Study,0,5,283,45
+231,Africa,Senegal,National Study,6,15,179,44
+231,Africa,Senegal,National Study,16,30,337,124
+231,Africa,Senegal,National Study,31,45,297,81
+231,Africa,Senegal,National Study,46,60,233,70
+231,Africa,Senegal,National Study,61,100,117,29
+232,South Asia,Pakistan,Islamabad district,0,100,6333,1033
+233,Middle East,Oman,National Study,0,100,4210,230
+233,Middle East,Oman,National Study,5,14,707,24
+233,Middle East,Oman,National Study,15,30,1243,70
+233,Middle East,Oman,National Study,31,49,1729,109
+233,Middle East,Oman,National Study,50,100,531,27
+234,Middle East,Palestine,Gaza,0,100,2904,1188
+234,Middle East,Palestine,Gaza,10,19,1054,411
+234,Middle East,Palestine,Gaza,20,29,741,326
+234,Middle East,Palestine,Gaza,30,39,461,180
+234,Middle East,Palestine,Gaza,40,49,288,124
+234,Middle East,Palestine,Gaza,50,59,188,83
+234,Middle East,Palestine,Gaza,60,69,108,41
+234,Middle East,Palestine,Gaza,70,79,47,16
+234,Middle East,Palestine,Gaza,80,100,17,7
+235,Middle East,Palestine,West Bank,0,100,4356,1670
+235,Middle East,Palestine,West Bank,10,19,1252,451
+235,Middle East,Palestine,West Bank,20,29,1096,406
+235,Middle East,Palestine,West Bank,30,39,744,298
+235,Middle East,Palestine,West Bank,40,49,544,218
+235,Middle East,Palestine,West Bank,50,59,386,170
+235,Middle East,Palestine,West Bank,60,69,202,83
+235,Middle East,Palestine,West Bank,70,79,94,36
+235,Middle East,Palestine,West Bank,80,100,38,8
+238,Africa,Zimbabwe,Budiriro and Highfield,0,100,620,119
+238,Africa,Zimbabwe,Budiriro and Highfield,0,4,68,4
+238,Africa,Zimbabwe,Budiriro and Highfield,5,9,89,9
+238,Africa,Zimbabwe,Budiriro and Highfield,10,19,133,24
+238,Africa,Zimbabwe,Budiriro and Highfield,20,29,106,21
+238,Africa,Zimbabwe,Budiriro and Highfield,30,39,105,35
+238,Africa,Zimbabwe,Budiriro and Highfield,40,49,69,13
+238,Africa,Zimbabwe,Budiriro and Highfield,50,59,22,8
+238,Africa,Zimbabwe,Budiriro and Highfield,60,69,20,1
+238,Africa,Zimbabwe,Budiriro and Highfield,70,100,8,4
+239,Africa,South Africa,Klerksdorp,0,100,173,46
+240,Africa,South Africa,Pietermaritzburg,0,100,429,137
+241,East Asia,Mongolia,National Study,0,100,5000,72
+241,East Asia,Mongolia,National Study,0,4,579,8
+241,East Asia,Mongolia,National Study,5,9,559,1
+241,East Asia,Mongolia,National Study,10,14,430,6
+241,East Asia,Mongolia,National Study,15,19,330,5
+241,East Asia,Mongolia,National Study,20,29,816,15
+241,East Asia,Mongolia,National Study,30,39,823,19
+241,East Asia,Mongolia,National Study,40,49,677,11
+241,East Asia,Mongolia,National Study,50,59,468,3
+241,East Asia,Mongolia,National Study,60,69,218,3
+241,East Asia,Mongolia,National Study,70,100,99,1
+242,East Asia,Malaysia,National Study,0,100,5131,31
+242,East Asia,Malaysia,National Study,0,17,1212,4
+242,East Asia,Malaysia,National Study,18,100,3819,27
+244,Europe,Bosnia and Herzegovina,Republika Srpska,0,100,1855,747
+244,Europe,Bosnia and Herzegovina,Republika Srpska,0,19,306,122
+244,Europe,Bosnia and Herzegovina,Republika Srpska,20,34,314,149
+244,Europe,Bosnia and Herzegovina,Republika Srpska,35,49,533,216
+244,Europe,Bosnia and Herzegovina,Republika Srpska,50,64,512,211
+244,Europe,Bosnia and Herzegovina,Republika Srpska,65,100,188,49
+245,East Asia,Thailand,"Bangkok, Chiang Mai, Nakhon Phanom, Phuket",0,100,1200,5
+245,East Asia,Thailand,"Bangkok, Chiang Mai, Nakhon Phanom, Phuket",5,18,300,0
+245,East Asia,Thailand,"Bangkok, Chiang Mai, Nakhon Phanom, Phuket",19,59,600,4
+245,East Asia,Thailand,"Bangkok, Chiang Mai, Nakhon Phanom, Phuket",60,100,300,1
+246,Europe,Georgia,"Borjomi, Martvili, Khelvachauri, and Kobuleti districts",0,100,1219,537
+246,Europe,Georgia,"Borjomi, Martvili, Khelvachauri, and Kobuleti districts",0,14,32,18
+246,Europe,Georgia,"Borjomi, Martvili, Khelvachauri, and Kobuleti districts",15,19,38,14
+246,Europe,Georgia,"Borjomi, Martvili, Khelvachauri, and Kobuleti districts",20,39,381,168
+246,Europe,Georgia,"Borjomi, Martvili, Khelvachauri, and Kobuleti districts",40,59,501,224
+246,Europe,Georgia,"Borjomi, Martvili, Khelvachauri, and Kobuleti districts",60,100,267,113
+247,South Asia,Bangladesh,Cox's Bazar Rohingya camps,0,100,3446,2090
+247,South Asia,Bangladesh,Cox's Bazar Rohingya camps,1,4,206,63
+247,South Asia,Bangladesh,Cox's Bazar Rohingya camps,5,11,525,276
+247,South Asia,Bangladesh,Cox's Bazar Rohingya camps,12,17,323,208
+247,South Asia,Bangladesh,Cox's Bazar Rohingya camps,18,29,1234,779
+247,South Asia,Bangladesh,Cox's Bazar Rohingya camps,30,39,449,301
+247,South Asia,Bangladesh,Cox's Bazar Rohingya camps,40,49,277,181
+247,South Asia,Bangladesh,Cox's Bazar Rohingya camps,50,59,204,131
+247,South Asia,Bangladesh,Cox's Bazar Rohingya camps,60,100,228,146
+248,South Asia,India,South Andaman district,0,100,2400,943
+248,South Asia,India,South Andaman district,18,40,1195,451
+248,South Asia,India,South Andaman district,41,60,914,389
+248,South Asia,India,South Andaman district,61,100,291,103
+254,South Asia,India,Uttar Pradesh: 11 districts,0,100,16012,3332
+254,South Asia,India,Uttar Pradesh: 11 districts,5,17,3493,622
+254,South Asia,India,Uttar Pradesh: 11 districts,18,39,7601,1597
+254,South Asia,India,Uttar Pradesh: 11 districts,40,59,4378,948
+254,South Asia,India,Uttar Pradesh: 11 districts,60,100,540,129

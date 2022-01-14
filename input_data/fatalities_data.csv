@@ -22,22 +22,22 @@ location_id,global_region,country,location_label,lower_age,upper_age,deaths,fata
 13,South Asia ,India,Pimpri-Chinchwad,0,100,2181,n-23
 16,South Asia ,India,Puducherry,0,100,468,n-30
 18,South Asia ,India,West Bengal (only Paschim Medinipur),0,100,40,n-41
-19,South Asia ,India,Chennai,0,100,2273,ss-32
-19,South Asia ,India,Chennai,0,18,5,ss-32
-19,South Asia ,India,Chennai,19,24,8,ss-32
-19,South Asia ,India,Chennai,25,29,22,ss-32
-19,South Asia ,India,Chennai,30,34,31,ss-32
-19,South Asia ,India,Chennai,35,39,55,ss-32
-19,South Asia ,India,Chennai,40,44,86,ss-32
-19,South Asia ,India,Chennai,45,49,118,ss-32
-19,South Asia ,India,Chennai,50,54,187,ss-32
-19,South Asia ,India,Chennai,55,59,260,ss-32
-19,South Asia ,India,Chennai,60,64,300,ss-32
-19,South Asia ,India,Chennai,65,69,328,ss-32
-19,South Asia ,India,Chennai,70,74,329,ss-32
-19,South Asia ,India,Chennai,75,79,226,ss-32
-19,South Asia ,India,Chennai,80,84,183,ss-32
-19,South Asia ,India,Chennai,85,100,135,ss-32
+19,South Asia ,India,Chennai,0,100,2273,"ss-32 , a-1106"
+19,South Asia ,India,Chennai,0,18,5,"ss-32 , a-1106"
+19,South Asia ,India,Chennai,19,24,8,"ss-32 , a-1106"
+19,South Asia ,India,Chennai,25,29,22,"ss-32 , a-1106"
+19,South Asia ,India,Chennai,30,34,31,"ss-32 , a-1106"
+19,South Asia ,India,Chennai,35,39,55,"ss-32 , a-1106"
+19,South Asia ,India,Chennai,40,44,86,"ss-32 , a-1106"
+19,South Asia ,India,Chennai,45,49,118,"ss-32 , a-1106"
+19,South Asia ,India,Chennai,50,54,187,"ss-32 , a-1106"
+19,South Asia ,India,Chennai,55,59,260,"ss-32 , a-1106"
+19,South Asia ,India,Chennai,60,64,300,"ss-32 , a-1106"
+19,South Asia ,India,Chennai,65,69,328,"ss-32 , a-1106"
+19,South Asia ,India,Chennai,70,74,329,"ss-32 , a-1106"
+19,South Asia ,India,Chennai,75,79,226,"ss-32 , a-1106"
+19,South Asia ,India,Chennai,80,84,183,"ss-32 , a-1106"
+19,South Asia ,India,Chennai,85,100,135,"ss-32 , a-1106"
 24,Africa,Mozambique,Maputo city,0,100,15,s-2
 36,Africa,Kenya,Nairobi County,0,100,760,"n-33, sp-6"
 36,Africa,Kenya,Nairobi County,0,4,18,n-33
@@ -124,6 +124,12 @@ location_id,global_region,country,location_label,lower_age,upper_age,deaths,fata
 54,Latin America,Colombia,Ipiales,19,40,9,a-302
 54,Latin America,Colombia,Ipiales,41,60,22,a-302
 54,Latin America,Colombia,Ipiales,61,100,87,a-302
+58,Latin America,Ecuador,Cuenca,0,100,713,n-1104
+58,Latin America,Ecuador,Cuenca,0,19,5,n-1104
+58,Latin America,Ecuador,Cuenca,20,34,14,n-1104
+58,Latin America,Ecuador,Cuenca,35,49,54,n-1104
+58,Latin America,Ecuador,Cuenca,50,64,163,n-1104
+58,Latin America,Ecuador,Cuenca,65,100,477,n-1104
 59,Latin America,Peru,Cusco Province,0,100,833,a-309
 59,Latin America,Peru,Cusco Province,0,11,0,a-309
 59,Latin America,Peru,Cusco Province,12,17,0,a-309
@@ -174,25 +180,26 @@ location_id,global_region,country,location_label,lower_age,upper_age,deaths,fata
 74,Latin America,Brazil,Foz do Iguacu,0,100,7,n-16
 77,South Asia,India,Kashmir: Srinagar district,0,100,396,n-1006
 78,South Asia,Nepal,National Study,0,100,1800,n-1001
-80,Africa,Ethiopia,Addis Ababa #2,0,100,122,s-1
+80,Africa,Ethiopia,Addis Ababa,0,100,122,s-1
 81,Middle East,Iran,National Study,0,100,29070,n-1000
 82,Latin America,Mexico,National Study,0,100,151910,a-202
 83,South Asia,India,Odisha: Bhubaneswar,0,100,18,n-1014
 84,South Asia,India,Odisha: Berhampur,0,100,56,n-1023
+87,Africa,South Africa,Gauteng,0,100,6170,"n-1071, a-309"
 90,Africa,South Africa,Mitchells Plain,0,100,861,"n-1041 , n-1042"
 98,Africa,Ethiopia,Diredawa,0,100,6,s-1
 102,Africa,Zambia,Ndola + 5 other districts,0,100,237,ss-1037
 120,Europe,Russia,St. Petersburg,0,100,2839,"n-1097 , n-1098"
-121,East Asia,China,Wuhan #1,0,100,3869,n-1075
-121,East Asia,China,Wuhan #1,0,19,4,n-1076
-121,East Asia,China,Wuhan #1,20,39,93,n-1076
-121,East Asia,China,Wuhan #1,40,59,635,n-1076
-121,East Asia,China,Wuhan #1,60,100,3134,n-1076
-123,East  Asia,China,Hubei province (excluding Wuhan #1),0,100,643,n-1075
+121,East Asia,China,Wuhan,0,100,3869,n-1075
+121,East Asia,China,Wuhan,0,19,4,n-1076
+121,East Asia,China,Wuhan,20,39,93,n-1076
+121,East Asia,China,Wuhan,40,59,635,n-1076
+121,East Asia,China,Wuhan,60,100,3134,n-1076
+123,East  Asia,China,Hubei province (excluding Wuhan),0,100,643,n-1075
 125,Middle East,Pakistan,Karachi,0,100,1943,n-1051
 126,Middle East,Pakistan,Lahore,0,100,842,n-1051
 140,South Asia ,India,Mumbai (3 wards),0,100,661,a-201
-144,Europe,Poland,Katowice region (Gliwice + Katowice + Sosnowiec),0,100,191,"a-307, a-308, n-1058, n-1065"
+144,Europe,Poland,Katowice region (Gliwice + Katowice + Sosnowiec),0,100,516,a-315
 148,Latin America,Colombia,Cordoba: 8 cities,0,100,1180,a-302
 148,Latin America,Colombia,Cordoba: 8 cities,0,9,0,a-302
 148,Latin America,Colombia,Cordoba: 8 cities,10,19,2,a-302
@@ -279,6 +286,13 @@ location_id,global_region,country,location_label,lower_age,upper_age,deaths,fata
 216,Latin America,Brazil,Varzea Grande,70,79,94,"a-310, a-311"
 216,Latin America,Brazil,Varzea Grande,80,100,87,"a-310, a-311"
 218,Latin America,Brazil,Pitangueiras,0,100,22,n-16
+219,Latin America,Chile,"Coquimbo-La Serena, Greater Santiago, Talca ",0,100,12002,n-1103
+219,Latin America,Chile,"Coquimbo-La Serena, Greater Santiago, Talca ",0,6,22,n-1103
+219,Latin America,Chile,"Coquimbo-La Serena, Greater Santiago, Talca ",7,14,6,n-1103
+219,Latin America,Chile,"Coquimbo-La Serena, Greater Santiago, Talca ",15,24,22,n-1103
+219,Latin America,Chile,"Coquimbo-La Serena, Greater Santiago, Talca ",25,39,255,n-1103
+219,Latin America,Chile,"Coquimbo-La Serena, Greater Santiago, Talca ",40,59,1555,n-1103
+219,Latin America,Chile,"Coquimbo-La Serena, Greater Santiago, Talca ",60,100,10142,n-1103
 220,Latin America,Brazil,Mato Grosso (8 cities),0,100,810,"n-16 , n-1081 , n-1085 , n-1089 , n-1092 , n-1093"
 221,Latin America,Paraguay,Asuncion + Central Dept.,0,100,1630,n-1079
 221,Latin America,Paraguay,Asuncion + Central Dept.,0,4,2,n-1079
@@ -289,3 +303,8 @@ location_id,global_region,country,location_label,lower_age,upper_age,deaths,fata
 221,Latin America,Paraguay,Asuncion + Central Dept.,40,49,97,n-1079
 221,Latin America,Paraguay,Asuncion + Central Dept.,50,59,248,n-1079
 221,Latin America,Paraguay,Asuncion + Central Dept.,60,100,1204,n-1079
+222,Latin America,Brazil,Distrito Federal (9 administrative regions),0,100,1982,n-1099
+223,Latin America,Brazil,Rio Grande do Sul (9 cities),0,100,5739,n-16
+231,Africa,Senegal,National Study,0,100,338,n-1101
+233,Middle East,Oman,National Study,0,100,533,n-1102
+244,Europe,Bosnia and Herzegovina,Republika Srpska,0,100,1644,n-1107

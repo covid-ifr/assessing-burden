@@ -20,6 +20,7 @@ location_id,global_region,country,location_label,population
 51,Latin America,Colombia,Bogota,7715800
 52,Latin America,Colombia,Cali,2205700
 54,Latin America,Colombia,Ipiales,77000
+58,Latin America,Ecuador,Cuenca,637000
 59,Latin America,Peru,Cusco Province,511019
 60,Latin America,Peru,Lambayeque,1310800
 63,Latin America,Peru,Lima (Metropolitana) + Callao,11934463
@@ -28,21 +29,22 @@ location_id,global_region,country,location_label,population
 74,Latin America,Brazil,Foz do Iguacu,258248
 77,South Asia,India,Kashmir: Srinagar district,1248000
 78,South Asia,Nepal,National Study,29136807
-80,Africa,Ethiopia,Addis Ababa #2,3570000
+80,Africa,Ethiopia,Addis Ababa,3570000
 81,Middle East,Iran,National Study,83992953
 82,Latin America,Mexico,National Study,126014024
 83,South Asia,India,Odisha: Bhubaneswar,977793
 84,South Asia,India,Odisha: Berhampur,392258
+87,Africa,South Africa,Gauteng,15488137
 90,Africa,South Africa,Mitchells Plain,615422
 98,Africa,Ethiopia,Diredawa,493000
 102,Africa,Zambia,Ndola + 5 other districts,4306230
 120,Europe,Russia,St. Petersburg,5468000
-121,East Asia,China,Wuhan #1,11081000
-123,East  Asia,China,Hubei province (excluding Wuhan #1),47452339
+121,East Asia,China,Wuhan,11081000
+123,East  Asia,China,Hubei province (excluding Wuhan),47452339
 125,Middle East,Pakistan,Karachi,14910352
 126,Middle East,Pakistan,Lahore,11126285
 140,South Asia ,India,Mumbai (3 wards),1509200
-144,Europe,Poland,Katowice region (Gliwice + Katowice + Sosnowiec),665188
+144,Europe,Poland,Katowice region (Gliwice + Katowice + Sosnowiec),694000
 148,Latin America,Colombia,Cordoba: 8 cities,1120310
 156,Middle East,Jordan,National Study,10203140
 192,Europe,Hungary,National Study,9772756
@@ -52,5 +54,11 @@ location_id,global_region,country,location_label,population
 209,Latin America,Brazil,Cuiaba,618124
 216,Latin America,Brazil,Varzea Grande,287526
 218,Latin America,Brazil,Pitangueiras,40080
+219,Latin America,Chile,"Coquimbo-La Serena, Greater Santiago, Talca ",7719855
 220,Latin America,Brazil,Mato Grosso (8 cities),763018
 221,Latin America,Paraguay,Asuncion + Central Dept.,2722668
+222,Latin America,Brazil,Distrito Federal (9 administrative regions),1282742
+223,Latin America,Brazil,Rio Grande do Sul (9 cities),3265598
+231,Africa,Senegal,National Study,16296361
+233,Middle East,Oman,National Study,4974991
+244,Europe,Bosnia and Herzegovina,Republika Srpska,1142495

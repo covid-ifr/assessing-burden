@@ -1,5 +1,6 @@
 assay_id,assay_name,sensitivity_specimens,sensitivity_confirmed,specificity_specimens,specificity_confirmed
 2,Elecsys Anti-SARS-CoV-2,29,29,5272,5262
+3,ERBALISA COVID-19 IgG,58,57,107,105
 4,THSCI RBD-IgG,379,321,184,184
 5,Kavach-AntiSARS-CoV-2 IgG ELISA,379,287,184,183
 6,iFlash SARS-CoV-2 (Shenzhen YHLO Biotech),594,457,100,100
@@ -22,13 +23,20 @@ assay_id,assay_name,sensitivity_specimens,sensitivity_confirmed,specificity_spec
 32,"UNCOV-40, COVID-19 IgG and IgM",421,416,1164,1141
 33,RBD ELISA from Massachusetts General,1000,655,104,104
 35,DiaSorin LIAISON SARS-CoV-2 S1/S2 IgG,41,40,1090,1082
-38,Lumines anti-nucleocapsid + anti-spike assay,61,61,1197,1194
+37,anti-nucleocapsid ELISA from French research group,51,33,265,251
+38,Luminex anti-nucleocapsid + anti-spike assay,61,61,1197,1194
 39,RightSign COVID-19 IgG/IgM Rapid Test,30,30,80,80
 41,GenBody COVID-19 IgM/IgG for S1 (IgG parameters only),30,17,80,80
 42,Standard Q COVID-19 IgM/IgG Combo,164,154,235,225
 44,Karwa Kavach SARS-CoV-2 ELISA IgG,300,276,300,298
 45,"Beijing Kewei Clinical Diagnostic, COVID-19 IgG IgM rapid cassette",30,28,80,73
 46,"COVID-19 IgG/IgM ECO Test (not the ""Combo"" test)",173,130,116,115
+47,CTK Biotech Onsite COVID 19 IgG/IgM rapid test kit,30,30,80,79
+48,UFRJ ELISA (University of Rio de Janeiro),362,344,144,142
+49,Healgen COVID-19 IgG/IgM Rapid Test Cassette,30,30,80,78
+50,Elecsys Anti-SARS-CoV-2 anti-spike,233,225,5991,5990
+52,lab-adapted Elecsys Anti-SARS-CoV-2 Roche,373,370,1337,1319
+53,author-designed Luminex S protein trimer IgG,122,57,31,31
 113,Abbott IgG Test (Pimpri-Chinchwad),723,563,1070,1066
 114,Abbott IgG Test (Mumbai 3 wards),791,608,1070,1066
 119,Abbott IgG Test (Chennai),632,526,1070,1066
@@ -37,3 +45,4 @@ assay_id,assay_name,sensitivity_specimens,sensitivity_confirmed,specificity_spec
 181,"ERBALISA (Paschim Medinipur, PCR results)",30,11,107,105
 182,Abbott IgG Test (Hungary national study),541,472,1070,1066
 183,"Abbott IgG Test (Diredawa, Ethiopia)",545,473,1070,1066
+184,"Elecsys Anti-SARS-CoV-2- ROCHE , with Zhuhai Livzon IgM/IgG",120,83,5272,5262

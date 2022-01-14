@@ -12,6 +12,7 @@ a-309,Peru case database (downloaded 02june2021),individual case data,https://ww
 a-310,"Várzea Grande (in Mato Grosso) total deaths for October 28, 2020",official reports,http://www.varzeagrande.mt.gov.br/storage/Arquivos/742e6b802bc0b87f5615a54ddfe34a32.jpg
 a-311,Várzea Grande (in Mato Grosso) age distribution of fatalities,official reports,http://www.varzeagrande.mt.gov.br/storage/Arquivos/7cdc649b58f5e520870ef4b90a12acfb.pdf
 a-313,"Karnataka case reports on individual deaths by district, age & date of death",individual case data ,https://covid19.karnataka.gov.in/pdfs
+a-315,Katowice region deaths,death registry,"http://medpr.imp.lodz.pl/Wskaznik-smiertelnosci-infekcji-IFR-w-przebiegu-pandemii-COVID-19-w-Aglomeracji-Gornoslaskiej,142734,0,2.html"
 g-1000,India Sub-National Deaths,official reports,https://stopcorona.tn.gov.in/wp-content/uploads/2020/08/Media-Bulletin-19.08.2020-27-Pages-English-467-KB.pdf
 n-1000,deaths in Iran (national),official reports,https://covid19.who.int/region/emro/country/ir
 n-1001,deaths in Nepal (national),official reports,https://covid19.who.int/region/searo/country/np
@@ -40,6 +41,12 @@ n-1092,"Alta Floresta (in Mato Grosso) deaths for October 27, 2020",official rep
 n-1093,"Alta Floresta (in Mato Grosso) deaths for October 29, 2020",official reports,https://www.facebook.com/PrefeituraAltaFloresta/photos/a.581913951899786/3467831239974695/?type=3
 n-1097,"Dr. Kobak tabulation of Rosstat death totals for St. Petersburg, Russia",official reports,https://github.com/dkobak/excess-mortality/tree/main/russian-data
 n-1098,"Rosstat death totals for St. Petersburg, Russia",official reports,https://rosstat.gov.ru/storage/mediabank/D4uPozCj/edn05-2021.htm
+n-1099,"deaths in Distrito Federal, Brazil",official reports,https://www.saude.df.gov.br/boletinsinformativos-divep-cieves/
+n-1101,deaths in Senegal (WHO),official reports,https://covid19.who.int/region/afro/country/sn
+n-1102,deaths in Oman,official reports,https://covid19.who.int/region/emro/country/om
+n-1103,"deaths in Chile, ""Defunciones por Causa"" (COVID-19 ICD codes U.701 and U.702)",individual case data,https://deis.minsal.cl/#datosabiertos
+n-1104,"deaths in Ecuador, ""Base de datos"" (COVID-19 ICD codes U.701 and U.702)",individual case data,https://www.ecuadorencifras.gob.ec/defunciones-generales/
+n-1107,"Republika Srpska (in Bosnia and Herzegovina), December 23 deaths",official reports,https://koronavirususrpskoj.com/prisustvo-virusa-potvrdjeno-kod-226-osoba/
 n-16,"Brazil regional, deaths by date of registry",official reports,https://transparencia.registrocivil.org.br/especial-covid
 n-21,Delhi deaths,official reports,https://delhifightscorona.in/news/
 n-23,Pimpri-Chinchwad tweets for deaths,official reports,https://docs.google.com/document/d/1-iGm6o3fTZ8Bg0wzQk24bSuFp4Dqq3nl4vJLpXxsGPs/edit?ts=603abe1a
