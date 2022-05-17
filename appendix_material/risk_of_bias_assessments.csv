@@ -1,86 +1,108 @@
-location_id,Region,Country,Location,non_response_risk,seroreversion_risk,death_undercount_risk
-5,Latin America,Brazil,Maranhao,Low,Low,High
-11,South Asia,India,Delhi,High,Low,High
-12,South Asia,India,Karnataka,Low,High,High
-13,South Asia,India,Maharashtra: Pune (Pimpri-Chinchwad),Low,Low,High
-16,South Asia,India,Puducherry: Puducherry district,Low,Low,High
-17,South Asia,India,Maharashtra: Pune (5 subwards),Low,Low,NA
-18,South Asia,India,West Bengal: Paschim Medinipur,High,Low,High
-19,South Asia,India,Tamil Nadu: Chennai,Low,Low,High
-22,Africa,Mozambique,Beira,High,High,NA
-24,Africa,Mozambique,Maputo city,High,High,High
-25,Africa,Mozambique,Matola district (subset of Maputo province),High,High,NA
-26,Africa,Mozambique,Nampula city,High,High,NA
-27,Africa,Mozambique,Pemba,High,High,NA
-28,Africa,Mozambique,Quelimane,High,High,NA
-29,Africa,Mozambique,Tete city,High,High,NA
-30,Africa,Mozambique,Chimoio,High,High,NA
-31,Africa,Mozambique,Chokwé,High,High,NA
-32,Africa,Mozambique,Maxixe,High,High,NA
-33,Africa,Mozambique,Massinga,High,High,NA
-34,Africa,Mozambique,Xai-Xai,High,High,NA
-36,Africa,Kenya,Nairobi County,Low,Low,High
-37,Africa,Nigeria,Niger state,High,High,NA
-38,Latin America,Argentina,Argentina: Buenos Aires city (Barrio Padre Mugica),Low,Low,Low
-40,Latin America,Argentina,Hurlingham (part of Bueno Aires province),Low,Low,Low
-42,Latin America,Bolivia,Santa Cruz,High,High,High
-44,Latin America,Colombia,Leticia,Low,Low,Low
-45,Latin America,Colombia,Barranquilla,Low,Low,Low
-46,Latin America,Colombia,Medellin,Low,Low,Low
-48,Latin America,Colombia,Bucaramanga,Low,Low,Low
-49,Latin America,Colombia,Cucuta,Low,Low,Low
-50,Latin America,Colombia,Villavicencio,Low,Low,Low
-51,Latin America,Colombia,Bogota,Low,Low,Low
-52,Latin America,Colombia,Cali,Low,Low,Low
-54,Latin America,Colombia,Ipiales,Low,Low,Low
-55,Latin America,Dominican Republic,10 provinces,High,High,NA
-58,Latin America,Ecuador,"Cuenca (canton, not city)",High,High,NA
-59,Latin America,Peru,Cusco province + Quillabamba City,High,Low,Low
-60,Latin America,Peru,Lambayeque,High,High,Low
-63,Latin America,Peru,Lima Metropolitana + Callao,High,High,Low
-64,Latin America,Peru,Iquitos,Low,High,Low
-73,Latin America,Brazil,São Paulo state: São Paulo city,High,Low,Low
-74,Latin America,Brazil,Paraná: Foz do Iguaçu,High,High,Low
-77,South Asia,India,Kashmir: Srinagar district,Low,Low,High
-78,South Asia,Nepal,national,Low,Low,High
-80,Africa,Ethiopia,Addis Ababa #1,Low,High,High
-81,Middle East,Iran,national,High,High,High
-82,Latin America,Mexico,national,Low,Low,Low
-83,South Asia,India,"Odisha: Bhubaneswar, phases 1 - 3",Low,Low,High
-84,South Asia,India,Berhampur,Low,Low,High
-88,South Asia,India,Rourkela,Low,Low,High
-90,Africa,South Africa,"Klerksdorp, Mitchells Plain, Pietermaritzburg",High,Low,High
-94,Europe,Albania,"Tirana city, not county",High,High,NA
-96,Africa,Cameroon,Cité Verte in Yaoundé,Low,High,NA
-97,Africa,Ethiopia,"Addis Ababa (Addis Ketema, Yeka) + Jimma (urban + rural)",High,Low,NA
-98,Africa,Ethiopia,Diredawa region/state,High,Low,High
-100,Africa,South Africa,Jouberton (PHIRST-C study),High,Low,NA
-101,Africa,South Sudan,Juba,High,High,NA
-102,Africa,Zambia,6 districts (including Ndola and Lusaka),High,High,High
-105,Middle East,Iraq,"Duhok city, not governorate",Low,Low,NA
-107,Middle East,United Arab Emirates,"Abu Dhabi, Al Ain, Al Dhafra",High,Low,NA
-108,South Asia,India,"Madhya Pradesh: Jabalpur city, not district",High,High,NA
-120,Europe,Russia,St. Petersburg (performed by European University at St. Petersburg),Low,Low,High
-121,East Asia,China,Wuhan,Low,Low,High
-122,South Asia,India,"Madhya Pradesh: Indore city, not district",Low,High,NA
-123,East Asia,China,Hubei (excluding Wuhan),Low,High,High
-124,East Asia,China,Six Provinces (including Beijing),Low,High,High
-125,South Asia,Pakistan,Karachi,High,Low,High
-126,South Asia,Pakistan,Lahore,High,Low,High
-128,Africa,Dem. Republic of Congo,Kinshasa,Low,High,NA
-129,Africa,Libya,Benghazi,High,High,NA
-140,South Asia,India,Maharashtra: Mumbai (3 wards),High,Low,High
-144,Europe,Poland,"Gliwice, Katowice, Sosnowiec",High,High,High
-148,Latin America,Colombia,Córdoba: 8 cities (including Montería),High,High,Low
-151,Latin America,Argentina,"Metropolitan Area of Buenos Aires (AMBA), 30 barrios",Low,Low,Low
-156,Middle East,Jordan,national,Low,Low,High
-192,Europe,Hungary,national,Low,Low,Low
-201,South Asia,India,Tamil Nadu (iFlash districts),High,High,High
-202,South Asia,India,Tamil Nadu (Vitros districts),High,High,High
-203,South Asia,India,Maharashtra: Malegaon,Low,High,High
-206,South Asia,India,Telangana: Hyderabad,High,Low,NA
-209,Latin America,Brazil,Cuiaba,Low,Low,Low
-216,Latin America,Brazil,Varzea Grande,Low,Low,Low
-218,Latin America,Brazil,São Paulo state: Pitangueiras,High,High,Low
-220,Latin America,Brazil,Mato Grosso: 8 cities,Low,Low,Low
-221,Latin America,Paraguay,Paraguay: Asunción + Central department,High,High,Low
+location_id,Region,Country,Location,non_response_risk
+5,Latin America,Brazil,Maranhao,Low
+11,South Asia,India,Delhi,High
+12,South Asia,India,Karnataka,Low
+13,South Asia,India,Maharashtra: Pune (Pimpri-Chinchwad),Low
+16,South Asia,India,Puducherry: Puducherry district,Low
+17,South Asia,India,Maharashtra: Pune (5 subwards),Low
+18,South Asia,India,West Bengal: Paschim Medinipur,High
+19,South Asia,India,Tamil Nadu: Chennai,Low
+22,Africa,Mozambique,Beira,High
+24,Africa,Mozambique,Maputo city,High
+25,Africa,Mozambique,Matola district (subset of Maputo province),High
+26,Africa,Mozambique,Nampula city,High
+27,Africa,Mozambique,Pemba,High
+28,Africa,Mozambique,Quelimane,High
+29,Africa,Mozambique,Tete city,High
+30,Africa,Mozambique,Chimoio,High
+31,Africa,Mozambique,Chokwé,High
+32,Africa,Mozambique,Maxixe,High
+33,Africa,Mozambique,Massinga,High
+34,Africa,Mozambique,Xai-Xai,High
+36,Africa,Kenya,Nairobi County,Low
+37,Africa,Nigeria,Niger state,High
+38,Latin America,Argentina,Argentina: Buenos Aires city (Barrio Padre Mugica),Low
+40,Latin America,Argentina,Hurlingham (part of Bueno Aires province),Low
+42,Latin America,Bolivia,Santa Cruz,High
+44,Latin America,Colombia,Leticia,Low
+45,Latin America,Colombia,Barranquilla,Low
+46,Latin America,Colombia,Medellin,Low
+48,Latin America,Colombia,Bucaramanga,Low
+49,Latin America,Colombia,Cucuta,Low
+50,Latin America,Colombia,Villavicencio,Low
+51,Latin America,Colombia,Bogota,Low
+52,Latin America,Colombia,Cali,Low
+54,Latin America,Colombia,Ipiales,Low
+55,Latin America,Dominican Republic,10 provinces,High
+58,Latin America,Ecuador,"Cuenca (canton, not city)",High
+59,Latin America,Peru,Cusco province + Quillabamba City,High
+60,Latin America,Peru,Lambayeque,High
+63,Latin America,Peru,Lima Metropolitana + Callao,High
+64,Latin America,Peru,Iquitos,Low
+73,Latin America,Brazil,São Paulo state: São Paulo city,High
+74,Latin America,Brazil,Paraná: Foz do Iguaçu,High
+77,South Asia,India,Kashmir: Srinagar district,Low
+78,South Asia,Nepal,national,Low
+80,Africa,Ethiopia,Addis Ababa #1,Low
+81,Middle East,Iran,national,High
+82,Latin America,Mexico,national,Low
+83,South Asia,India,"Odisha: Bhubaneswar, phases 1 - 3",Low
+84,South Asia,India,Berhampur,Low
+88,South Asia,India,Rourkela,Low
+90,Africa,South Africa,"Klerksdorp, Mitchells Plain, Pietermaritzburg",High
+94,Europe,Albania,"Tirana city, not county",High
+96,Africa,Cameroon,Cité Verte in Yaoundé,Low
+97,Africa,Ethiopia,"Addis Ababa (Addis Ketema, Yeka) + Jimma (urban + rural)",High
+98,Africa,Ethiopia,Diredawa region/state,High
+100,Africa,South Africa,Jouberton (PHIRST-C study),High
+101,Africa,South Sudan,Juba,High
+102,Africa,Zambia,6 districts (including Ndola and Lusaka),High
+105,Middle East,Iraq,"Duhok city, not governorate",Low
+107,Middle East,United Arab Emirates,"Abu Dhabi, Al Ain, Al Dhafra",High
+108,South Asia,India,"Madhya Pradesh: Jabalpur city, not district",High
+120,Europe,Russia,St. Petersburg (performed by European University at St. Petersburg),Low
+121,East Asia,China,Wuhan,Low
+122,South Asia,India,"Madhya Pradesh: Indore city, not district",Low
+123,East Asia,China,Hubei (excluding Wuhan),Low
+124,East Asia,China,Six Provinces (including Beijing),Low
+125,South Asia,Pakistan,Karachi,High
+126,South Asia,Pakistan,Lahore,High
+128,Africa,Dem. Republic of Congo,Kinshasa,Low
+129,Africa,Libya,Benghazi,High
+140,South Asia,India,Maharashtra: Mumbai (3 wards),High
+144,Europe,Poland,"Gliwice, Katowice, Sosnowiec",High
+148,Latin America,Colombia,Córdoba: 8 cities (including Montería),High
+151,Latin America,Argentina,"Metropolitan Area of Buenos Aires (AMBA), 30 barrios",Low
+156,Middle East,Jordan,national,Low
+192,Europe,Hungary,national,Low
+201,South Asia,India,Tamil Nadu (iFlash districts),High
+202,South Asia,India,Tamil Nadu (Vitros districts),High
+203,South Asia,India,Maharashtra: Malegaon,Low
+206,South Asia,India,Telangana: Hyderabad,High
+209,Latin America,Brazil,Cuiaba,Low
+216,Latin America,Brazil,Varzea Grande,Low
+218,Latin America,Brazil,São Paulo state: Pitangueiras,High
+220,Latin America,Brazil,Mato Grosso: 8 cities,Low
+221,Latin America,Paraguay,Paraguay: Asunción + Central department,High
+242,East Asia,Malaysia,National Study,High
+247,South Asia,Bangladesh,Rohingya Camp,High
+239,Africa,South Africa,Klerksdorp,High
+241,East Asia,Mongolia,National Study,Low
+223,Latin America,Brazil,Rio Grande do Sul,High
+231,Africa,Senegal,National Study,Low
+92,East Asia,Laos,5 provinces,Low
+219,Latin America,Chile,3 urban areas,Low
+87,Africa,South Africa,Gauteng,Low
+232,South Asia,Pakistan,Islamabad,High
+254,South Asia,India,Uttar Pradesh,High
+246,Europe,Georgia,4 districts,Low
+244,Europe,Bosnia & Herzegovina,Republika Srpska,Low
+234,Middle East,Palestine,Gaza,High
+229,Middle East,Yemen,Aden,Low
+240,Africa,South Africa,Pietermaritzburg,High
+222,Latin America,Brazil,Distrito Federal,High
+233,Middle East,Oman,National Study,High
+238,Africa,Zimbabwe,Harare,Low
+235,Middle East,Palestine,West Bank,High
+245,East Asia,Thailand,5 cities,Low
+248,South Asia,India,South Andaman,High
