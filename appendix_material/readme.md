@@ -7,6 +7,4 @@
 | `seroreversion_adjustment_details` | See Supplementary Appendix |
 
 **Risk of Bias Assessment**
-  - Non-Response: study participation rate below 60%; no adjustment for non-response
-  - Seroreversion: no data on seroreversion timeline for antibody assay used in study
-  - Death Undercounting: ratio of excess mortality to confirmed COVID-19 deaths exceeds 1.5
+Note: A serology study is designed as having elevated risk of bias if the participation rate was below 60%.
